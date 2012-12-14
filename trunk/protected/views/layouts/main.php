@@ -63,7 +63,7 @@
 		);
 		
 		if (preg_match("/site\/index/i",$keii_request_url))
-			$itemOptions['home'] = array('class' =>'home-page current  border-radius-left-5px' );
+			$itemOptions['home'] = array('class' =>'current home-page' );
 		elseif (preg_match("/about/i",$keii_request_url))
 			$itemOptions['about'] = array('class' =>'current' );
 		elseif (preg_match("/product/i",$keii_request_url))
@@ -82,7 +82,7 @@
 		elseif (preg_match("/contact/i",$keii_request_url))
 			$itemOptions['contactus'] = array('class' =>'current' );
 		else
-			$itemOptions['home'] = array('class' =>'home-page current  border-radius-left-5px' );
+			$itemOptions['home'] = array('class' =>'current home-page' );
 				
 	
 			 $this->widget('zii.widgets.CMenu',array(

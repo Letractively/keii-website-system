@@ -30,17 +30,8 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 
 			<div class="two-third first">
 				<img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/kc500.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/KC500-bg.jpg"
 					class="align-left img-border">
-				<h3>
-					<strong>KC500红外热像仪</strong>
-				</h3>
-				<ol class="ordered-list">
-					<li>384×288 非制冷探测器</li>
-					<li>4.3 寸液晶触摸屏</li>
-					<li>人性化操作界面</li>
-					<li>人体工程力学设计</li>
-				</ol>
 			</div>
 
 			<div class="one-third">

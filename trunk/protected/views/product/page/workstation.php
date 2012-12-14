@@ -30,16 +30,8 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 
 			<div class="two-third first">
 				<img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/workstation.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/Workstation_bg.jpg"
 					class="align-left img-border">
-				<h3>
-					<strong>移动红外工作站</strong>
-				</h3>
-				<ol class="ordered-list">
-					<li>384×288 非制冷探测器</li>
-					<li>金属外壳</li>
-					<li>实时传输/记录/分析</li>
-				</ol>
 			</div>
 
 			<div class="one-third">

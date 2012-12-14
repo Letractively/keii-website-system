@@ -30,12 +30,9 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 
 			<div class="two-third first">
 				<img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/Substation.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/Substation_bg.jpg"
 					class="align-left img-border">
-				<h3>
-					<strong>变电站红外监测系统</strong>
-				</h3>
-				<p>广州科易光电技术有限公司推出的变电站红外监测系统，除了简单的安防监控及设备高温报警外，更能够根据设备当前的负荷进行温度趋势预测，自动生成设备温度变化曲线，自动采集报警数据并生成检测报告，真正实现了变电站红外监测的智能化管理。</p>
+				
 			</div>
 
 			<div class="one-third">

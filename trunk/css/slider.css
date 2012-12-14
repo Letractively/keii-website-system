@@ -72,9 +72,11 @@
 	cursor:pointer;
 }
 .nivo-prevNav {
+		display: none;
 	left:0;
 }
 .nivo-nextNav {
+	display: none;
 	right:0;
 }
 /* Control nav styles (e.g. 1,2,3...) */
@@ -120,7 +122,7 @@ Author:Manh
 .maxx-theme .nivo-controlNav {
 	position:absolute;
 	left:50%;
-	bottom:-26px;
+	bottom:-45px;
 	width:126px;
 	height:42px;
 	background-position:-690px -53px;

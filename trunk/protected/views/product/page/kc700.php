@@ -30,17 +30,9 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 
 			<div class="two-third first">
 				<img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/kc700.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/KC700_bg.jpg"
 					class="align-left img-border">
-				<h3>
-					<strong>KC700红外热像仪</strong>
-				</h3>
-				<ol class="ordered-list">
-					<li>384×288 非制冷探测器</li>
-					<li>设计紧凑精密</li>
-					<li>操作实用简便</li>
-					<li>实时传输记录分析</li>
-				</ol>
+		
 			</div>
 
 			<div class="one-third">
@@ -310,7 +302,7 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 						</table>
 					</div>
 					
-					<div id="tabs-4">
+					<div id="tabs-3">
 						<table>
 							<tr>
 								<td><a
