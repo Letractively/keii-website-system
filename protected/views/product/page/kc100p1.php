@@ -31,7 +31,7 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 
 			<div class="two-third first">
 				<img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/kc100.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC100.jpg"
 					class="align-left img-border">
 				<h3>
 					<strong>科易 KC100 红外热像仪</strong>

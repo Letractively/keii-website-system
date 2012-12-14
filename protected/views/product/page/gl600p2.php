@@ -31,12 +31,9 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 			</div>
 			<div class="two-third first">
 				<img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/GL600.jpg"
-					class="align-left img-border">
-				<h3>
-					<strong>科易 GL600 红外热像仪</strong>
-				</h3>
-				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;广州科易公司精心打造的国内首屈一指的非制冷式红外气体检漏仪GL600的推出，填补了我国气体检漏领域的一项空白，打破了一直以来只有国外进口产品的垄断局面，颠覆了传统的气体检漏模式。GL600的出现，必将引起气体检漏领域的一项革命。</p>
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/GL600_bg.jpg"
+					class="align-left img-border" />
+			
 			</div>
 			<div class="one-third">
 		

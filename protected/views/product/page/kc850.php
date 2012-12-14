@@ -29,16 +29,9 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 
 			<div class="two-third first">
 				<img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/kc850.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/KC850_bg.jpg"
 					class="align-left img-border">
-				<h3>
-					<strong>KC850红外热像仪</strong>
-				</h3>
-				<ol class="ordered-list">
-					<li>640×480 非制冷焦平面探测器</li>
-					<li>可旋转 4.3" 高亮度TFT触摸屏</li>
-					<li>人体工程力学设计</li>
-				</ol>
+			
 			</div>
 
 			<div class="one-third">
@@ -221,7 +214,7 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 						</table>
 					</div>
 					
-					<div id="tabs-4">
+					<div id="tabs-3">
 						<table>
 							<tr>
 								<td><a

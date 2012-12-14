@@ -10,26 +10,13 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 <div class="clear" id="slider-bg">
 <div class="full-width-wrapper" id="slider-frame">
 <div class="fixed-width-wrapper maxx-theme" id="slider-wrapper">
-<!-- indexCon start -->
-<div class="indexCon fl">
-    <div class="flashBanner">
-        <a href=""><img class="bigImg" width="936" height="370" /></a>
-        <div class="mask">
-        
-        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/pix100.jpg" uri="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/pix100.jpg"  width="60" height="22"/>
-        
-        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/pix500.jpg" uri="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/pix500.jpg"   width="60" height="22"/>
-        
-        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/pix700.jpg" uri="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/pix700.jpg"   width="60" height="22"/>
-        
-        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/pix790.jpg" uri="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/pix790.jpg"   width="60" height="22"/>
-        
-        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/pix800.jpg" uri="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/pix800.jpg"   width="60" height="22"/>
-        
-        </div>
-    </div>
+<div id="slider" class="nivoSlider">
+<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/pix100.jpg" alt="" title=""></a>
+<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/pix500.jpg" alt="" title=""></a>
+<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/pix700.jpg" alt="" title=""></a>
+<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/pix790.jpg" alt="" title=""></a>
+<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/pix800.jpg" alt="" title=""></a>
 </div>
-<!-- indexCon end -->
 </div>
 </div>
 </div>
@@ -40,7 +27,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 	</div>
 
 <!--one four-->
-	<div class="full-width-wrapper">
+	<div class="full-width-wrapper" style="padding-top: 20px;">
 		<div class="fixed-width-wrapper" id="body-content">
 			<!--One Fourth-->
 			<div class="one-fourth first">

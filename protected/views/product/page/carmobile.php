@@ -29,12 +29,9 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 
 			<div class="two-third first">
 				<img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/Car mobile.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/Car_mobile_bg.jpg"
 					class="align-left img-border">
-				<h3>
-					<strong>移动红外工作站</strong>
-				</h3>
-				<p>广州科易光电技术有限公司结合丰富的实践经验和先进的技术水平，充分考虑客户安装和使用的要求和特点，自主研发了线路车载检测系统，解决了电网线路及城市配网检测中使用人工徒步检测所存在的难度大，危险性高，效率低，周期长，费用高的问题。</p>
+				
 			</div>
 
 			<div class="one-third">
