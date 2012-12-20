@@ -58,8 +58,8 @@ ul.point li a:hover em{background-position:-489px -53px;text-decoration:none;}
 #header #banner .social-network li{display:inline;float:left;margin:50px 3px 0;}
 #header #banner .social-network li a{float:left;background-position:-907px -53px;width:34px;height:34px;text-align:center;}
 ul.simple-drop-down-menu{position:relative;z-index:1000;padding-left:25px;}
-ul.simple-drop-down-menu li:first-child{ border-left:none;}
 ul.simple-drop-down-menu li{ border-left:1px solid #ef2626;border-right:1px solid #9f0103; font-weight:700;float:left;position:relative;}
+ul.simple-drop-down-menu li:first-child{ border-left:none;}
 ul.simple-drop-down-menu li:last-child{ border-right:none;}
 ul.simple-drop-down-menu li.home-page > a{background-position:15px -42px;padding-left:0px; margin-right: 9px}
 ul.simple-drop-down-menu li.home-page.current > a,ul.simple-drop-down-menu li.home-page:hover > a{background-position:15px -82px;}
@@ -70,7 +70,7 @@ ul.simple-drop-down-menu li.current a {color:#787878;}
 ul.simple-drop-down-menu li:hover > a{text-decoration:none;color:#FFF;}
 ul.simple-drop-down-menu ul{width:200px;position:absolute;top:100%;left:0;display:none;}
 ul.simple-drop-down-menu ul li{background:#fbfbfb;border-bottom:1px solid #f2f2f2;border-top:1px solid #fff;float:none;clear:both;margin-right:0;font-weight:400;border-left:5px solid #fbfbfb;}
-ul.simple-drop-down-menu ul li:first-child{border-top:none;}
+ul.simple-drop-down-menu ul li:first-child{border-top:none;  border-left:5px solid #fbfbfb;}
 ul.simple-drop-down-menu ul li{ border-right:none;}
 ul.simple-drop-down-menu ul li a:hover{background:#cecece}
 ul.simple-drop-down-menu ul li a{color:#000;padding:8px 10px;}
@@ -229,4 +229,6 @@ ul.simple-drop-down-menu li.current a,#footer-content a,#footer-content h3 stron
 
 .bottom-separator{background:url(../images/seperator-980-50-opa.png) no-repeat center top;padding:10px;}
 
-.login-panel{margin:0 auto;width:960px;height:20px;text-align:right }
+.login-panel{margin:0 auto;width:960px;height:20px;background:#e5e5e5;text-align:right }
+.login-panel a{text-decoration:none; }
+.login-panel a:hover{color:#fff;}

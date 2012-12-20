@@ -33,14 +33,14 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 			<div class="one-fourth first">
 				<div class="text1">
 					<p class="B_text_B">
-						<a href="about.html">红外热像仪</a>
-						<a  style="padding-left:122px" href="about.html">更多</a>
+					<?php echo CHtml::link('红外热像仪',array('/site/infraredcamera')); ?>
+					<?php echo CHtml::link( Yii::t('zii', 'More'),array('/site/principle'),array('style'=>'padding-left:122px')); ?>
 					</p>
 					
 						
 
 				</div>
-				<a href="404.html" title="" class="img-border clear"><img
+				<a class="img-border clear"><img
 					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/website1.jpg"
 					alt=""></a> <br></br> <br></br> <br></br>
 
@@ -50,11 +50,11 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 			<div class="one-fourth">
 				<div class="text1">
 					<p class="B_text_B">
-						<a href="Application.html">产品应用</a>
-						<a style="padding-left:135px" href="about.html">更多</a>
+					<?php echo CHtml::link('产品应用',array('/application')); ?>
+					<?php echo CHtml::link( Yii::t('zii', 'More'),array('/application'),array('style'=>'padding-left:135px')); ?>
 					</p>
 				</div>
-				<a href="404.html" class="img-border clear"><img
+				<a  class="img-border clear"><img
 					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/website2.jpg"
 					alt=""></a> <br></br> <br></br> <br></br>
 
@@ -64,11 +64,11 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 			<div class="one-fourth">
 				<div class="text1">
 					<p class="B_text_B">
-						<a href="Product.html">产品介绍</a>
-						<a style="padding-left:135px" href="about.html">更多</a>
+					<?php echo CHtml::link('产品介绍',array('/product')); ?>
+					<?php echo CHtml::link( Yii::t('zii', 'More'),array('/product'),array('style'=>'padding-left:135px')); ?>
 					</p>
 				</div>
-				<a href="404.html" title="" class="img-border clear"><img
+				<a  class="img-border clear"><img
 					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/website3.jpg"
 					alt=""></a> <br></br> <br></br> <br></br>
 
@@ -78,11 +78,11 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 			<div class="one-fourth">
 				<div class="text1">
 					<p class="B_text_B">
-						<a href="about_2.html">资质证书</a>
-						<a style="padding-left:135px" href="about.html">更多</a>
+					<?php echo CHtml::link('资质证书',array('/about/page2')); ?>
+					<?php echo CHtml::link( Yii::t('zii', 'More'),array('/about'),array('style'=>'padding-left:135px')); ?>
 					</p>
 				</div>
-				<a href="404.html" title="" class="img-border clear"><img
+				<a  class="img-border clear"><img
 					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/website4.jpg"
 					alt=""></a> <br></br> <br></br> <br></br>
 
