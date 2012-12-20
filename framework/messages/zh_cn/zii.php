@@ -22,6 +22,7 @@ return array (
   'The property updateSelector should be defined.' => '',
   'Are you sure you want to delete this item?' => '确定要删除这条数据吗?',
   'Delete' => '删除',
+  'More' => '更多',
   'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => '第 {start}-{end} 条, 共 {count} 条.',
   'Either "name" or "value" must be specified for CDataColumn.' => 'CDataColumn 必须指定 "name" 或 "value" 至少一项.',
   'Home' => '首页',
