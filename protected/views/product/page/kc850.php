@@ -51,31 +51,26 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 					<div id="tabs-1">
 						<table>
 							<tr>
-								<td><blockquote>
-										<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC850-02b.jpg"
-											title="" rel="prettyPhoto"
-											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC850-02a.jpg"
-											alt=""></a>
-										<p>
-											<span class="drop-cap circle">1</span><strong>640×480
-												非制冷焦平面探测器:</strong>超高分辨率带来更细腻与更清晰的显示效果，让检测工作更精确，更可靠，不错过每个缺陷。
-										</p>
-									</blockquote>
+								<td>
+								<div class="product-info-box">
+								<p><strong>640×480非制冷焦平面探测器:</strong>超高分辨率带来更细腻与更清晰的显示效果，让检测工作更精确，更可靠，不错过每个缺陷。</p>
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC850-02b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC850-02a.jpg" alt="">
+								</a>
+								</div>
+								</td>
 
-									<blockquote>
-										<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC850-03b.jpg"
-											title="" rel="prettyPhoto"
-											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC850-03a.jpg"
-											alt=""></a>
-										<p>
-											<span class="drop-cap circle">2</span><strong>彩分析功能</strong>在各分析区域内独立设置该区域的伪彩，使该区域内的热点和潜在故障表露无遗，便于更好地发现设备的隐蔽缺陷。
-										</p>
-									</blockquote>
+								<td>
+								<div class="product-info-box">
+								<p><span class="drop-cap circle">2</span><strong>彩分析功能</strong>在各分析区域内独立设置该区域的伪彩，使该区域内的热点和潜在故障表露无遗，便于更好地发现设备的隐蔽缺陷。</p>
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC850-03b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC850-03a.jpg" alt="">
+								</a>	
+								</div>
+								</td>
 
+								<tr>
+								<td colspan="2">
 									<blockquote>
 										<a
 											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC850-04bjpg"
@@ -83,11 +78,12 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
 											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC850-04a.jpg"
 											alt=""></a>
-										<p>
-											<span class="drop-cap circle">3</span><strong>强大的软件分析功能</strong>自主研发的EXCEL
+										
+									<strong>强大的软件分析功能</strong>自主研发的EXCEL
 											红外分析软件与OFFICE 完美兼容，并依托EXCEL 强大的数据处理功能，可更加方便的处理热图中的温度数据。
-										</p>
-									</blockquote></td>
+									
+									</blockquote>
+								</td>
 							</tr>
 						</table>
 					</div>
