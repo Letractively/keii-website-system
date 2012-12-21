@@ -52,79 +52,78 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 					<div id="tabs-1">
 						<table>
 							<tr>
-								<td><blockquote>
+								<td>
+									<div class="product-info-box">
+									<p><strong>4.3寸高清高亮触摸液晶屏：</strong>触摸式操控直观快捷，可在屏幕上直接添加多点、多斜线、多区域进行检测分析。</p>
 										<a
 											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-08b.jpg"
 											title="" rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
 											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-08a.jpg"
 											alt=""></a>
-										<p>
-											<span class="drop-cap circle">1</span><strong>4.3寸高清高亮触摸液晶屏：</strong>触摸式操控直观快捷，可在屏幕上直接添加多点、多斜线、多区域进行检测分析。
-										</p>
-									</blockquote>
+										
+									</div>
 
-									<blockquote>
+									<td>
+									<div class="product-info-box">
+									<p><strong>独特的左右手切换操作设计：</strong>机身两侧各有两个按键，为客户自定义键；独特的左右手切换操作，满足了不同用户的使用习惯，提高了工作效率。</p>
 										<a
 											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-09b.jpg"
 											title="" rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
 											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-09a.jpg"
 											alt=""></a>
-										<p>
-											<span class="drop-cap circle">2</span><strong>独特的左右手切换操作设计：</strong>机身两侧各有两个按键，为客户自定义键；独特的左右手切换操作，满足了不同用户的使用习惯，提高了工作效率。
-										</p>
-									</blockquote>
+									</div>
+									</td>
 
-									<blockquote>
+									<tr>
+									<td>									
+									<div class="product-info-box">
+									<p><strong>丰富镜头群：</strong>8°×6°，16°×12°，24°×18°，48°×36°，全区域获得清晰的成像质量。	</p>
 										<a
 											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-10b.jpg"
 											title="" rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
 											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-10a.jpg"
 											alt=""></a>
-										<p>
-											<span class="drop-cap circle">3</span><strong>丰富镜头群：</strong>8°×6°，16°×12°，24°×18°，48°×36°，
-											全区域获得清晰的成像质量。
-										</p>
-									</blockquote>
+										
+									</div>
+									</td>
+									
 
-									<blockquote>
-										<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-11b.jpg"
-											title="" rel="prettyPhoto"
-											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-11a.jpg"
-											alt=""></a>
-										<p>
-											<span class="drop-cap circle">4</span><strong>丰富的机身接口：</strong>储卡槽，USB接口，视频接口等一应齐全。
-										</p>
-									</blockquote>
+									<td>									
+									<div class="product-info-box">
+									<p><strong>丰富的机身接口：</strong>储卡槽，USB接口，视频接口等一应齐全。</p>
+									
+										<a	href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-11b.jpg"	title="" rel="prettyPhoto"	class="img-border preloading-light align-right project-thumbnail image-preview">
+										<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-11a.jpg"	alt="">
+										</a>
+										
+									</div>
+									</td>
+									</tr>
 
-									<blockquote>
-										<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-12b.jpg"
-											title="" rel="prettyPhoto"
-											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-12a.jpg"
-											alt=""></a>
-										<p>
-											<span class="drop-cap circle">5</span><strong>SD卡存储图像：</strong>
-											取用高记忆容量、快速数据传输率以及方便携带的SD卡作为存储界质，保证了数据存储快速安全。最大储存可扩展至16GB。
-										</p>
-									</blockquote>
-									<blockquote>
-										<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-13b.jpg"
-											title="" rel="prettyPhoto"
-											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-13a.jpg"
-											alt=""></a>
-										<p>
-											<span class="drop-cap circle">6</span><strong>照射灯 / 激光点定位：</strong>照射灯在昏暗环境下照亮检测现场。
-											激光点温度直接显示于液晶显示屏上，便于现场操作人员更加直观地寻找和观测到故障点。
-										</p>
-									</blockquote></td>
+									<tr>
+									<td>									
+									<div class="product-info-box">
+									<p>	<strong>SD卡存储图像：</strong>取用高记忆容量、快速数据传输率以及方便携带的SD卡作为存储界质，保证了数据存储快速安全。最大储存可扩展至16GB。</p>
+									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-12b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-12a.jpg"	alt="">
+									</a>
+										
+									</div>
+									</td>
+									
+									
+									<td>									
+									<div class="product-info-box">
+									<p><strong>照射灯 / 激光点定位：</strong>照射灯在昏暗环境下照亮检测现场。激光点温度直接显示于液晶显示屏上，便于现场操作人员更加直观地寻找和观测到故障点。</p>
+									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-13b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC500-13a.jpg" alt="">
+									</a>
+									
+									</div>
+									</td>
 							</tr>
 						</table>
 					</div>

@@ -232,3 +232,7 @@ ul.simple-drop-down-menu li.current a,#footer-content a,#footer-content h3 stron
 .login-panel{margin:0 auto;width:960px;height:20px;background:#e5e5e5;text-align:right }
 .login-panel a{text-decoration:none; }
 .login-panel a:hover{color:#fff;}
+
+
+.product-info-box {float: left; width:310px; height:290px; border-left:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;border-right:1px solid #FFF;border-top:1px solid #FFF;background:#fafafa;margin-top:15px; margin-right:10px;padding-left:-2px; padding-right:10px;}
+.product-info-box p{padding-left: 20px; padding-top:10px; line-height:1.3; height:90px}
