@@ -34,8 +34,10 @@
 	<!--Header-->
 	<div class="full-width-wrapper" id="header">
 	<div class="login-panel">
-	<a>英文</a>|
-	<a>登陆</a>|
+	<a>英文</a>
+	<span>|</span>
+	<a>登陆</a>
+	<span>|</span>
 	<a>注册</a>&nbsp;&nbsp;&nbsp;&nbsp;
 	</div>
 		<!--Banner-->
@@ -176,7 +178,7 @@
 <div class="text">关于我们</div>
 <?php $this->widget('zii.widgets.CMenu',array(
 			'id'=>'',
-			'htmlOptions'=>array('class'=>'unordered-list'),
+			'htmlOptions'=>array('class'=>'footer-list'),
 			'items'=>array(
 				array('label'=>Yii::t('zii', 'Profile'), 'url'=>array('/about/page1')),
 				array('label'=>Yii::t('zii', 'Certificate'), 'url'=>array('/about/page2'))
@@ -187,7 +189,7 @@
 <?php
 			$this->widget('zii.widgets.CMenu',array(
 					'id'=>'',
-					'htmlOptions'=>array('class'=>'unordered-list'),
+					'htmlOptions'=>array('class'=>'footer-list'),
 					'items'=>array(
 							array('label'=>'联系方式', 'url'=>array('/site/contact')),
 							array('label'=>'网上留言', 'url'=>array('/site/contact')),
@@ -197,7 +199,7 @@
 			?>
 </div>
 <div class="one-fifth">
-<div class="text">KC系列产品列表</div>
+<div class="text">KC系列产品</div>
 <?php 
 				$this->renderPartial('//product/menu5');
 			?>
@@ -219,7 +221,7 @@
 <?php
 			$this->widget('zii.widgets.CMenu',array(
 					'id'=>'',
-					'htmlOptions'=>array('class'=>'unordered-list'),
+					'htmlOptions'=>array('class'=>'footer-list'),
 					'items'=>array(
 							array('label'=>'红外热像发展历史', 'url'=>array('/site/history')),
 							array('label'=>'红外热像基础理论', 'url'=>array('/site/principle')),

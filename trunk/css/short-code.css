@@ -54,8 +54,8 @@ div .first{
 	*width: 21.8%;
 }
 .one-fifth{
-	width: 16.8%;
-	*width: 16.78%;
+	width: 17.8%;
+	*width: 17.78%;
 }
 .two-third{
 	width:65.35%
@@ -256,10 +256,7 @@ ol.ordered-list li a,ul.unordered-list li a{
 ol.ordered-list li,ul.unordered-list li{
 	padding: 0 0 4px;
 }
-ul.unordered-list li{
-
-	padding-left:25px
-}
+ul.unordered-list li{padding-left:25px}
 ol.ordered-list li{
 	list-style: decimal inside;	
 }
