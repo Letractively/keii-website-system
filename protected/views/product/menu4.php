@@ -1,7 +1,7 @@
 <?php
 $this->widget('zii.widgets.CMenu',array(
 		'id'=>'',
-		'htmlOptions'=>array('class'=>'unordered-list'),
+		'htmlOptions'=>array('class'=>'footer-list'),
 		'items'=>array(
 				array('label'=>Yii::t('zii', 'workstation_s'), 'url'=>array('/product/workstation')),
 				array('label'=>Yii::t('zii', 'carmobile_s'), 'url'=>array('/product/carmobile')),
