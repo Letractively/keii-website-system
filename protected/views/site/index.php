@@ -22,9 +22,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 </div>
 <!--/Slider-->
 
-	<div class="dth-wrapper">
-		<div class="fixed-width-wrapper body-divider " id="body-content"></div>
-	</div>
+
 
 <!--one four-->
 	<div class="full-width-wrapper" style="padding-top: 20px;">
