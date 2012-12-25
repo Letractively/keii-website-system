@@ -13,7 +13,7 @@ button.black:active{background:#393939;}
 a.read-more,ul.point li a:hover em{background-image:url(../images/sprite.png);background-repeat:no-repeat;}
 
 ul.simple-drop-down-menu li.home-page > a{background-image:url();background-repeat:no-repeat;}
-#g-navigation {height:40px; background-image:url(../images/nav_bg1.png);background-repeat:no-repeat ;}
+#navigation {height:40px; background:red url(../images/navbg.png) repeat 0 0;}
 #navigation-bar{background-position:0 0;margin-bottom:12px; weight:910px}
 
 ul.list.quote li span{background-image:url(../images/sprite.png);background-repeat:no-repeat;}

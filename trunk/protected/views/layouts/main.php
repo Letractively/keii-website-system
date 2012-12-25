@@ -50,7 +50,7 @@
 		<!--nav-->
 		<div class="fixed-width-wrapper border-radius-5px" id="navigation-bar">
 			
-			<div id="g-navigation">
+			<div id="navigation">
 		<?php
 		
 		$keii_request_url = Yii::app()->request->url;
