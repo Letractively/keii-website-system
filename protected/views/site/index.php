@@ -31,8 +31,8 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 			<div class="one-fourth first">
 				<div class="text1">
 					<p class="B_text_B">
-					<?php echo CHtml::link('红外热像仪',array('/site/infraredcamera')); ?>
-					<?php echo CHtml::link( Yii::t('zii', 'More'),array('/site/principle'),array('style'=>'padding-left:122px')); ?>
+					<?php echo CHtml::link('新闻',array('/site/infraredcamera')); ?>
+					
 					</p>
 					
 						
@@ -48,8 +48,8 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 			<div class="one-fourth">
 				<div class="text1">
 					<p class="B_text_B">
-					<?php echo CHtml::link('产品应用',array('/application')); ?>
-					<?php echo CHtml::link( Yii::t('zii', 'More'),array('/application'),array('style'=>'padding-left:135px')); ?>
+					<?php echo CHtml::link('应用',array('/application')); ?>
+					
 					</p>
 				</div>
 				<a  class="img-border clear"><img
@@ -62,8 +62,8 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 			<div class="one-fourth">
 				<div class="text1">
 					<p class="B_text_B">
-					<?php echo CHtml::link('产品介绍',array('/product')); ?>
-					<?php echo CHtml::link( Yii::t('zii', 'More'),array('/product'),array('style'=>'padding-left:135px')); ?>
+					<?php echo CHtml::link('图库',array('/product')); ?>
+					
 					</p>
 				</div>
 				<a  class="img-border clear"><img
@@ -76,8 +76,8 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 			<div class="one-fourth">
 				<div class="text1">
 					<p class="B_text_B">
-					<?php echo CHtml::link('资质证书',array('/about/page2')); ?>
-					<?php echo CHtml::link( Yii::t('zii', 'More'),array('/about'),array('style'=>'padding-left:135px')); ?>
+					<?php echo CHtml::link('证书',array('/about/page2')); ?>
+					
 					</p>
 				</div>
 				<a  class="img-border clear"><img
@@ -91,4 +91,4 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 		</div>
 	</div>
 	<!--/one four-->
-	<div id="get-in-touch" class="fixed-width-wrapper"></div>
+	

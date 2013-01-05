@@ -34,7 +34,7 @@
 	<!--Header-->
 	<div class="full-width-wrapper" id="header">
 	<div class="login-panel">
-	<a>英文</a>
+	<a>English</a>
 	<span>|</span>
 	<a>登陆</a>
 	<span>|</span>
@@ -42,20 +42,14 @@
 	</div>
 		<!--Banner-->
 		<div class="fixed-width-wrapper" id="banner">
-			<a href="index.html" title="" class="logo">
-				<img	src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png"	alt="" />
-			</a>
-		</div>
-		<!--/Banner-->
-		<!--nav-->
-		<div class="fixed-width-wrapper border-radius-5px" id="navigation-bar">
+			<div style="float: left"><a title="" class="logo"></a></div>
+			<div  id="navigation-bar">
 			
-			<div id="navigation">
+				<div id="navigation">
 		<?php
-		
 		$keii_request_url = Yii::app()->request->url;
 		
-		$itemOptions = array('home' => array('class' =>'home-page  border-radius-left-5px' ),
+		$itemOptions = array('home' => array('class' =>'l1' ),
 				'about' => array('class' =>'l1' ),
 				'product' => array('class' =>'l1' ),
 				'application' => array('class' =>'l1' ),
@@ -65,7 +59,7 @@
 		);
 		
 		if (preg_match("/site\/index/i",$keii_request_url))
-			$itemOptions['home'] = array('class' =>'current home-page' );
+			$itemOptions['home'] = array('class' =>'current' );
 		elseif (preg_match("/about/i",$keii_request_url))
 			$itemOptions['about'] = array('class' =>'current' );
 		elseif (preg_match("/product/i",$keii_request_url))
@@ -84,7 +78,7 @@
 		elseif (preg_match("/contact/i",$keii_request_url))
 			$itemOptions['contactus'] = array('class' =>'current' );
 		else
-			$itemOptions['home'] = array('class' =>'current home-page' );
+			$itemOptions['home'] = array('class' =>'current' );
 				
 	
 			 $this->widget('zii.widgets.CMenu',array(
@@ -161,11 +155,18 @@
 			'htmlOptions'=>array('class'=>'simple-drop-down-menu'),
 			)); ?>
 			</div>
+			
+			</div>
+			
+			
 		</div>
-		<!--/nav-->
-	</div>
+		<!--/Banner-->
+		
+		<div class="color-banner"></div>
+		</div>
 
 	<!--/Header-->
+
 
 <?php echo $content; ?>
 

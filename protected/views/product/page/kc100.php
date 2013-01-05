@@ -31,7 +31,7 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 
 			<div class="two-third first">
 				<img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/kc100.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC100.jpg"
 					class="align-left img-border">
 				<h3>
 					<strong>科易 KC100 红外热像仪</strong>
@@ -56,55 +56,146 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 						<li><a href="#tabs-1">产品介绍</a></li>
 						<li><a href="#tabs-2">技术参数</a></li>
 						<li><a href="#tabs-3">产品图库</a></li>
-
 					</ul>
 					<div id="tabs-1">
-						<table>
-							<tr>
-								<td>
-									<blockquote>
-										<a href="core/images/pix/KC100-04b.jpg" title=""
-											rel="prettyPhoto"
-											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC100-04a.jpg"
-											alt=""></a>
+					
+										<table>
+					<tr>
+					<td>
+					<div class="product-info-box">
+						<div class="product-info-box-span"></div>
+						<a
+								href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc100-01b.jpg"
+								title="" rel="prettyPhoto"
+								class="img-border preloading-light align-right project-thumbnail image-preview"><img
+								src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc100-01a.jpg"
+								alt=""></a>
 										<p>
-											<span class="drop-cap circle">6</span><strong>区域独立伪彩分析功能:</strong>在各分析区域内独立设置该区域的伪彩，使该区域内的热点和潜在故障表露无遗，便于更好地发现设备的隐蔽缺陷。
+											<strong>使用384 × 288像素数</strong>、高温度分辨率的原装进口	非致冷焦平面红外探测器。
 										</p>
-									</blockquote>
-
-									<blockquote>
-										<a href="core/images/pix/KC100-05b.jpg" title=""
-											rel="prettyPhoto"
-											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC100-05a.jpg"
-											alt=""></a>
+						
+					</div>
+					</td>
+					
+					
+					<td>
+					<div class="product-info-box">
+							<div class="product-info-box-span"></div>
+					
+					<a
+								href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc100-02b.jpg"
+								title="" rel="prettyPhoto"
+								class="img-border preloading-light align-right project-thumbnail image-preview"><img
+								src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc100-02a.jpg"
+								alt=""></a>
 										<p>
-											<span class="drop-cap circle">7</span><strong>强大的数据传输功能:</strong>利用RJ45网络接口实时传输包含全部温度数据的16位全动态红外视频流至电脑。
+											<strong>金属外壳数</strong>，机身IP67，适合于任何恶劣的工作环境。
 										</p>
-									</blockquote>
-
-									<blockquote>
-										<a href="core/images/pix/KC100-06b.jpg" title=""
-											rel="prettyPhoto"
+					
+					
+					</div>	
+					</td>
+					</tr>
+					
+					<tr>
+					<td>
+					<div class="product-info-box">
+							<div class="product-info-box-span"></div>					
+					<a
+											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc100-03b.jpg"
+											title="" rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC100-06a.jpg"
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc100-03a.jpg"
 											alt=""></a>
 										<p>
-											<span class="drop-cap circle">8</span><strong>仅用一台电脑，</strong>
+											<strong>遥控液晶屏（选配）</strong>
+										</p>
+					
+					</div>	
+					</td>
+					
+					
+					<td>
+					<div class="product-info-box">
+							<div class="product-info-box-span"></div>					
+				<a
+											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc100-04b.jpg"
+											title="" rel="prettyPhoto"
+											class="img-border preloading-light align-right project-thumbnail image-preview"><img
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc100-04a.jpg"
+											alt=""></a>
+										<p>
+											<strong>超长时间的红外视频录像功能：</strong>区别于一般的固定监控型热像仪，KC100具有超长时间的红外视频录像功能，对于用户感兴趣的目标，可以进行至少72小时的红外视频录像，而且录像速度≥15帧/秒；配合专用的分析软件，可实现对目标温度的实时记录、实时传输和实时分析，记录的是包含全部温度数据的16位全动态红外视频流。
+										</p>			
+					</div>
+					</td>
+					</tr>
+					
+					<tr>
+					<td>
+					<div class="product-info-box">
+							<div class="product-info-box-span"></div>					
+					<a
+											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc100-05b.jpg"
+											title="" rel="prettyPhoto"
+											class="img-border preloading-light align-right project-thumbnail image-preview"><img
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc100-05a.jpg"
+											alt=""></a>
+										<p>
+											<strong>全面、专业的红外分析功能：</strong>多点分析（不限数量），线分析（不限数量），区域温度分析（不限数量），2条等温分析线。
+										</p>
+					
+					</div>	
+					</td>
+					
+					
+					<td>
+					<div class="product-info-box">
+							<div class="product-info-box-span"></div>					
+											<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc100-06b.jpg" title=""	rel="prettyPhoto"
+											class="img-border preloading-light align-right project-thumbnail image-preview"><img
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc100-06a.jpg"
+											alt=""></a>
+										<p>
+											<strong>区域独立伪彩分析功能:</strong>在各分析区域内独立设置该区域的伪彩，使该区域内的热点和潜在故障表露无遗，便于更好地发现设备的隐蔽缺陷。
+										</p>
+					</div>
+					</td>
+					</tr> 
+					
+					
+						<tr>
+					<td>
+					<div class="product-info-box">
+							<div class="product-info-box-span"></div>					
+							<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/kc100-07b.jpg" title=""	rel="prettyPhoto"
+											class="img-border preloading-light align-right project-thumbnail image-preview">
+										<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/kc100-07a.jpg"	alt=""></a>
+									<p>
+											<strong>强大的数据传输功能:</strong>利用RJ45网络接口实时传输包含全部温度数据的16位全动态红外视频流至电脑。
+										</p>
+					
+					</div>	
+					</td>
+					
+					
+					<td>
+					<div class="product-info-box">
+							<div class="product-info-box-span"></div>					
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc100-08b.jpg" title="" rel="prettyPhoto"	class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc100-08a.jpg" alt="">
+								</a>
+										<p>
+											<strong>仅用一台电脑，</strong>
 											仅用一台电脑，就可以同时、实时远程控制多台红外热像仪（多至12台）
 										</p>
-									</blockquote> <!--Pagination-->
-									<div class="page-pagination">
-										<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=product/kc100&page=1"
-											title="">1</a> <a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=product/kc100&page=2"
-											title="" class="current">2</a>
-									</div> <!--/Pagination-->
-								</td>
-							</tr>
-						</table>
+					</div>
+					</td>
+					</tr>
+					
+					</table>
+					
+						
 					</div>
 					<div id="tabs-2">
 						<table>
@@ -228,7 +319,7 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 							</tr>
 						</table>
 					</div>
-
+					
 					<div id="tabs-3">
 						<table>
 							<tr>
@@ -251,7 +342,6 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 							</tr>
 						</table>
 					</div>
-			
 				</div>
 			</div>
 

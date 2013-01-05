@@ -22,21 +22,22 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'gl600' );
 		<div id="content" class="fixed-width-wrapper">
 			<div class="header-text">
 
-<?php 
-$this->widget('zii.widgets.CBreadcrumbs', array(
-	'links'=>$this->breadcrumbs,
-));
-?>
+
+			<?php
+			$this->widget ( 'zii.widgets.CBreadcrumbs', array (
+					'links' => $this->breadcrumbs 
+			) );
+			?>
 <div style="width: 75px; height: 20px; left: -1px;">&nbsp;</div>
-			</div>
+						</div>
 			<div class="two-third first">
 				<img
 					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/GL600_bg.jpg"
 					class="align-left img-border" />
-			
+		
 			</div>
 			<div class="one-third">
-		
+				
 			</div>
 			<div class="hr clear sp"></div>
 			<div class="three-fourth first">
@@ -48,39 +49,145 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 
 					</ul>
 					<div id="tabs-1">
-						<table>
+					
+					<table>
 							<tr>
 								<td>
-									<blockquote>
-										
-									</blockquote>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-01b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-01a.jpg" alt="">								
+								</a>
+								<p>
+									<strong>独特的非制冷双波段探测器（384 X 288）：</strong>GL600采用了独特的非制冷双波段探测器，是全球收款采用该项技术的产品，由于采用了非制冷探测器，GL600超过30000个工作小时的使用寿命远远超过制冷型机器几千小时的工作时间。
+										</p>
+								</div>
+								</td>
 
-									<blockquote>
-										<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/GL600-04b.jpg"
+								<td>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-02b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-02a.jpg" alt="">
+								</a>
+										<p><strong>检漏测温双用途</strong>GL600实现了在检测气体泄漏的同时实现检测设备的精确温度检测。</p>									
+								</div>
+								</td>
+								</tr>
+								
+								<tr>
+								<td>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-03b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-03a.jpg" alt="">								
+								</a>
+								<p>
+								<strong>电气设备可带电检测：</strong>GL600可以实现非接触式远距离检测，设备在正常运行中即可完成气体泄漏检测工作。
+								</p>
+								</div>
+								</td>
+
+								<td>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-04b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-04a.jpg" alt="">
+								</a>
+									<p>
+									<strong>全新机芯设计，启动时间小于1分钟：</strong>相比以往制冷型的机器启动时间需要5到10分钟，GL600的启动时间不到1分钟，极大地体现了技术先进性。									
+									</p>
+									
+								</div>
+								</td>
+								</tr>
+								
+								
+									<tr>
+								<td>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a
+											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-05b.jpg"
 											title="" rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/GL600-04a.jpg"
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-05a.jpg"
 											alt=""></a>
-										
-										<br></br>
-									</blockquote>
+									<p>
+											<strong>不需要辅助光源，不需要反射背景：</strong>GL600在现场检测是不需要另外提供辅助光源，也不需要提供反射背景，可以直接对检测设备拍摄红外视频。
+										</p>
+								</div>
+								</td>
 
+									<td>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-06b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-06a.jpg" alt="">								
+								</a>
+								<p>
+											<strong>高灵敏度：</strong>可以检测到0.001毫克/秒的微小流量。
+										</p>
+								</div>
+								</td>
+								</tr>
+								
+								
+								
+									<tr>
+								<td>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-07b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-07a.jpg" alt="">
+								</a>
+									<p>
+											<strong>轻巧方便携带:</strong>GL600的重量只有1.6Kg，是世界上最轻的气体红外检漏仪。轻便的仪器更加便于变电站复杂环境的快捷操作。
+										</p>
+									
+								</div>
+								</td>
+
+								<td>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-08b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-08a.jpg" alt="">
+								</a>
+									<p>
+										<strong>区域独立伪彩分析功能：</strong>在各分析区域内独立设置该区域的伪彩，使该区域内的热点和潜在故障表露无遗，便于更好地发现设备的隐蔽缺陷，通过独立伪彩设置，更容易发现设备的泄漏情况。
+									</p>
+									
+								</div>
+								</td>
+								</tr>
+								
+								<tr>		
+								<td colspan="2">
 									<blockquote>
-										<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/GL600-05b.jpg"
+										
+									<a
+											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-09b.jpg"
 											title="" rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/GL600-05a.jpg"
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-09a.jpg"
 											alt=""></a>
 										<p>
-											<span class="drop-cap circle">8</span><strong>强大的红外视频分析软件：</strong>现场检测经常会遇到刮风下雨等复杂恶劣的天气影响，传统的设备在现场只能拍摄普通的视频数据，一旦现场拍摄的视频数据效果不好，就只能再次到现场拍摄。而GL600可对录制的红外视频进行再分析，结束了传统设备现场录像现场分析的工作模式:
+											<strong>强大的红外视频分析软件：</strong>现场检测经常会遇到刮风下雨等复杂恶劣的天气影响，传统的设备在现场只能拍摄普通的视频数据，一旦现场拍摄的视频数据效果不好，就只能再次到现场拍摄。而GL600可对录制的红外视频进行再分析，结束了传统设备现场录像现场分析的工作模式:
 										</p>
 										<br></br> <br></br> <br></br> <a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/GL600-06b.jpg"
+											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-10b.jpg"
 											title="" rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/GL600-06a.jpg"
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-10a.jpg"
 											alt=""></a>
 										<p>
 											<strong>下图是大风天气对一组设备拍摄的视频分析前后对比：</strong>
@@ -88,39 +195,44 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 										<br></br>
 										<p>现场拍摄视频无法看到气体泄漏，经过在软件中分析，可清晰看到气体泄漏情况。</p>
 									</blockquote>
-
-									<blockquote>
-										<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/GL600-07b.jpg"
-											title="" rel="prettyPhoto"
-											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/GL600-07a.jpg"
-											alt=""></a>
-										<p>
-											<span class="drop-cap circle">9</span><strong>区域独立伪彩分析功能：</strong>在各分析区域内独立设置该区域的伪彩，使该区域内的热点和潜在故障表露无遗，便于更好地发现设备的隐蔽缺陷，通过独立伪彩设置，更容易发现设备的泄漏情况。
-										</p>
-									</blockquote>
-
-									<blockquote>
-										<p>
-											<span class="drop-cap circle">10</span><strong>激光点温度显示：</strong>激光点温度直接显示于液晶显示屏上，便于现场操作人员更加直观地寻找和观测到故障点。
-										</p>
-									</blockquote>
-									<blockquote>
-										<p>
-											<span class="drop-cap circle">11</span><strong>强大的存储功能示：</strong>机身内置存储卡4G能存储不少于16000幅的红外热图，此外，可通过标配的32G高速SD卡（可录制4小时以上红外视频）。提供了海量数据存储能力。
-										</p>
-									</blockquote> <!--Pagination-->
-									<div class="page-pagination">
-										<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=product/gl600"
-											title="">1</a> <a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=product/gl600&page=2"
-											title="" class="current">2</a>
-									</div> <!--/Pagination-->
 								</td>
 							</tr>
+							
+								
+									<tr>
+								<td>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-11b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-11a.jpg" alt="">								
+								</a>
+								<p>
+									<strong>激光点温度显示：</strong>激光点温度直接显示于液晶显示屏上，便于现场操作人员更加直观地寻找和观测到故障点。
+								</p>
+								</div>
+								</td>
+
+								<td>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-12b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/gl600-12a.jpg" alt="">
+								</a>
+									<p>
+										<strong>强大的存储功能示：</strong>机身内置存储卡4G能存储不少于16000幅的红外热图，此外，可通过标配的32G高速SD卡（可录制4小时以上红外视频）。提供了海量数据存储能力。
+									</p>
+									
+								</div>
+								</td>
+								</tr>
+								
+								
+								
 						</table>
+					
+						
 					</div>
 					<div id="tabs-2">
 
@@ -310,6 +422,7 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 						</table>
 					</div>
 
+	
 
 					<div id="tabs-3">
 						<table>
@@ -329,8 +442,6 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 						</table>
 					</div>
 
-
-					
 				</div>
 			</div>
 

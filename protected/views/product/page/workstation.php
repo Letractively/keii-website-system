@@ -55,21 +55,22 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 					<tr>
 					<td>
 					<div class="product-info-box">
-						<p>384×288像素高温度分辨率原装进口非制冷焦平面红外探测器。</p>
-						
+						<div class="product-info-box-span"></div>
 						<a
 								href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/workstation-03b.jpg"
 								title="" rel="prettyPhoto"
 								class="img-border preloading-light align-right project-thumbnail image-preview"><img
 								src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/workstation-03a.jpg"
 								alt=""></a>
+												<p>384×288像素高温度分辨率原装进口非制冷焦平面红外探测器。</p>
+						
 					</div>
 					</td>
 					
 					
 					<td>
 					<div class="product-info-box">
-					<p>作为移动式红外热成像工作站系统的主要组成部分，全新设计的镁合金散热外壳，满足在恶劣环境中长期稳定工作的要求。</p>
+							<div class="product-info-box-span"></div>
 					
 					<a
 								href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/workstation-04b.jpg"
@@ -77,6 +78,8 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 								class="img-border preloading-light align-right project-thumbnail image-preview"><img
 								src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/workstation-04a.jpg"
 								alt=""></a>
+										<p>作为移动式红外热成像工作站系统的主要组成部分，全新设计的镁合金散热外壳，满足在恶劣环境中长期稳定工作的要求。</p>
+					
 					
 					</div>	
 					</td>
@@ -85,7 +88,7 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 					<tr>
 					<td>
 					<div class="product-info-box">
-					<p><strong>超长时间的红外视频录像功能：</strong>区别于一般的固定监控型热像仪，KC100具有超长时间的红外视频录像功能，对于用户感兴趣的目标，可以进行至少72小时的红外视频录像；配合专用的分析软件，可实现对目标温度的实时记录、实时传输和实时分析，记录的是包含全部温度数据的16位全动态红外视频流。</p>
+							<div class="product-info-box-span"></div>					
 					
 					<a
 								href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/workstation-06b.jpg"
@@ -93,20 +96,23 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 								class="img-border preloading-light align-right project-thumbnail image-preview"><img
 								src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/workstation-06a.jpg"
 								alt=""></a>
+								
+								<p><strong>超长时间的红外视频录像功能：</strong>区别于一般的固定监控型热像仪，KC100具有超长时间的红外视频录像功能，对于用户感兴趣的目标，可以进行至少72小时的红外视频录像；配合专用的分析软件，可实现对目标温度的实时记录、实时传输和实时分析，记录的是包含全部温度数据的16位全动态红外视频流。</p>
 					</div>	
 					</td>
 					
 					
 					<td>
 					<div class="product-info-box">
-					<p><strong>全面、专业的红外分析功能：</strong>多点分析（不限数量），线分析（不限数量），区域温度分析（不限数量），2条等温分析线。</p>
+							<div class="product-info-box-span"></div>					
+					
 					<a
 								href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/workstation-07b.jpg"
 								title="" rel="prettyPhoto"
 								class="img-border preloading-light align-right project-thumbnail image-preview"><img
 								src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/workstation-07a.jpg"
 								alt=""></a>
-					
+						<p><strong>全面、专业的红外分析功能：</strong>多点分析（不限数量），线分析（不限数量），区域温度分析（不限数量），2条等温分析线。</p>					
 					</div>
 					</td>
 					</tr>
