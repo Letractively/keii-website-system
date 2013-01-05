@@ -145,24 +145,8 @@ class ProductController extends Controller
 	}
 	
 	public function actionKc100()
-	{				
-		if(isset($_GET['page'])) {
-			
-			$page = $_GET['page'];
-			
-			if($page == 1 || $page == NULL) 
-				$this->render('page/kc100p1');
-			elseif ($page ==2 )
-				$this->render('page/kc100p2');
-			else
-				throw new CHttpException(404,'The requested page does not exist.');
-		}
-		else
-		{
-			$this->render('page/kc100p1');
-			//throw new CHttpException(404,'The requested page does not exist.');
-		}
-		
+	{	
+		$this->render('page/kc100');
 	}
 	
 	public function actionKc500()
@@ -215,22 +199,7 @@ class ProductController extends Controller
 	
 	public function actiongl600()
 	{
-		if(isset($_GET['page'])) {
-		
-				$page = $_GET['page'];
-		
-				if($page == 1 || $page == NULL)
-					$this->render('page/gl600p1');
-				elseif ($page ==2 )
-					$this->render('page/gl600p2');
-				else
-					throw new CHttpException(404,'The requested page does not exist.');
-			}
-			else
-			{
-				$this->render('page/gl600p1');
-				//throw new CHttpException(404,'The requested page does not exist.');
-			}
+		$this->render('page/gl600');
 	
 	}
 	

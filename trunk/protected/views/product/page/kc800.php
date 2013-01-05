@@ -55,61 +55,116 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 
 					</ul>
 					<div id="tabs-1">
-						<table>
+					
+					<table>
 							<tr>
-								<td><blockquote>
-										<p>
-											<span class="drop-cap circle">1</span><strong>使用640X 480像素数,</strong>高温度分辨率的原装进口非致冷焦平面红外探测器。
+								<td>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc800-01b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc800-01a.jpg" alt="">								
+								</a>
+								<p>
+											<strong>使用640X 480像素数,</strong>高温度分辨率的原装进口非致冷焦平面红外探测器。
 										</p>
-									</blockquote>
+								</div>
+								</td>
 
-									<blockquote>
-										<p>
-											<span class="drop-cap circle">2</span><strong>5.6寸高清高亮触摸液晶屏，</strong>触摸屏操作控制已经成为高科技产品的一种潮流，它不同于传统的物理按键操作模式，大大减少了物理按键的数量，触摸式操作所带来的直观性和简便性，极大地提高了现场工作效率，同时也避免了因物理按键损坏而造成的损失。
+								<td>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc800-02b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc800-02a.jpg" alt="">
+								</a>
+									<p><strong>5.6寸高清高亮触摸液晶屏，</strong>触摸屏操作控制已经成为高科技产品的一种潮流，它不同于传统的物理按键操作模式，大大减少了物理按键的数量，触摸式操作所带来的直观性和简便性，极大地提高了现场工作效率，同时也避免了因物理按键损坏而造成的损失。</p>
+									
+								</div>
+								</td>
+								</tr>
+								
+								<tr>
+								<td>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc800-03b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc800-03a.jpg" alt="">								
+								</a>
+								<p>
+											<strong>整机符合人机工程学设计，</strong>提高了操作者的使用舒适度。
 										</p>
+								</div>
+								</td>
+
+								<td>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc800-04b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc800-04a.jpg" alt="">
+								</a>
+									<p><strong>配置高清晰寻像器，</strong>即使在强光下也能放心使用。
+									</p>
+									
+								</div>
+								</td>
+								</tr>
+								
+								
+								<tr>
+								<td>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc800-05b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc800-05a.jpg" alt="">								
+								</a>
+								<p>
+								<strong>人性化的人机界面设计，</strong>整机操作菜单设计明了，直观易用，哪怕是从未使用过红外热像仪的操作者，都能在较短时间内熟悉各项操作。
+								</p>
+								</div>
+								</td>
+
+								<td>
+								<div class="product-info-box">
+															<div class="product-info-box-span"></div>					
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc800-06b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc800-06a.jpg" alt="">
+								</a>
+									<p>
+									<strong>多项便捷自定义键，</strong>有4个快捷键可供客户根据操作习惯自定义，为操作者节省更多时间。
+									</p>
+									
+								</div>
+								</td>
+								</tr>
+								
+								
+								
+
+								<tr>
+								
+								
+								<td colspan="2">
+									<blockquote>
 										<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC800-01b.jpg"
+											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc800-07b.jpg"
 											title="" rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC800-01a.jpg"
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/products/kc800-07a.jpg"
 											alt=""></a>
+										
+											<strong>快捷的红外视频录制功能:</strong>区别于一般的手持式热像仪，KC800具有红外视频录像功能，一键式快捷操作，就能实现实时录像，并可存储和播放。
+											
+									
 									</blockquote>
-
-									<blockquote>
-										<p>
-											<span class="drop-cap circle">3</span><strong>整机符合人机工程学设计，</strong>提高了操作者的使用舒适度。
-										</p>
-									</blockquote>
-
-									<blockquote>
-										<p>
-											<span class="drop-cap circle">4</span><strong>配置高清晰寻像器，</strong>即使在强光下也能放心使用。
-										</p>
-									</blockquote>
-
-									<blockquote>
-										<p>
-											<span class="drop-cap circle">5</span><strong>人性化的人机界面设计，</strong>整机操作菜单设计明了，直观易用，哪怕是从未使用过红外热像仪的操作者，都能在较短时间内熟悉各项操作。
-										</p>
-									</blockquote>
-									<blockquote>
-										<p>
-											<span class="drop-cap circle">6</span><strong>多项便捷自定义键，</strong>有4个快捷键可供客户根据操作习惯自定义，为操作者节省更多时间。
-										</p>
-									</blockquote>
-									<blockquote>
-										<p>
-											<span class="drop-cap circle">7</span><strong>快捷的红外视频录制功能:</strong>区别于一般的手持式热像仪，KC800具有红外视频录像功能，一键式快捷操作，就能实现实时录像，并可存储和播放。
-										</p>
-										<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC800-02b.jpg"
-											title="" rel="prettyPhoto"
-											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC800-02a.jpg"
-											alt=""></a>
-									</blockquote></td>
+								</td>
 							</tr>
 						</table>
+					
 					</div>
 					<div id="tabs-2">
 						<table>

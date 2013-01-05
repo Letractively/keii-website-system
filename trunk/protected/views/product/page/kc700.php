@@ -55,16 +55,22 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 							<tr>
 								<td>
 								<div class="product-info-box">
-								<p>外观设计紧凑精致，人性化设计使操作舒适快捷。</p>
+															<div class="product-info-box-span"></div>					
+								
 								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC700-09b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
 								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC700-09a.jpg" alt=""></a>
+																<p>外观设计紧凑精致，人性化设计使操作舒适快捷。</p>
+								
 								</div>
 								
 								<td>
 								<div class="product-info-box">
-								<p>270度可旋转液晶屏，因应不同的场境调整至最佳角度，有效降低强光对观测效果的影响。</p>
+															<div class="product-info-box-span"></div>					
+								
 								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC700-10b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC700-10a.jpg"	alt=""></a>	
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC700-10a.jpg"	alt=""></a>
+																<p>270度可旋转液晶屏，因应不同的场境调整至最佳角度，有效降低强光对观测效果的影响。</p>
+									
 								</div>
 								</td>
 								</tr>
@@ -72,18 +78,24 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 								<tr>
 								<td>
 								<div class="product-info-box">
-								<p>可根据测量的需要更换不同焦段的镜头，例如广角镜头和长焦镜头，从而提高检测工作的效率。</p>
+															<div class="product-info-box-span"></div>					
+								
 								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC700-11b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
 								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC700-11a.jpg" alt="">
+																<p>可根据测量的需要更换不同焦段的镜头，例如广角镜头和长焦镜头，从而提高检测工作的效率。</p>
+								
 								</a>		
 								</div>
 								</td>
 
 								<td>
 								<div class="product-info-box">
-								<p>KC700具有红外视频录像功能，一键式快捷操作，就能实现实时录像，并可存储和播放。</p>
+															<div class="product-info-box-span"></div>					
+								
 								<a	href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC700-12b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
 								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/KC700-12a.jpg"	alt="">
+																<p>KC700具有红外视频录像功能，一键式快捷操作，就能实现实时录像，并可存储和播放。</p>
+								
 								</a>			
 								</div>
 								</td>
