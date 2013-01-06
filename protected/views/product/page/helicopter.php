@@ -194,102 +194,94 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 						<table class="m-table">
 
 							<thead>
-								<tr>
-									<th width="16%">项目</th>
-									<th width="27%">内容</th>
-									<th colspan="2">技术指标</th>
-								</tr>
+															<tr>
+																					<th colspan="2" >红外热像性能参数</th>
+											
+											</tr>
+							
 							</thead>
 
 							<tbody>
 								<tr>
-									<td rowspan="5"><p>&nbsp;</p>
-										<p>探测器</p></td>
 									<td height="24">探测器类型</td>
-									<td colspan="2">非致冷焦平面列阵</td>
+									<td >非致冷焦平面列阵</td>
 								</tr>
 								<tr>
 									<td>工作波段</td>
-									<td colspan="2">7.5～14μm</td>
+									<td >7.5～14μm</td>
 								</tr>
 								<tr>
 									<td>像素数</td>
-									<td colspan="2">384×288</td>
+									<td >384×288</td>
 								</tr>
 								<tr>
 									<td>温度分辨率</td>
-									<td colspan="2">＜ 0.08 ℃在30℃时</td>
+									<td >＜ 0.08 ℃在30℃时</td>
 								</tr>
 								<tr>
 									<td>帧频</td>
-									<td colspan="2">50 （60）帧/秒</td>
+									<td >50 （60）帧/秒</td>
 								</tr>
 								<tr>
-									<td rowspan="2">镜头</td>
+									
 									<td>标准镜头</td>
-									<td colspan="2">24° x 18° 电动镜头</td>
+									<td >24° x 18° 电动镜头</td>
 								</tr>
 								<tr>
 									<td>最小成像距离</td>
-									<td colspan="2">0.3m</td>
+									<td >0.3m</td>
 								</tr>
 								<tr>
-									<td rowspan="2">电源系统</td>
+									
 									<td>电源</td>
-									<td colspan="2">12 V DC</td>
+									<td >12 V DC</td>
 								</tr>
 								<tr>
 									<td>功率</td>
-									<td colspan="2">＜20 W</td>
+									<td >＜20 W</td>
 								</tr>
 								<tr>
-									<td rowspan="2">测量功能</td>
+									
 									<td>测温范围</td>
-									<td colspan="2">-20℃~500℃(可扩展到2000℃)</td>
+									<td >-20℃~500℃(可扩展到2000℃)</td>
 								</tr>
 								<tr>
 									<td>测温精度</td>
-									<td colspan="2"><u>+</u>2 ℃ 或 <u>+</u>2%</td>
+									<td ><u>+</u>2 ℃ 或 <u>+</u>2%</td>
 								</tr>
 								<tr>
-									<td rowspan="8"><p>&nbsp;</p>
-										<p>&nbsp;</p>
-										<p>物理结构和使用环境要求</p></td>
 									<td>外型尺寸</td>
-									<td colspan="2">220mm×85mm×85mm (长×宽×高)</td>
+									<td >220mm×85mm×85mm (长×宽×高)</td>
 								</tr>
 								<tr>
 									<td>重量</td>
-									<td colspan="2">1.4 Kg</td>
+									<td >1.4 Kg</td>
 								</tr>
 								<tr>
 									<td>防护等级</td>
-									<td colspan="2">IP67</td>
+									<td >IP67</td>
 								</tr>
 								<tr>
 									<td>抗振动等级</td>
-									<td colspan="2">3g</td>
+									<td >3g</td>
 								</tr>
 								<tr>
 									<td>抗冲击等级</td>
-									<td colspan="2">30g</td>
+									<td >30g</td>
 								</tr>
 								<tr>
 									<td>工作环境温度</td>
-									<td colspan="2">-15℃～50℃</td>
+									<td >-15℃～50℃</td>
 								</tr>
 								<tr>
 									<td>工作环境湿度</td>
-									<td colspan="2">≤95%</td>
+									<td >≤95%</td>
 								</tr>
 								<tr>
 									<td>存贮环境温度</td>
-									<td colspan="2">-40℃～70℃</td>
+									<td >-40℃～70℃</td>
 								</tr>
 								<tr>
-									<td rowspan="4"><p>&nbsp;</p>
-										<p>界面</p></td>
-									<td rowspan="4"><p>&nbsp;</p></td>
 									<td width="19%" height="23">RJ45 Ethernet</td>
 									<td width="38%">16 位实时数字温度图像信号与控制信号</td>
 								</tr>

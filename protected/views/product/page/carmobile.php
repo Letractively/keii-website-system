@@ -56,26 +56,26 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 						
 						<div class="product-info-box">
 												
-						<p>
-						配件齐全
-						</p>
 						
 						<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/Car mobile-01b.jpg"	title="" rel="prettyPhoto"	class="img-border preloading-light align-right project-thumbnail image-preview">
 						<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/Car mobile-01a.jpg" alt="">
 						</a>
 						
+						<p>
+						配件齐全
+						</p>
 						
 						</div>
 						</td>
 						
 						<td>
 						<div class="product-info-box">
-						<p>
-						车载移动式红外热像系统的安装和拆卸都非常简便，而且便于携带。系统配置了磁性吸盘底座和橡胶底座，专为颠簸路面而设计的橡胶底座可以保证车辆行驶在120Km时速下，热像仪不移动，不掉落，正常工作。
-						</p>
 						<a	href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/Car mobile-02b.jpg" title="" rel="prettyPhoto"	class="img-border preloading-light align-right project-thumbnail image-preview">
 						<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/Car mobile-02a.jpg" alt="">
 						</a>
+						<p>
+						车载移动式红外热像系统的安装和拆卸都非常简便，而且便于携带。系统配置了磁性吸盘底座和橡胶底座，专为颠簸路面而设计的橡胶底座可以保证车辆行驶在120Km时速下，热像仪不移动，不掉落，正常工作。
+						</p>
 						
 						</div>
 						</td>
@@ -86,7 +86,6 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 						<tr>
 						<td>
 						<div class="product-info-box">
-						<p><strong>测量精准，不错失每一个细节：</strong>配备大口径电动调焦镜头，可观测1km远的高压和超高压线缆以及线缆接头。系统还采用云台控制方式，通过手柄上的“云台控制”按键可以控制热像仪的转向角度(水平360°，上下60°)。</p>
 						
 							<a
 								href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/Car mobile-03b.jpg"
@@ -94,6 +93,7 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 								class="img-border preloading-light align-right project-thumbnail image-preview"><img
 								src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/Car mobile-03a.jpg"
 								alt=""></a>
+						<p><strong>测量精准，不错失每一个细节：</strong>配备大口径电动调焦镜头，可观测1km远的高压和超高压线缆以及线缆接头。系统还采用云台控制方式，通过手柄上的“云台控制”按键可以控制热像仪的转向角度(水平360°，上下60°)。</p>
 						
 						</div>
 					
@@ -103,9 +103,6 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 						<td>
 						
 						<div class="product-info-box">
-						<p>
-						<strong>性能稳定，操作简单：</strong>装配最新的焦平面红外探测器，能将物体的红外特征图以图像的方式显示在LCD显示器上。通过用户菜单可进行个性化设置，包括电子放大，黑/白热，镜像，色标等功能。
-						</p>
 						
 						<a
 								href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/Car mobile-04b.jpg"
@@ -113,6 +110,9 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 								class="img-border preloading-light align-right project-thumbnail image-preview"><img
 								src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/Car mobile-04a.jpg"
 								alt=""></a>
+						<p>
+						<strong>性能稳定，操作简单：</strong>装配最新的焦平面红外探测器，能将物体的红外特征图以图像的方式显示在LCD显示器上。通过用户菜单可进行个性化设置，包括电子放大，黑/白热，镜像，色标等功能。
+						</p>
 						
 						</div>
 						</td>
@@ -143,102 +143,94 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 						<table  class="m-table">
 
 							<thead>
-								<tr>
-									<th width="16%">项目</th>
-									<th width="27%">内容</th>
-									<th colspan="2">技术指标</th>
-								</tr>
+							<tr>
+																					<th colspan="2" >红外热像性能参数</th>
+											
+											</tr>
 							</thead>
 
 							<tbody>
-								<tr>
-									<td rowspan="5"><p>&nbsp;</p>
-										<p>探测器</p></td>
+								<tr>									
 									<td height="24">探测器类型</td>
-									<td colspan="2">非致冷焦平面列阵</td>
+									<td >非致冷焦平面列阵</td>
 								</tr>
 								<tr>
 									<td>工作波段</td>
-									<td colspan="2">7.5～14μm</td>
+									<td >7.5～14μm</td>
 								</tr>
 								<tr>
 									<td>像素数</td>
-									<td colspan="2">384×288</td>
+									<td >384×288</td>
 								</tr>
 								<tr>
 									<td>温度分辨率</td>
-									<td colspan="2">＜ 0.08 ℃在30℃时</td>
+									<td >＜ 0.08 ℃在30℃时</td>
 								</tr>
 								<tr>
 									<td>帧频</td>
-									<td colspan="2">50 （60）帧/秒</td>
+									<td >50 （60）帧/秒</td>
 								</tr>
 								<tr>
-									<td rowspan="2">镜头</td>
+
 									<td>标准镜头</td>
-									<td colspan="2">24° x 18° 电动镜头</td>
+									<td >24° x 18° 电动镜头</td>
 								</tr>
 								<tr>
 									<td>最小成像距离</td>
-									<td colspan="2">0.3m</td>
+									<td >0.3m</td>
 								</tr>
 								<tr>
-									<td rowspan="2">电源系统</td>
+
 									<td>电源</td>
-									<td colspan="2">12 V DC</td>
+									<td >12 V DC</td>
 								</tr>
 								<tr>
 									<td>功率</td>
-									<td colspan="2">＜20 W</td>
+									<td >＜20 W</td>
 								</tr>
 								<tr>
-									<td rowspan="2">测量功能</td>
+
 									<td>测温范围</td>
-									<td colspan="2">-20℃~500℃(可扩展到2000℃)</td>
+									<td >-20℃~500℃(可扩展到2000℃)</td>
 								</tr>
 								<tr>
 									<td>测温精度</td>
-									<td colspan="2"><u>+</u>2 ℃ 或 <u>+</u>2%</td>
+									<td ><u>+</u>2 ℃ 或 <u>+</u>2%</td>
 								</tr>
 								<tr>
-									<td rowspan="8"><p>&nbsp;</p>
-										<p>&nbsp;</p>
-										<p>物理结构和使用环境要求</p></td>
+
 									<td>外型尺寸</td>
-									<td colspan="2">220mm×85mm×85mm (长×宽×高)</td>
+									<td >220mm×85mm×85mm (长×宽×高)</td>
 								</tr>
 								<tr>
 									<td>重量</td>
-									<td colspan="2">1.4 Kg</td>
+									<td >1.4 Kg</td>
 								</tr>
 								<tr>
 									<td>防护等级</td>
-									<td colspan="2">IP67</td>
+									<td >IP67</td>
 								</tr>
 								<tr>
 									<td>抗振动等级</td>
-									<td colspan="2">3g</td>
+									<td >3g</td>
 								</tr>
 								<tr>
 									<td>抗冲击等级</td>
-									<td colspan="2">30g</td>
+									<td >30g</td>
 								</tr>
 								<tr>
 									<td>工作环境温度</td>
-									<td colspan="2">-15℃～50℃</td>
+									<td >-15℃～50℃</td>
 								</tr>
 								<tr>
 									<td>工作环境湿度</td>
-									<td colspan="2">≤95%</td>
+									<td >≤95%</td>
 								</tr>
 								<tr>
 									<td>存贮环境温度</td>
-									<td colspan="2">-40℃～70℃</td>
+									<td >-40℃～70℃</td>
 								</tr>
 								<tr>
-									<td rowspan="4"><p>&nbsp;</p>
-										<p>界面</p></td>
-									<td rowspan="4"><p>&nbsp;</p></td>
 									<td width="19%" height="23">RJ45 Ethernet</td>
 									<td width="38%">16 位实时数字温度图像信号与控制信号</td>
 								</tr>

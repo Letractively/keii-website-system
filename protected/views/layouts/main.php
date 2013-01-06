@@ -186,18 +186,6 @@
 			),
 			)); 
 			?>
-<div class="text3">联系我们</div>
-<?php
-			$this->widget('zii.widgets.CMenu',array(
-					'id'=>'',
-					'htmlOptions'=>array('class'=>'footer-list'),
-					'items'=>array(
-							array('label'=>'联系方式', 'url'=>array('/site/contact')),
-							array('label'=>'网上留言', 'url'=>array('/site/contact')),
-
-					),
-			));
-			?>
 </div>
 <div class="one-fifth">
 <div class="text">KC系列产品</div>
@@ -229,6 +217,20 @@
 							array('label'=>'技术参数', 'url'=>array('/site/parameter')),
 							array('label'=>'术语释义', 'url'=>array('/site/terms')),
 							array('label'=>'红外热像应用领域', 'url'=>array('/site/Field')),
+
+					),
+			));
+			?>
+</div>
+<div class="one-fifth">
+<div class="text">联系我们</div>
+<?php
+			$this->widget('zii.widgets.CMenu',array(
+					'id'=>'',
+					'htmlOptions'=>array('class'=>'footer-list'),
+					'items'=>array(
+							array('label'=>'联系方式', 'url'=>array('/site/contact')),
+							array('label'=>'网上留言', 'url'=>array('/site/contact')),
 
 					),
 			));
