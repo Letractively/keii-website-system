@@ -31,7 +31,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 			<div class="one-fourth first">
 				<div class="text1">
 					<p class="B_text_B">
-					<?php echo CHtml::link('新闻',array('/site/infraredcamera')); ?>
+					<?php echo CHtml::link('News',array('/site/infraredcamera')); ?>
 					
 					</p>
 					
@@ -41,9 +41,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 				<a class="img-border clear"><img
 					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/website1.jpg"
 					alt=""></a> <br></br> <br></br> <br></br>
-
-				<p style="letter-spacing: 1.5px;">KEII自主品牌红外热像仪，基于现场应用开发，性能卓越，您的明智首选!</p>
-			</div>
+				</div>
 
 			<div class="one-fourth">
 				<div class="text1">

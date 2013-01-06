@@ -116,7 +116,7 @@ Author:Manh
 }
 
 .maxx-theme .nivo-controlNav,.maxx-theme .nivo-controlNav a,.maxx-theme .nivo-directionNav a{
-	background-image:url(../images/sprite.png);
+	background-image:url(../images/sprite1.png);
 	background-repeat:no-repeat
 }
 .maxx-theme .nivo-controlNav {
@@ -133,19 +133,19 @@ Author:Manh
 .maxx-theme .nivo-controlNav a {
 	display:block;
 	width:16px;
-	height:16px;
+	height:14px;
 	text-indent:-9999px;
 	border:0;
 	margin:12px 3px 0 3px;
 	float:left;
-	background-position:-664px -53px;
+	background-position:0px 2px;
 	
 }
 .maxx-theme .nivo-controlNav a:first-child{
 	margin-left:11px;
 }
 .maxx-theme .nivo-controlNav a.active {
-	background-position:-664px -69px
+	background-position:0px -11px
 }
 
 .maxx-theme .nivo-directionNav a {

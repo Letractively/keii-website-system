@@ -137,20 +137,18 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 										<thead>
 
 											<tr>
-												<th colspan="2">KC500 红外热像仪 技术参数表</th>
+												<th colspan="2">红外热像性能参数</th>
 											</tr>
 
 										</thead>
 
 										<tbody>
 
-											<tr>
-												<td colspan="2"><strong>红外热像性能参数</strong></td>
-											</tr>
+											
 
 											<tr>
-												<td width="26%">视场角 / 最小成像距离/空间分辨率</td>
-												<td width="74%">32°×24°/ 0.1m/1.45 mrad</td>
+												<td width="45%">视场角 / 最小成像距离/空间分辨率</td>
+												<td width="55%">32°×24°/ 0.1m/1.45 mrad</td>
 											</tr>
 
 											<tr>
@@ -183,9 +181,7 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 												<td>融合</td>
 												<td>红外/可见光融合显示</td>
 											</tr>
-											<tr>
-												<td colspan="2"><strong>图像显示性能</strong></td>
-											</tr>
+											
 											<tr>
 												<td>外部液晶显示器</td>
 												<td>16:9，4.3寸高亮可旋转触摸显示屏</td>
@@ -194,9 +190,7 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 												<td>独立伪彩</td>
 												<td>可在区域内设置独立伪彩</td>
 											</tr>
-											<tr>
-												<td colspan="2"><strong>温度测量功能</strong></td>
-											</tr>
+											
 											<tr>
 												<td>测温范围</td>
 												<td>-20℃～350℃，可以扩展到 1500℃（选配）</td>
@@ -233,9 +227,7 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 												<td>温度报警</td>
 												<td>颜色/声音报警</td>
 											</tr>
-											<tr>
-												<td colspan="2"><strong>图像存贮</strong></td>
-											</tr>
+											
 											<tr>
 												<td>话音记录/文本注释</td>
 												<td>60秒，与图像同时存储</td>
@@ -248,9 +240,7 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 												<td>可移动 SD卡</td>
 												<td>4G ；可扩展至16G（选配）</td>
 											</tr>
-											<tr>
-												<td colspan="2"><strong>电源系统</strong></td>
-											</tr>
+											
 											<tr>
 												<td>电池/工作时间</td>
 												<td>兼容标准电池/ ≥3 小时</td>
@@ -260,16 +250,12 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 												
 												<td>供电的同时为热像仪电池充电</td>
 											</tr>
-											<tr>
-												<td colspan="2"><strong>物理参数</strong></td>
-											</tr>
+											
 											<tr>
 												<td>重量 (含电池)/ 尺寸(L×W×H)</td>
 												<td>≤ 1.2kg/190 mmx 142 mmx 212.5mm</td>
 											</tr>
-											<tr>
-												<td colspan="2"><strong>使用环境参数</strong></td>
-											</tr>
+											
 											<tr>
 												<td>工作温度范围/存储温度范围</td>
 												<td>-15°C to +50°C/-40°C to +70°C</td>
@@ -282,9 +268,7 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 												<td>防护等级/抗冲击等级/抗振动等级</td>
 												<td>IP 54 IEC 529/30G, IEC 68-2-29/3.0 G, IEC 68-2-6</td>
 											</tr>
-											<tr>
-												<td colspan="2"><strong>激光指示器</strong></td>
-											</tr>
+											
 											<tr>
 												<td>激光</td>
 												<td>二级，红色</td>
@@ -294,16 +278,12 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 												<td>激光点位置与温度</td>
 												<td>激光点位置直接显示于红外图像上，并同时显示温度</td>
 											</tr>
-											<tr>
-												<td colspan="2"><strong>录像（选配）</strong></td>
-											</tr>
+											
 											<tr>
 												<td>类型</td>
 												<td>录制包含16位温度数据的全动态红外视频流，存储至SD卡</td>
 											</tr>
-											<tr>
-												<td colspan="2"><strong>传输界面</strong></td>
-											</tr>
+											
 											<tr>
 												<td>RJ45（选配）</td>
 												<td>实时传输包含16位温度数据的全动态红外视频流至电脑</td>

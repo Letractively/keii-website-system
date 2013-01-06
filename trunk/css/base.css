@@ -190,7 +190,7 @@ ul.list.quote li a b,.calendar.white h1,.blog-entry-content h3,.blog-entry-conte
 .login-panel a:hover{color:#fff;}
 
 #header{}
-#header .color-banner{margin-top:15px; padding-bottom:20px;width:100%;height:41px;background:url(../images/color-bannar.jpg);background-repeat:no-repeat;}
+#header .color-banner{margin-top:15px; padding-bottom:20px;width:100%;height:34px;background:url(../images/color-bannar.jpg);background-repeat:no-repeat;}
 #header #banner{}
 #header #banner .logo{width:249px;height:83px;background:url(../images/logo.png)}
 #header #banner .social-network{float:right;margin-right:20px;}
