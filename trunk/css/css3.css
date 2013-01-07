@@ -59,12 +59,6 @@ button.black {
 }
 
 .img-border {
-	padding: 5px;
-	border: 1px solid #e5e5e5;
-	background-color: #FFF;
-	-moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
-	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
-	-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 #navigation-bar {
@@ -91,9 +85,6 @@ button.black {
 }
 
 ul.simple-drop-down-menu ul {
-	box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
-	-moz-box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
-	-webkit-box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-main.filter li.current a {

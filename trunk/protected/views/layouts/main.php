@@ -110,7 +110,7 @@
 	
 				array('label'=>Yii::t('zii', 'Cases'), 'url'=>array('/application'),'itemOptions'=>$itemOptions['application'], 
 				'items'=>array(
-						array('label'=>Yii::t('zii', 'Industry'), 'url'=>array('/application'),'itemOptions'=>array('class'=>'l2'),
+						array('label'=>Yii::t('zii', 'Industry').'»', 'url'=>array('/application'),'itemOptions'=>array('class'=>'l2'),
 								'items'=>array(
 										array('label'=>Yii::t('zii', 'Electrical'), 'url'=>array('/application&example=9'),'itemOptions'=>array('class'=>'l3')),
 										array('label'=>Yii::t('zii', 'Petrochemical Industry'), 'url'=>array('/application&example=4'),'itemOptions'=>array('class'=>'l3')),
@@ -121,7 +121,7 @@
 										array('label'=>Yii::t('zii', 'Pulp and Paper Industry'), 'url'=>array('/application&example=6'),'itemOptions'=>array('class'=>'l3')),
 								)
 							),
-						array('label'=>Yii::t('zii', 'Application'), 'url'=>array('/application'),'itemOptions'=>array('class'=>'l2'),
+						array('label'=>Yii::t('zii', 'Application').'»', 'url'=>array('/application'),'itemOptions'=>array('class'=>'l2'),
 							'items'=>array(
 										array('label'=>Yii::t('zii', 'R&D'), 'url'=>array('/application&example=7'),'itemOptions'=>array('class'=>'l3')),
 										array('label'=>Yii::t('zii', 'Predictive Maintenance'), 'url'=>array('/application&example=5'),'itemOptions'=>array('class'=>'l3')),
@@ -167,6 +167,7 @@
 
 	<!--/Header-->
 
+	
 
 <?php echo $content; ?>
 
@@ -175,7 +176,7 @@
 
 <div class="full-width-wrapper" id="footer-wrapper">
 <div class="fixed-width-wrapper" id="footer-content">
-<div class="one-fifth first">
+<div class="footer-list-1">
 <div class="text">关于我们</div>
 <?php $this->widget('zii.widgets.CMenu',array(
 			'id'=>'',
@@ -187,25 +188,7 @@
 			)); 
 			?>
 </div>
-<div class="one-fifth">
-<div class="text">KC系列产品</div>
-<?php 
-				$this->renderPartial('//product/menu5');
-			?>
-</div>
-<div class="one-fifth">
-<div class="text">工作站与系统</div>
-<?php 
-				$this->renderPartial('//product/menu4');
-			?>
-</div>
-<div class="one-fifth">
-<div class="text">服务与支持</div>
-<?php 
-			$this->renderPartial('//service/menu1');
-			?>
-</div>
-<div class="one-fifth">
+<div class="footer-list-2">
 <div class="text">红外热像原理</div>
 <?php
 			$this->widget('zii.widgets.CMenu',array(
@@ -213,7 +196,6 @@
 					'htmlOptions'=>array('class'=>'footer-list'),
 					'items'=>array(
 							array('label'=>'红外热像发展历史', 'url'=>array('/site/history')),
-							array('label'=>'红外热像基础理论', 'url'=>array('/site/principle')),
 							array('label'=>'技术参数', 'url'=>array('/site/parameter')),
 							array('label'=>'术语释义', 'url'=>array('/site/terms')),
 							array('label'=>'红外热像应用领域', 'url'=>array('/site/Field')),
@@ -222,7 +204,27 @@
 			));
 			?>
 </div>
-<div class="one-fifth">
+
+
+<div class="footer-list-3">
+<div class="text">KC系列产品</div>
+<?php 
+				$this->renderPartial('//product/menu5');
+			?>
+</div>
+<div class="footer-list-4">
+<div class="text">工作站与系统</div>
+<?php 
+				$this->renderPartial('//product/menu4');
+			?>
+</div>
+<div class="footer-list-5">
+<div class="text">服务与支持</div>
+<?php 
+			$this->renderPartial('//service/menu1');
+			?>
+</div>
+<div class="footer-list-6">
 <div class="text">联系我们</div>
 <?php
 			$this->widget('zii.widgets.CMenu',array(
@@ -247,9 +249,8 @@
 <div class="fixed-width-wrapper">
 <div id="copyright">
 <ul>
-<li>© 2011 - 科易光电技术有限公司</li>
+<li>© 2011 - 广州科易光电技术有限公司</li>
 <li><a href="404.html" title="">ICP05093365</a></li>
-<li><a href="contact.html" title="">地址：广州市科学城彩频路11号F1101A</a></li>
 </ul>
 </div>
 </div>
