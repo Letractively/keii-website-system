@@ -35,9 +35,8 @@ div .first{
 	width:100%;
 	}
 .one-half,.one-third,.one-fourth,.one-fifth,.two-third,.two-fourth,.two-fifth,.three-fourth,.three-fifth,.four-fifth{
-
 	float:left;
-	margin-left:1%;
+	margin-left:2%;
 	display:block !important;
 	position:relative;
 	/*overflow:hidden;*/
@@ -50,13 +49,53 @@ div .first{
 	width:30.65%;
 }
 .one-fourth{
-	width: 24%;
-	*width: 21.8%;
+	width: 22.7%;
+	*width: 22.7%;
+}
+.one-frist-news{
+	float:left;
+	width: 25.8%;
+	*width: 25.8%;
 }
 .one-fifth{
-	width: 15.8%;
-	*width: 15.8%;
+	width: 15%;
+	*width: 15%;
 }
+.footer-list-1{
+	float:left;
+	padding-left:10%;
+	width: 12%;
+	*width: 12%;	
+}
+.footer-list-2{
+	float:left;
+	width: 16%;
+	*width: 16%;	
+}
+.footer-list-3{
+	float:left;
+	width: 15%;
+	*width: 15%;	
+}
+.footer-list-4{
+	float:left;
+	margin-left:-25px;
+	width: 15%;
+	*width: 15%;	
+}
+.footer-list-5{
+	float:left;
+	width: 15%;
+	*width: 15%;	
+}
+.footer-list-6{
+	float:left;
+	margin-left:-25px;
+	width: 15%;
+	*width: 15%;	
+}
+
+
 .two-third{
 	width:65.35%
 }
@@ -530,8 +569,13 @@ a.maxx-button{
 	width: 150px;
 }
 .B_text_B{
-	font-size:16px;
+	font-size:14px;
 font-weight:bold;
+}
+.B_text_news a{
+	font-size:16px;
+	font-weight:bold;
+	color:red;
 }
 
 

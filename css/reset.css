@@ -41,7 +41,7 @@ p{
 
 a:link,a:visited{
 	text-decoration: none;
-	color: #333333
+	color: #6F6F6F;
 }
 a:hover{
 	text-decoration:underline
@@ -76,17 +76,25 @@ h3{
 .text{
 	font-family: 黑体;
 	font-size: 14px;
-	margin:8px 24px;
+	margin:8px 25px;
 }
 .text1{
-	padding:6px 0 0 8px;
-	height:24px;
-	border:1px solid #e5e5e5;border-bottom-width:2px;
+	padding:6px 0 0 0px;
+	height:18px;
+	border:1px solid #6F6F6F;border-bottom-width:1px;
 	border-top:none;
 	border-left:none;
 	border-right:none;
 	margin-bottom:9px;
 	}
+
+.text1_news{
+	padding:6px 0 0 0px;
+	height:10px;
+	border:none;
+	margin-bottom:9px;
+}
+	
 
 .text3 {
 	font-family: 黑体;
