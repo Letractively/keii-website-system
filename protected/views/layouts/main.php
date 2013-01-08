@@ -162,7 +162,8 @@
 		</div>
 		<!--/Banner-->
 		
-		<div class="color-banner"></div>
+		<div class="color-banner">
+		</div>
 		</div>
 
 	<!--/Header-->

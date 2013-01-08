@@ -261,18 +261,7 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 			<div class="one-fourth">
 				<br></br>
 				<dl class="m-simple-toggle">
-					<dt>产品列表</dt>
-					<dd>
-<?php $this->renderPartial('//product/menu1'); ?>
-</dd>
-					<dt>产品应用</dt>
-					<dd>
-<?php $this->renderPartial('//application/menu1');?>
-</dd>
-					<dt>服务支持</dt>
-					<dd>
-<?php $this->renderPartial('//service/menu1'); ?>
-</dd>
+				<?php $this->renderPartial('//site/menu1'); ?>					
 				</dl>
 			</div>
 

@@ -1,19 +1,14 @@
-<?php
-$this->widget('zii.widgets.CMenu',array(
-		'id'=>'',
-		'htmlOptions'=>array('class'=>'unordered-list'),
-		'items'=>array(
-				array('label'=>Yii::t('zii', 'workstation'), 'url'=>array('/product/workstation')),
-				array('label'=>Yii::t('zii', 'kc100'), 'url'=>array('/product/kc100')),
-				array('label'=>Yii::t('zii', 'kc500'), 'url'=>array('/product/kc500')),
-				array('label'=>Yii::t('zii', 'kc700'), 'url'=>array('/product/kc700')),
-				array('label'=>Yii::t('zii', 'kc750'), 'url'=>array('/product/kc750'), 'visible'=>strstr(Yii::app()->language, 'en')),
-				array('label'=>Yii::t('zii', 'kc800'), 'url'=>array('/product/kc800')),
-				array('label'=>Yii::t('zii', 'kc850'), 'url'=>array('/product/kc850')),
-				array('label'=>Yii::t('zii', 'gl600'), 'url'=>array('/product/gl600')),
-				array('label'=>Yii::t('zii', 'carmobile'), 'url'=>array('/product/carmobile')),
-				array('label'=>Yii::t('zii', 'substation'), 'url'=>array('/product/substation')),
-				array('label'=>Yii::t('zii', 'helicopter'), 'url'=>array('/product/helicopter'))
-		),
-));
-?>
+<dt>
+					<br>
+					致电广州科易
+					<br>
+					·购买产品前为你解答疑难，与经验丰富的专家进行交流。
+					<br>
+					·比较产品的机型，选对适合您的型号。
+					<br>
+					·按您的需求方式进行配置，为您提供完善的解决方案。
+					<br>
+					电话：+86 020 32068870
+					<br>
+					邮箱：keii@keii.com.cn
+				</dt>
