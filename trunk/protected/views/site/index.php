@@ -15,7 +15,6 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 <a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/pix500.jpg" alt="" title=""></a>
 <a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/pix700.jpg" alt="" title=""></a>
 <a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/pix790.jpg" alt="" title=""></a>
-<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/pix800.jpg" alt="" title=""></a>
 </div>
 </div>
 </div>
