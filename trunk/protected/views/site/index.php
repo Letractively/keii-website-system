@@ -11,10 +11,10 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 <div class="full-width-wrapper" id="slider-frame">
 <div class="fixed-width-wrapper maxx-theme" id="slider-wrapper">
 <div id="slider" class="nivoSlider">
-<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/pix100.jpg" alt="" title=""></a>
-<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/pix500.jpg" alt="" title=""></a>
-<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/pix700.jpg" alt="" title=""></a>
-<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/pix790.jpg" alt="" title=""></a>
+<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/slider01.jpg" alt="" title=""></a>
+<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/slider02.jpg" alt="" title=""></a>
+<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/slider03.jpg" alt="" title=""></a>
+<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/slider04.jpg" alt="" title=""></a>
 </div>
 </div>
 </div>
