@@ -22,8 +22,37 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 <div style="width: 75px; height: 40px; left: -1px;">&nbsp;</div>
 </div>
 
-<div class="post entry-content">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/example02.jpg" width="640" height="400">
+<div class="application-entry-content">
+<table>
+<thead>
+<tr><th>
+水泥和玻璃工业
+</th></tr>
+</thead>
+<tbody>
+<tr><td>
+对于水泥或其它拥有回转窑的生产企业来说，使用的红外热成像系统，可以长期不间断地实时监控回转窑窑体表面温度，间接掌握窑内结皮各结图情况，从而使生产厂家可以及时采取必要措施防止窑衬和窑体的损坏，提高窑的动转率，实现回转窑的经济运行，以延长窑体的安全运转周期。
+</td></tr>
+<tr>
+<td><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e2-01a.jpg" width="190" height="120">
+&nbsp;&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e2-02a.jpg"  width="190" height="120">
+</td>
+</tr>
+<tr>
+<td><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e2-03a.jpg"  width="140" height="100">
+&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e2-04a.jpg"  width="140" height="100">
+&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e2-05a.jpg"  width="140" height="100">
+&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e2-06a.jpg"  width="140" height="100">
+</td>
+</tr>
+</tbody>
+</table>
 <div class="clear"></div>
 
 </div>

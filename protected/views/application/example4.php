@@ -24,10 +24,38 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 <div style="width: 75px; height: 40px; left: -1px;">&nbsp;</div>
 </div>
 
-<div class="post entry-content">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/example04.jpg" width="640" height="400">
+<div class="application-entry-content">
+<table>
+<thead>
+<tr><th>
+石化工业
+</th></tr>
+</thead>
+<tbody>
+<tr><td>
+石油化工生产中的许多重要设备是在高温压状况下工作的，潜伏差易燃、易爆危险，要求对生产过程进行严格的在线监测，以及时消除隐患。
+</td></tr>
+<tr>
+<td><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e4-01a.jpg" width="120" height="100">
+&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e4-02a.jpg"  width="120" height="100">
+&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e4-03a.jpg"  width="120" height="100">
+&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e4-04a.jpg"  width="120" height="100">
+</td>
+</tr>
+<tr>
+<td><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e4-05a.jpg"  width="180" height="120">
+&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e4-06a.jpg"  width="180" height="120">
+</td>
+</tr>
+</tbody>
+</table>
 <div class="clear"></div>
-
 </div>
 </div>
 <!--/Content-->

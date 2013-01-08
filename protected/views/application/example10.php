@@ -23,10 +23,24 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 <div style="width: 75px; height: 40px; left: -1px;">&nbsp;</div>
 </div>
 
-<div class="post entry-content">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/example10.jpg" width="640" height="400">
-<div class="clear"></div>
+<div class="application-entry-content">
+<table>
+<thead>
+<tr><th>
+气体泄漏检测
+</th></tr>
+</thead>
+<tbody>
+<tr><td>
 
+</td></tr>
+<tr>
+<td><br>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="clear"></div>
 </div>
 </div>
 <!--/Content-->
