@@ -23,8 +23,33 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 <div style="width: 75px; height: 40px; left: -1px;">&nbsp;</div>
 </div>
 
-<div class="post entry-content">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/example01.jpg" width="640" height="400">
+<div class="application-entry-content">
+<table>
+<thead>
+<tr><th>
+建筑行业
+</th></tr>
+</thead>
+<tbody>
+<tr><td>
+诊断建筑物温度分布，定位建筑绝热性、管道堵塞、湿气凝结、电气设备等问题，提供可视红外图像和温度数据。不仅节约日常能源消耗，同时也排除安全隐患。
+</td></tr>
+<tr>
+<td><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e1-01a.jpg" width="190" height="140">
+&nbsp;&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e1-02a.jpg"  width="190" height="140">
+</td>
+</tr>
+<tr>
+<td><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e1-03a.jpg"  width="190" height="140">
+&nbsp;&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e1-04a.jpg"  width="190" height="140">
+</td>
+</tr>
+</tbody>
+</table>
 <div class="clear"></div>
 
 </div>

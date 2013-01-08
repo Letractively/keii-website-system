@@ -23,8 +23,21 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 <div style="width: 75px; height: 40px; left: -1px;">&nbsp;</div>
 </div>
 
-<div class="post entry-content">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/example08.jpg" width="640" height="400">
+<div class="application-entry-content">
+<table>
+<thead>
+<tr><th>
+自动化行业
+</th></tr>
+</thead>
+<tbody>
+<tr><td>
+热像仪能够通过产品表面温度分布检测质量，使您提前发现异常状况，同时也可以监测生产设备，将热分布可视化，监控生产过程从而避免财产损失。
+<br>
+比如汽车生产流程中焊接，预热，铸模等。
+</td></tr>
+</tbody>
+</table>
 <div class="clear"></div>
 
 </div>

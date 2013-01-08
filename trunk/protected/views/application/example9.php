@@ -23,8 +23,27 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 <div style="width: 75px; height: 40px; left: -1px;">&nbsp;</div>
 </div>
 
-<div class="post entry-content">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/example09.jpg" width="640" height="400">
+<div class="application-entry-content">
+<table>
+<thead>
+<tr><th>
+电力行业
+</th></tr>
+</thead>
+<tbody>
+<tr><td>
+作为直接有效的诊断预防工具，在电力系统维修检查中红外线热像仪可以从一个安全距离测量出物体的表面温度。在红外图像中，输变电线路的不良接触点会产生高温热点。热像仪能够迅速定位高温异常点，避免了断电和重大故障发生。
+</td></tr>
+<tr>
+<td><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e9-01a.jpg" width="150" height="100">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e9-02a.jpg"  width="150" height="100">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e9-03a.jpg" width="150" height="100">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e9-04a.jpg"  width="150" height="100">
+</td>
+</tr>
+</tbody>
+</table>
 <div class="clear"></div>
 
 </div>

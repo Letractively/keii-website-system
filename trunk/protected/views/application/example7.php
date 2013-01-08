@@ -22,8 +22,40 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 <div style="width: 75px; height: 40px; left: -1px;">&nbsp;</div>
 </div>
 
-<div class="post entry-content">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/example07.jpg" width="640" height="400">
+<div class="application-entry-content">
+<table>
+<thead>
+<tr><th>
+研发领域应用
+</th></tr>
+</thead>
+<tbody>
+<tr><td>
+1.如今在众多科研领域中，热像仪已成为不可或缺的检测仪器。<br>
+在电子领域，它可以用来检测处于设计阶段或生产中的复杂电路板，以免使用中发生故障和产品召回。同样也可用于维修工作，通过热像仪可以迅速找到并排除故障。
+</td></tr>
+<tr>
+<td><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e7-01a.jpg" width="150" height="100">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e7-02a.jpg"  width="150" height="100">
+
+</td>
+</tr>
+<tr><td>
+<br>
+
+2.在汽车领域，热像仪提供直观的发动机温度分布，使其迅速发现故障区域。
+<br>
+现在大多数汽车的常见功能，例如车窗除霜、座椅加热等功能也是在热像仪产品帮助下进行开发测试的。
+</td></tr>
+<tr>
+<td><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e7-03a.jpg"  width="150" height="100">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e7-04a.jpg"  width="150" height="100">
+</td>
+</tr>
+</tbody>
+</table>
 <div class="clear"></div>
 
 </div>

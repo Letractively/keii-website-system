@@ -22,8 +22,38 @@ $this->widget('zii.widgets.CBreadcrumbs', array(
 <div style="width: 75px; height: 40px; left: -1px;">&nbsp;</div>
 </div>
 
-<div class="post entry-content">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/example05.jpg" width="640" height="400">
+<div class="application-entry-content">
+<table>
+<thead>
+<tr><th>
+预防性检测应用 
+</th></tr>
+</thead>
+<tbody>
+<tr><td>
+几乎所有的机电设备在发生故障以前都会不规刚地发热，根据这一特点，红外热像仪在制造业车间环境检测方面成为了尤其高效的诊断工具。
+</td></tr>
+<tr>
+<td><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e5-01a.jpg" width="120" height="108">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e5-02a.jpg"  width="120" height="108">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e5-03a.jpg"  width="120" height="108">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e5-04a.jpg"  width="120" height="108">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e5-05a.jpg"  width="120" height="108">
+</td>
+</tr>
+<tr>
+<td><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e5-06a.jpg"  width="180" height="120">
+&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e5-07a.jpg"  width="180" height="120">
+&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/application/e5-08a.jpg"  width="180" height="120">
+
+</td>
+</tr>
+</tbody>
+</table>
 <div class="clear"></div>
 
 </div>
