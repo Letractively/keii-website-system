@@ -1,7 +1,9 @@
+<dt>产品应用</dt>
+<dd>
 <?php 
 $this->widget('zii.widgets.CMenu',array(
 					'id'=>'',
-					'htmlOptions'=>array('class'=>'unordered-list'),
+					'htmlOptions'=>array('class'=>'list cat'),
 					'items'=>array(
 							array('label'=>Yii::t('zii', 'Building Diagnostics'), 'url'=>array('/application&example=1')),
 							array('label'=>Yii::t('zii', 'Cement and Glass'), 'url'=>array('/application&example=2')),
@@ -14,3 +16,4 @@ $this->widget('zii.widgets.CMenu',array(
 			));
 
 ?>
+</dd>

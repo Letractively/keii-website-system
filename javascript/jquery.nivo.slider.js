@@ -361,8 +361,7 @@
 			$('.nivo-box', slider).remove();
 			
 			if(settings.effect == 'random'){
-				var anims = new Array('sliceDownRight','sliceDownLeft','sliceUpRight','sliceUpLeft','sliceUpDown','sliceUpDownLeft','fold','fade',
-                'boxRandom','boxRain','boxRainReverse','boxRainGrow','boxRainGrowReverse');
+				var anims = new Array('sliceDownRight','sliceDownLeft','sliceUpRight','sliceUpLeft','sliceUpDown','sliceUpDownLeft','fold','fade','boxRandom','boxRain','boxRainReverse','boxRainGrow','boxRainGrowReverse');
 				vars.randAnim = anims[Math.floor(Math.random()*(anims.length + 1))];
 				if(vars.randAnim == undefined) vars.randAnim = 'fade';
 			}
@@ -657,7 +656,7 @@
 	
 	//Default settings
 	$.fn.nivoSlider.defaults = {
-		effect: 'random',
+		effect: 'fade',
 		slices: 12,
 		boxCols: 8,
 		boxRows: 4,
