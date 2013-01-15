@@ -208,7 +208,7 @@
 
 
 <div class="footer-list-3">
-<div class="text">KC系列产品</div>
+<div class="text">系列产品</div>
 <?php 
 				$this->renderPartial('//product/menu5');
 			?>
@@ -251,7 +251,7 @@
 <div id="copyright">
 <ul>
 <li>© 2011 - 广州科易光电技术有限公司</li>
-<li><a href="404.html" title="">ICP05093365</a></li>
+<li><a class="icp-number" href="404.html" title="">ICP05093365</a></li>
 </ul>
 </div>
 </div>

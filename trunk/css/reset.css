@@ -35,8 +35,8 @@ em{
 }
 p{
 	font-size: 12px;
-	line-height: 14px;
-	margin: 0 0 15px 0
+	margin: 0 0 5px 0;
+	line-height: 24px;letter-spacing: 1.5px;
 }
 
 a:link,a:visited{

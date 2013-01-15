@@ -11,10 +11,10 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 <div class="full-width-wrapper" id="slider-frame">
 <div class="fixed-width-wrapper maxx-theme" id="slider-wrapper">
 <div id="slider" class="nivoSlider">
-<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/slider01.jpg" alt="" title=""></a>
-<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/slider02.jpg" alt="" title=""></a>
-<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/slider03.jpg" alt="" title=""></a>
-<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/slider04.jpg" alt="" title=""></a>
+<?php echo CHtml::link('<img src="'.Yii::app()->request->baseUrl.'/images/slider/slider01.jpg" alt="" title="">',array('/product/kc100')); ?>
+<?php echo CHtml::link('<img src="'.Yii::app()->request->baseUrl.'/images/slider/slider02.jpg" alt="" title="">',array('/product/kc500')); ?>
+<?php echo CHtml::link('<img src="'.Yii::app()->request->baseUrl.'/images/slider/slider03.jpg" alt="" title="">',array('/product/kc800')); ?>
+<?php echo CHtml::link('<img src="'.Yii::app()->request->baseUrl.'/images/slider/slider04.jpg" alt="" title="">',array('/product/substation')); ?>
 </div>
 </div>
 </div>
@@ -35,7 +35,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 					</p>							
 				</div>
 				<a class="img-border clear"><img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/website1.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/index/website1.jpg"
 					alt=""></a> <br></br> <br></br> <br></br>
 				</div>
 
@@ -47,10 +47,10 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 					</p>
 				</div>
 				<a  class="img-border clear"><img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/website2.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/index/website2.jpg"
 					alt=""></a> <br></br> <br></br> <br></br>
 
-				<p style="letter-spacing: 1px;">基于现场应用，提供电站，防火，安防，研发等领域领先的解决方案</p>
+				<p style="padding-top:48px;letter-spacing: 0.5px;">基于现场应用，提供电站，防火，安防，研发等领域领先的解决方案</p>
 			</div>
 
 			<div class="one-fourth">
@@ -61,10 +61,10 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 					</p>
 				</div>
 				<a  class="img-border clear"><img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/website3.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/index/website3.jpg"
 					alt=""></a> <br></br> <br></br> <br></br>
 
-				<p style="letter-spacing: 1px;">KEII自主品牌红外热像仪，基于现场应用开发，性能卓越，您的明智首选!</p>
+				<p style="padding-top:48px;letter-spacing: 0.5px;">KEII自主品牌红外热像仪，基于现场应用开发，性能卓越，您的明智首选!</p>
 			</div>
 
 			<div class="one-fourth">
@@ -75,10 +75,10 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 					</p>
 				</div>
 				<a  class="img-border clear"><img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/website4.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/index/website4.jpg"
 					alt=""></a> <br></br> <br></br> <br></br>
 
-				<p style="letter-spacing: 0.5px;">广州科易公司掌握多项行业专利技术，并通过ISO9001认证，保证产品质量</p>
+				<p style="padding-top:48px;letter-spacing: 0.5px;">广州科易公司掌握多项行业专利技术，并通过ISO9001认证，保证产品质量</p>
 
 			</div>
 
