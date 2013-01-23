@@ -54,13 +54,13 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'carmobile' );
 						
 						<td>
 						<div class="product-info-box">
-						<a	href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/02b.jpg" title="" rel="prettyPhoto"	class="img-border preloading-light align-right project-thumbnail image-preview">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/02a.jpg" alt="">
-						</a>
-						<p>
-						车载移动式红外热像系统的安装和拆卸都非常简便，而且便于携带。系统配置了磁性吸盘底座和橡胶底座，专为颠簸路面而设计的橡胶底座可以保证车辆行驶在120Km时速下，热像仪不移动，不掉落，正常工作。
-						</p>
-						
+						<a
+								href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/03b.jpg"
+								title="" rel="prettyPhoto"
+								class="img-border preloading-light align-right project-thumbnail image-preview"><img
+								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/03a.jpg"
+								alt=""></a>
+						<p><strong>配置高精度云台系统，实现全方位快速定位。</strong></p>
 						</div>
 						</td>
 						
@@ -70,24 +70,6 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'carmobile' );
 						<tr>
 						<td>
 						<div class="product-info-box">
-						
-							<a
-								href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/03b.jpg"
-								title="" rel="prettyPhoto"
-								class="img-border preloading-light align-right project-thumbnail image-preview"><img
-								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/03a.jpg"
-								alt=""></a>
-						<p><strong>测量精准，不错失每一个细节：</strong>配备大口径电动调焦镜头，可观测1km远的高压和超高压线缆以及线缆接头。系统还采用云台控制方式，通过手柄上的“云台控制”按键可以控制热像仪的转向角度(水平360°，上下60°)。</p>
-						
-						</div>
-					
-						</td>
-						
-						
-						<td>
-						
-						<div class="product-info-box">
-						
 						<a
 								href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/04b.jpg"
 								title="" rel="prettyPhoto"
@@ -95,28 +77,32 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'carmobile' );
 								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/04a.jpg"
 								alt=""></a>
 						<p>
-						<strong>性能稳定，操作简单：</strong>装配最新的焦平面红外探测器，能将物体的红外特征图以图像的方式显示在LCD显示器上。通过用户菜单可进行个性化设置，包括电子放大，黑/白热，镜像，色标等功能。
+						<strong>一体化操控平台，快捷实现车载系统控制</strong>
 						</p>
-						
+							
 						</div>
-						</td>
-						</tr>
 					
-						<tr>
-						<td colspan="2" >
-						<blockquote>
-							<a
+						</td>
+						
+						
+						<td>
+						
+						<div class="product-info-box">
+						<a
 								href="<?php echo Yii::app()->request->baseUrl;?>/images/zh_CN/products/carmobile/05b.jpg"
 								title="" rel="prettyPhoto"
 								class="img-border preloading-light align-right project-thumbnail image-preview"><img
 								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/05a.jpg"
 								alt=""></a>
 							<p>
-								<strong>功能强大的分析及报告制作软件：</strong>除了可以在LCD显示器上显示，还可与电脑连接，使用后端软件进行实时显示。同时借助本公司自主研发的后台软件的强大功能可实现：测温、温度报警、在线分析、生成报表以及保存红外视频录像等功能。
-							</p>
-						</blockquote>
+								<strong>功能强大的分析及报告制作软件</strong></p>
+						
+						
+						</div>
 						</td>
 						</tr>
+					
+					
 					</table>						
 					</div>			
 				
