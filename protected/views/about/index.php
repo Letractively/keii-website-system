@@ -34,7 +34,8 @@ echo '&nbsp';
 								<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=about/page1" title="了解更多"><strong><?php echo Yii::t('zii', 'Profile') ?></strong></a>
 						</p>
 						<p style="line-height: 24px;letter-spacing: 1.5px;margin-top:-5px;">
-							广州科易光电技术有限公司成立于2003年并成为工业和科研领域中红外热成像单机和系统的生产供应商，在2008年被认证为高新技术企业。
+							广州科易光电技术有限公司成立于2003年，是一家专业从事各种光电探测产品，光电稳定平台及高端系统集成的高新技术企业。
+							<p style="height:19px"></p>
 						</p>
 						<p></p>
 						<div class="sp"></div>

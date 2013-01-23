@@ -35,32 +35,30 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc850' );
 					</ul>
 					<div id="tabs-1">
 						<table>
-							<tr>
-								<td>
-								<div class="product-info-box">
-								<div class="product-info-box-span"></div>					
-								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/01b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+							
+								<tr>
+								<td colspan="2">
+									<blockquote>
+
+									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/01b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
 								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/01a.jpg" alt="">								
 								</a>
-																								<p><strong>640×480非制冷焦平面探测器:</strong>超高分辨率带来更细腻与更清晰的显示效果，让检测工作更精确，更可靠，不错过每个缺陷。</p>
-								
-								</div>
+																								<p><strong>高温度分辨率,640X 480像素数</strong></p>
+									
+									</blockquote>
 								</td>
+							</tr>
+								
+								<tr>
+								<td colspan="2">
+									<blockquote>
 
-								<td>
-								<div class="product-info-box">
-															<div class="product-info-box-span"></div>					
-																
-								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/02b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/02a.jpg" alt="">
-								</a>	
-																<p><strong>彩分析功能</strong>在各分析区域内独立设置该区域的伪彩，使该区域内的热点和潜在故障表露无遗，便于更好地发现设备的隐蔽缺陷。</p>
-								
-								</div>
+									<p><strong>配置高清晰寻像器</strong></p>
+									
+									</blockquote>
 								</td>
-
+							</tr>
+								
 								<tr>
 								<td colspan="2">
 									<blockquote>
@@ -71,8 +69,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc850' );
 											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/03a.jpg"
 											alt=""></a>
 										
-									<strong>强大的软件分析功能</strong>自主研发的EXCEL
-											红外分析软件与OFFICE 完美兼容，并依托EXCEL 强大的数据处理功能，可更加方便的处理热图中的温度数据。
+									<strong>强大的软件分析功能</strong>
 									
 									</blockquote>
 								</td>
@@ -89,6 +86,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc850' );
 
 							<tbody>
 								<tr>
+								
 								<td colspan="2"  class="m-table-title">性能参数</td>								
 								</tr>
 								<tr>
