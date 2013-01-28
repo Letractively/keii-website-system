@@ -120,17 +120,7 @@ echo '&nbsp';
 <div class="sp">
 </div>
 </div>
-<div data-id="post-11" data-type="642" class="block" >
-<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/index_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/workstation.jpg" alt=""></a>
-<?php echo CHtml::link('<p class="product-page-index-text-title">车载移动检测系统</p>',array('product/workstation')); ?>
-<p class="product-page-index-text-info">
-384×288像素高温度分辨率原装进口非制冷焦平面红外探测器。</p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<div class="sp">
-</div>
-</div>
-<div data-id="post-12" data-type="643" class="block" >
+<div data-id="post-12" data-type="642" class="block" >
 <a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/preventive/preventive.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/preventive/preventive.jpg" alt=""></a>
 <?php echo CHtml::link('<p class="product-page-index-text-title">外热成像预知性检测服务</p>',array('service/aftersales')); ?>
 <p class="product-page-index-text-info">

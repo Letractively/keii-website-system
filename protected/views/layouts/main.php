@@ -93,7 +93,6 @@
 				
 				array('label'=>Yii::t('zii', 'Product'), 'url'=>array('/product'), 'itemOptions'=>$itemOptions['product'],
 						'items'=>array(
-								array('label'=>Yii::t('zii', 'workstation'), 'url'=>array('/product/workstation'),'itemOptions'=>array('class'=>'l2')),
 								array('label'=>Yii::t('zii', 'kc100'), 'url'=>array('/product/kc100'),'itemOptions'=>array('class'=>'l2')),
 								array('label'=>Yii::t('zii', 'kc500'), 'url'=>array('/product/kc500'),'itemOptions'=>array('class'=>'l2')),
 								array('label'=>Yii::t('zii', 'kc700'), 'url'=>array('/product/kc700'),'itemOptions'=>array('class'=>'l2')),

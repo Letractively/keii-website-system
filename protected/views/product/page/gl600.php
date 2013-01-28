@@ -163,13 +163,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'gl600' );
 					</div>
 				
 					<div id="tabs-2">
-							<table class="m-table">
-							<thead>
-								<tr>
-									<th colspan="2" >红外热像性能参数</th>
-								</tr>
-							</thead>
-
+							<table class="m-table">						
 							<tbody>
 								<tr>
 								<td colspan="2"  class="m-table-title">性能参数</td>								
@@ -439,7 +433,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'gl600' );
 									类型																		
 									</td>
 									<td >
-									录制包含16位温度数据的全辐射动态红外视频流(可再分析 )，并同时记录对应可见光影像( 不需要外加辅助光源，如激光器 )																																											
+									录制包含16位温度数据的全辐射动态红外视频流																																											
 									</td>
 								</tr>
 								
@@ -620,14 +614,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'gl600' );
 									供电的同时可为热像仪电池充电																									
 									</td>
 								</tr>
-								<tr>
-									<td>
-									AC交流电 																		
-									</td>
-									<td >
-																								
-									</td>
-								</tr>
+						
 								
 								<tr>
 								<td colspan="2"  class="m-table-title">可选镜头参数 ( 选配 )</td>								

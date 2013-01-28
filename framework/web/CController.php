@@ -122,27 +122,20 @@ class CController extends CBaseController
 	 */
 	public function init()
 	{
-		if(isset($_REQUEST['lang'])&&$_REQUEST['lang']!="")
-	
-	            {
-	
-	                Yii::app()->language=$_REQUEST['lang'];
-	
-	                setcookie('lang',$_REQUEST['lang']);
-	
-	            }else if(isset($_COOKIE['lang'])&&$_COOKIE['lang']!="")
-	
-	            {
-	
-	                Yii::app()->language=$_COOKIE['lang'];
-	
-	            }else{
-	
-	                $lang=explode(',',$_SERVER['HTTP_ACCEPT_LANGUAGE']);
-	
-	                Yii::app()->language=strtolower(str_replace('-','_',$lang[0]));
-	
-	            }
+		/*
+		if(isset($_REQUEST['lang'])&&$_REQUEST['lang']!=""){
+	       Yii::app()->language=$_REQUEST['lang'];
+	       setcookie('lang',$_REQUEST['lang']);
+		}
+		else if(isset($_COOKIE['lang'])&&$_COOKIE['lang']!="")
+		{	
+	         Yii::app()->language=$_COOKIE['lang'];	
+	    }
+	    else
+	    {
+	    	$lang=explode(',',$_SERVER['HTTP_ACCEPT_LANGUAGE']);	
+	        Yii::app()->language=strtolower(str_replace('-','_',$lang[0]));
+	    }*/
 		
 	}
 
