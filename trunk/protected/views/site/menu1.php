@@ -9,7 +9,7 @@
 
 <br>
 <p>电话：+86 020 32068870</p>
-<p><a href="mailto:keii@keii.com.cn" >邮箱：keii@keii.com.cn</a></p>
+<p>邮箱：<a href="mailto:keii@keii.com.cn" >keii@keii.com.cn</a></p>
 <p>&nbsp;</p>
 
 </div>

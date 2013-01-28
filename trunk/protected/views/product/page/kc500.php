@@ -96,12 +96,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc500' );
 						</table>
 					</div>
 					<div id="tabs-2">
-						<table class="m-table">
-							<thead>
-								<tr>
-									<th colspan="2" >红外热像性能参数</th>
-								</tr>
-							</thead>
+						<table class="m-table">							
 
 							<tbody>
 								<tr>
@@ -156,15 +151,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc500' );
 									<td>
 									0.05℃ ( 在30℃时 )									
 									</td>
-								</tr>
-								<tr>
-									<td>
-									探测灵敏度									
-									</td>
-									<td>
-									
-									</td>
-								</tr>
+								</tr>							
 								<tr>									
 									<td>
 									热像仪数据帧频									
@@ -219,13 +206,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc500' );
 									16:9，4.3寸高亮度TFT触摸屏 LCD，全部功能可通过触摸屏操作实现,									
 									</td>
 								</tr>
-								<tr>
-									<td>
-									寻像器
-									</td>
-									<td>
-									</td>
-								</tr>
+								
 								<tr>
 									<td>
 									独立伪彩
@@ -487,14 +468,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc500' );
 								<tr>
 								<td colspan="2"  class="m-table-title">传输界面</td>								
 								</tr>
-								<tr>
-									<td>
-									RJ45																		
-									</td>
-									<td >
-																																
-									</td>
-								</tr>
+								
 								
 								<tr>
 									<td>
@@ -552,14 +526,6 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc500' );
 									供电的同时可为热像仪电池充电																									
 									</td>
 								</tr>
-								<tr>
-									<td>
-									AC交流电 																		
-									</td>
-									<td >
-																								
-									</td>
-								</tr>
 								
 								<tr>
 								<td colspan="2"  class="m-table-title">可选镜头参数 ( 选配 )</td>								
@@ -573,17 +539,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc500' );
 									</td>
 								</tr>
 								
-								<tr>
-								<td colspan="2"  class="m-table-title">可探测以下气体</td>								
-								</tr>
-								<tr>
-									<td>
-									气体类型																		
-									</td>
-									<td >
-																									
-									</td>
-								</tr>
+								
 								
 								<tr>
 								<td colspan="2"  class="m-table-title">软件</td>								

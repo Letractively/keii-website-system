@@ -71,31 +71,14 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc800' );
 								<div class="product-info-box">
 								<div class="product-info-box-span"></div>					
 								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc800/03b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc800/03a.jpg" alt="">								
-								</a>
-								<p>
-											<strong>整机符合人机工程学设计</strong>
-										</p>
-								</div>
-								</td>
-
-								<td>
-								<div class="product-info-box">
-								<div class="product-info-box-span"></div>					
-								
 								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc800/04b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
 								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc800/04a.jpg" alt="">
 								</a>
-									<p><strong>配置高清晰寻像器，</strong>即使在强光下也能放心使用。
+									<p><strong>配置高清晰寻像器</strong>
 									</p>
 									
 								</div>
 								</td>
-								</tr>
-								
-								
-								<tr>
 								<td>
 								<div class="product-info-box">
 								<div class="product-info-box-span"></div>					
@@ -104,25 +87,15 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc800' );
 								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc800/05a.jpg" alt="">								
 								</a>
 								<p>
-								<strong>人性化的人机界面设计，</strong>整机操作菜单设计明了，直观易用，哪怕是从未使用过红外热像仪的操作者，都能在较短时间内熟悉各项操作。
+								<strong>人机工程学设计，</strong>提高了操作者的使用舒适度
 								</p>
 								</div>
+								
 								</td>
 
-								<td>
-								<div class="product-info-box">
-															<div class="product-info-box-span"></div>					
 								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc800/06b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc800/06a.jpg" alt="">
-								</a>
-									<p>
-									<strong>多项便捷自定义键</strong>
-									</p>
-									
-								</div>
-								</td>
 								</tr>
+																						
 								
 								
 								
@@ -139,8 +112,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc800' );
 											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc800/07a.jpg"
 											alt=""></a>
 										
-											<strong>快捷的红外视频录制功能:</strong>区别于一般的手持式热像仪，KC800具有红外视频录像功能，一键式快捷操作，就能实现实时录像，并可存储和播放。
-											
+											<strong>快捷的红外视频录制功能</strong>
 									
 									</blockquote>
 								</td>
@@ -150,12 +122,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc800' );
 					</div>
 					
 					<div id="tabs-2">
-						<table class="m-table">
-							<thead>
-								<tr>
-									<th colspan="2" >红外热像性能参数</th>
-								</tr>
-							</thead>
+						<table class="m-table">					
 
 							<tbody>
 								<tr>
@@ -210,15 +177,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc800' );
 									<td>
 									0.03℃ ( 在30℃时）										
 									</td>
-								</tr>
-								<tr>
-									<td>
-									探测灵敏度									
-									</td>
-									<td>
-									
-									</td>
-								</tr>
+								</tr>								
 								<tr>									
 									<td>
 									热像仪数据帧频									
@@ -607,14 +566,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc800' );
 									供电的同时可为热像仪电池充电																									
 									</td>
 								</tr>
-								<tr>
-									<td>
-									AC交流电 																		
-									</td>
-									<td >
-																								
-									</td>
-								</tr>
+							
 								
 								<tr>
 								<td colspan="2"  class="m-table-title">可选镜头参数 ( 选配 )</td>								
@@ -628,17 +580,6 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc800' );
 									</td>
 								</tr>
 								
-								<tr>
-								<td colspan="2"  class="m-table-title">可探测以下气体</td>								
-								</tr>
-								<tr>
-									<td>
-									气体类型																		
-									</td>
-									<td >
-																									
-									</td>
-								</tr>
 								
 								<tr>
 								<td colspan="2"  class="m-table-title">软件</td>								

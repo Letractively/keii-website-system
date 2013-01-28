@@ -46,21 +46,30 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'workstation' );
 					<td>
 					<div class="product-info-box">
 						<div class="product-info-box-span"></div>
-						<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/01b.jpg"	title="" rel="prettyPhoto"	class="img-border preloading-light align-right project-thumbnail image-preview">
+						<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/01b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
 						<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/01a.jpg" alt="">
-						</a>						
-						<p>384×288像素高温度分辨率原装进口非制冷焦平面红外探测器。</p>						
+						</a>
+						<p>
+							384 × 288像素
+						</p>						
 					</div>
 					</td>
 					
 					
 					<td>
 					<div class="product-info-box">
-						<div class="product-info-box-span"></div>				
-						<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/02b.jpg" title="" rel="prettyPhoto" 	class="img-border preloading-light align-right project-thumbnail image-preview">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/02a.jpg" alt="">
-						</a>
-						<p>作为移动式红外热成像工作站系统的主要组成部分，全新设计的镁合金散热外壳，满足在恶劣环境中长期稳定工作的要求。</p>
+							<div class="product-info-box-span"></div>
+					
+					<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/02b.jpg"
+								title="" rel="prettyPhoto"
+								class="img-border preloading-light align-right project-thumbnail image-preview"><img
+								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/02a.jpg"
+								alt=""></a>
+										<p>
+											金属外壳数，机身IP67，适合于任何恶劣的工作环境。
+										</p>
+					
+					
 					</div>	
 					</td>
 					</tr>
@@ -68,25 +77,82 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'workstation' );
 					<tr>
 					<td>
 					<div class="product-info-box">
-						<div class="product-info-box-span"></div>										
-						<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/03b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/03a.jpg" alt="">
-						</a>
-						<p><strong>超长时间的红外视频录像功能：</strong>区别于一般的固定监控型热像仪，KC100具有超长时间的红外视频录像功能，对于用户感兴趣的目标，可以进行至少72小时的红外视频录像；配合专用的分析软件，可实现对目标温度的实时记录、实时传输和实时分析，记录的是包含全部温度数据的16位全动态红外视频流。</p>
+							<div class="product-info-box-span"></div>					
+					<a
+											href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/03b.jpg"
+											title="" rel="prettyPhoto"
+											class="img-border preloading-light align-right project-thumbnail image-preview"><img
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/03a.jpg"
+											alt=""></a>
+										<p>
+											超长时间的红外视频录像功能
+										</p>
+					
 					</div>	
 					</td>
 					
 					
 					<td>
 					<div class="product-info-box">
-						<div class="product-info-box-span"></div>					
-						<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/04b.jpg" title="" rel="prettyPhoto"	class="img-border preloading-light align-right project-thumbnail image-preview">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/04a.jpg" alt="">
-						</a>
-						<p><strong>全面、专业的红外分析功能：</strong>多点分析（不限数量），线分析（不限数量），区域温度分析（不限数量），2条等温分析线。</p>					
+							<div class="product-info-box-span"></div>					
+				<a
+											href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/04b.jpg"
+											title="" rel="prettyPhoto"
+											class="img-border preloading-light align-right project-thumbnail image-preview"><img
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/04a.jpg"
+											alt=""></a>
+										<p>
+											全面、专业的红外分析功能
+										</p>			
 					</div>
 					</td>
 					</tr>
+					
+					<tr>
+					<td>
+					<div class="product-info-box">
+							<div class="product-info-box-span"></div>					
+					<a
+											href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/08b.jpg"
+											title="" rel="prettyPhoto"
+											class="img-border preloading-light align-right project-thumbnail image-preview"><img
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/08a.jpg"
+											alt=""></a>
+										<p>
+											强大的数据传输功能
+										</p>
+					
+					</div>	
+					</td>
+					
+					
+					<td>
+					<div class="product-info-box">
+							<div class="product-info-box-span"></div>					
+											<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/09b.jpg" title=""	rel="prettyPhoto"
+											class="img-border preloading-light align-right project-thumbnail image-preview"><img
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/09a.jpg"
+											alt=""></a>
+										<p>
+											可以同时、实时远程控制多台红外热像仪
+										</p>
+					</div>
+					</td>
+					</tr> 
+					<tr>
+								<td colspan="2">
+									<blockquote>
+										<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/06b.jpg" title=""	rel="prettyPhoto"
+											class="img-border preloading-light align-right project-thumbnail image-preview">
+										<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/06a.jpg"	alt=""></a>
+									<p>
+											加装防护外壳组成移动工作站
+										</p>
+									
+									</blockquote>
+								</td>
+							</tr>
+					
 					
 					</table>
 					

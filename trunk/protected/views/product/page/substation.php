@@ -117,11 +117,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'substation' );
 					
 					<div id="tabs-2">
 							<table class="m-table">
-							<thead>
-								<tr>
-									<th colspan="2" >红外热像性能参数</th>
-								</tr>
-							</thead>
+					
 
 							<tbody>
 								<tr>

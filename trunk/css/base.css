@@ -222,9 +222,9 @@ ul.simple-drop-down-menu ul ul{left:100%;top:0;padding-left:0px;}
 
 #product_tabs .tab_list li a{font-size:14px;}
 
-.product-info-box {float: left; width:310px; height:410px; border-left:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;border-right:1px solid #FFF;border-top:1px solid #FFF;background:#fafafa;margin-top:15px; margin-right:10px;padding-left:-2px; padding-right:10px;}
+.product-info-box {float: left; width:310px; height:330px; border-left:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;border-right:1px solid #FFF;border-top:1px solid #FFF;background:#fafafa;margin-top:15px; margin-right:10px;padding-left:-2px; padding-right:10px;}
 .product-info-box .product-info-box-span{height:10px;}
-.product-info-box p{padding-left: 20px; padding-top:10px; line-height:1.3; height:210px;line-height: 24px;letter-spacing: 1.5px;}
+.product-info-box p{padding-left: 20px; padding-top:10px; line-height:1.3; height:130px;line-height: 24px;letter-spacing: 1.5px;}
 
 p.product-page-index-text-title {line-height: 44px;letter-spacing: 1.5px;font-size:18px}
 p.product-page-index-text-info {line-height: 15px;letter-spacing: 1.5px;margin-top:-17px;}
@@ -244,5 +244,5 @@ ul.footer-list li{padding: 0 25px 4px; width:108px;}
 .product-page-contact-info ul{font-size: 13px;color:#000;padding-left:13px;width: 180px}
 .product-page-contact-info li{list-style-type:square;}
 .product-page-contact-info p{font-size: 15px;color:#00568a;letter-spacing:0.8px;}
-.product-page-contact-info p a{font-size: 15px;color:#00568a}
+.product-page-contact-info p a{font-size: 15px;color:#00568a; text-transform:lowercase; }
 .product-page-contact-info p a:visted{font-size: 15px;color:#00568a}

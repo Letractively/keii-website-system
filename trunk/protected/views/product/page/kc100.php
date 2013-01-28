@@ -38,7 +38,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc100' );
 					</ul>
 					<div id="tabs-1">
 					
-										<table>
+					<table>
 					<tr>
 					<td>
 					<div class="product-info-box">
@@ -110,10 +110,10 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc100' );
 					<div class="product-info-box">
 							<div class="product-info-box-span"></div>					
 					<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc100/05b.jpg"
+											href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc100/07b.jpg"
 											title="" rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc100/05a.jpg"
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc100/07a.jpg"
 											alt=""></a>
 										<p>
 											强大的数据传输功能
@@ -126,9 +126,9 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc100' );
 					<td>
 					<div class="product-info-box">
 							<div class="product-info-box-span"></div>					
-											<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc100/06b.jpg" title=""	rel="prettyPhoto"
+											<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc100/08b.jpg" title=""	rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc100/06a.jpg"
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc100/08a.jpg"
 											alt=""></a>
 										<p>
 											可以同时、实时远程控制多台红外热像仪
@@ -139,9 +139,9 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc100' );
 					<tr>
 								<td colspan="2">
 									<blockquote>
-										<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc100/07b.jpg" title=""	rel="prettyPhoto"
+										<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc100/06b.jpg" title=""	rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview">
-										<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc100/07a.jpg"	alt=""></a>
+										<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc100/06a.jpg"	alt=""></a>
 									<p>
 											加装防护外壳组成移动工作站
 										</p>
@@ -157,12 +157,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc100' );
 					</div>
 					<div id="tabs-2">
 						<table class="m-table">
-							<thead>
-								<tr>
-									<th colspan="2" >红外热像性能参数</th>
-								</tr>
-							</thead>
-
+							
 							<tbody>
 								<tr>
 								<td colspan="2"  class="m-table-title">性能参数</td>								
@@ -217,14 +212,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc100' );
 									0.05℃ ( 在30℃时 )									
 									</td>
 								</tr>
-								<tr>
-									<td>
-									探测灵敏度									
-									</td>
-									<td>
-									
-									</td>
-								</tr>
+								
 								<tr>									
 									<td>
 									热像仪数据帧频									
@@ -241,12 +229,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc100' );
 									非制冷焦平面，像素数384×288																		
 									</td>
 								</tr>
-								<tr>
-									<td>
-									数码相机									
-									</td>
-									<td ></td>
-								</tr>
+								
 								<tr>
 									<td>
 									工作波段
@@ -269,20 +252,8 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc100' );
 									RS170 EIA / NTSC 或 CCIR / PAL复合视频
 									</td>
 								</tr>
-								<tr>
-									<td>
-									外部液晶显示器
-									</td>
-									<td>
-									</td>
-								</tr>
-								<tr>
-									<td>
-									寻像器
-									</td>
-									<td>
-									</td>
-								</tr>
+								
+								
 								<tr>
 									<td>
 									独立伪彩
@@ -402,22 +373,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc100' );
 									0.01~1.0可调，或从预设菜单中选择																																										
 									</td>
 								</tr>
-								<tr>
-									<td>
-									外部光学																																	
-									</td>
-									<td >
-																																										
-									</td>
-								</tr>	
-								<tr>
-									<td>
-									窗口校正																																
-									</td>
-									<td >
-																																										
-									</td>
-								</tr>			
+								
 		
 							<tr>
 								<td colspan="2"  class="m-table-title">录像</td>								
@@ -485,61 +441,8 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc100' );
 									</td>
 								</tr>
 								
-								<tr>
-								<td colspan="2"  class="m-table-title">图像存贮</td>								
-								</tr>
-								<tr>
-									<td>
-									话音记录																		
-									</td>
-									<td >
-																									
-									</td>
-								</tr>
-								<tr>
-									<td>
-									文本注释																		
-									</td>
-									<td >
-																									
-									</td>
-								</tr>
-								<tr>
-									<td>
-									内存记忆体													
-									</td>
-									<td >
-																								
-									</td>
-								</tr>
-								<tr>
-									<td>
-									可移动 SD卡																		
-									</td>
-									<td >
-																									
-									</td>
-								</tr>
 								
-								<tr>
-								<td colspan="2"  class="m-table-title">激光指示器</td>								
-								</tr>
-								<tr>
-									<td>
-									激光																		
-									</td>
-									<td >
-																									
-									</td>
-								</tr>
-								<tr>
-									<td>
-									激光点位置与温度							
-									</td>
-									<td >
-																									
-									</td>
-								</tr>
+														
 								
 								<tr>
 								<td colspan="2"  class="m-table-title">传输界面</td>								
@@ -585,30 +488,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc100' );
 								<tr>
 								<td colspan="2"  class="m-table-title">电源系统</td>								
 								</tr>
-								<tr>
-									<td>
-									电池										
-									</td>
-									<td >
-																									
-									</td>
-								</tr>
-								<tr>
-									<td>
-									工作时间																		
-									</td>
-									<td >
-																									
-									</td>
-								</tr>
-								<tr>
-									<td>
-									智能外部供电																		
-									</td>
-									<td >
-																									
-									</td>
-								</tr>
+								
 								<tr>
 									<td>
 									AC交流电 																		
@@ -629,18 +509,8 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc100' );
 									8°×6°，12°×9°，48°×36°，微距镜头：25µm，100µm																								
 									</td>
 								</tr>
+													
 								
-								<tr>
-								<td colspan="2"  class="m-table-title">可探测以下气体</td>								
-								</tr>
-								<tr>
-									<td>
-									气体类型																		
-									</td>
-									<td >
-																									
-									</td>
-								</tr>
 								
 								<tr>
 								<td colspan="2"  class="m-table-title">软件</td>								

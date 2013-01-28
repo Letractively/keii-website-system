@@ -90,13 +90,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc700' );
 						</table>
 					</div>
 					<div id="tabs-2">
-						<table class="m-table">
-							<thead>
-								<tr>
-									<th colspan="2" >红外热像性能参数</th>
-								</tr>
-							</thead>
-
+						<table class="m-table">					
 							<tbody>
 								<tr>
 								<td colspan="2"  class="m-table-title">性能参数</td>								
@@ -151,14 +145,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc700' );
 									0.05℃ ( 在30℃时 )									
 									</td>
 								</tr>
-								<tr>
-									<td>
-									探测灵敏度									
-									</td>
-									<td>
-									
-									</td>
-								</tr>
+								
 								<tr>									
 									<td>
 									热像仪数据帧频									
@@ -547,14 +534,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc700' );
 									供电的同时可为热像仪电池充电																									
 									</td>
 								</tr>
-								<tr>
-									<td>
-									AC交流电 																		
-									</td>
-									<td >
-																								
-									</td>
-								</tr>
+								
 								
 								<tr>
 								<td colspan="2"  class="m-table-title">可选镜头参数 ( 选配 )</td>								
@@ -568,17 +548,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc700' );
 									</td>
 								</tr>
 								
-								<tr>
-								<td colspan="2"  class="m-table-title">可探测以下气体</td>								
-								</tr>
-								<tr>
-									<td>
-									气体类型																		
-									</td>
-									<td >
-																									
-									</td>
-								</tr>
+								
 								
 								<tr>
 								<td colspan="2"  class="m-table-title">软件</td>								

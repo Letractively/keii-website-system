@@ -34,56 +34,54 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc850' );
 
 					</ul>
 					<div id="tabs-1">
-						<table>
-							
-								<tr>
+					<table>
+						<tr>
 								<td colspan="2">
 									<blockquote>
-
-									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/01b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/01a.jpg" alt="">								
+											<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/01b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+											<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/01a.jpg" alt="">								
 								</a>
-																								<p><strong>高温度分辨率,640X 480像素数</strong></p>
-									
+									<p><strong>高温度分辨率,640X 480像素数</strong></p>										
 									</blockquote>
 								</td>
-							</tr>
-								
-								<tr>
+						</tr>
+						
+						<tr>
 								<td colspan="2">
-									<blockquote>
-
-									<p><strong>配置高清晰寻像器</strong></p>
-									
+									<blockquote>											
+											<p><strong>配置高清晰寻像器</strong></p>
 									</blockquote>
 								</td>
-							</tr>
-								
-								<tr>
+						</tr>
+						
+						<tr>
 								<td colspan="2">
 									<blockquote>
-										<a
+											<a
 											href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/03b.jpg"
 											title="" rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
 											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/03a.jpg"
 											alt=""></a>
 										
-									<strong>强大的软件分析功能</strong>
-									
+									<p><strong>强大的软件分析功能</strong></p>
+									<p style="width: 620px"></p>
 									</blockquote>
 								</td>
-							</tr>
+						</tr>
+						
+						
+						
+					
+							
+												
 						</table>
+					
+						
 					</div>
 					<div id="tabs-2">
 							<table class="m-table">
-							<thead>
-								<tr>
-									<th colspan="2" >红外热像性能参数</th>
-								</tr>
-							</thead>
-
+						
 							<tbody>
 								<tr>
 								
@@ -139,14 +137,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc850' );
 									0.03℃ ( 在30℃时）										
 									</td>
 								</tr>
-								<tr>
-									<td>
-									探测灵敏度									
-									</td>
-									<td>
-									
-									</td>
-								</tr>
+								
 								<tr>									
 									<td>
 									热像仪数据帧频									
@@ -535,14 +526,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc850' );
 									供电的同时可为热像仪电池充电																									
 									</td>
 								</tr>
-								<tr>
-									<td>
-									AC交流电 																		
-									</td>
-									<td >
-																								
-									</td>
-								</tr>
+							
 								
 								<tr>
 								<td colspan="2"  class="m-table-title">可选镜头参数 ( 选配 )</td>								
@@ -556,17 +540,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc850' );
 									</td>
 								</tr>
 								
-								<tr>
-								<td colspan="2"  class="m-table-title">可探测以下气体</td>								
-								</tr>
-								<tr>
-									<td>
-									气体类型																		
-									</td>
-									<td >
-																									
-									</td>
-								</tr>
+								
 								
 								<tr>
 								<td colspan="2"  class="m-table-title">软件</td>								
