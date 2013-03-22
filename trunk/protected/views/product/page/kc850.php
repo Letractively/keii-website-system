@@ -48,7 +48,10 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc850' );
 						
 						<tr>
 								<td colspan="2">
-									<blockquote>											
+									<blockquote>
+											<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/02b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+											<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/02a.jpg" alt="">								
+									</a>
 											<p><strong>配置高清晰寻像器</strong></p>
 									</blockquote>
 								</td>
@@ -561,20 +564,20 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc850' );
 						<table>
 							<tr>
 								<td><a
-									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/02b.jpg"
-									title="" rel="prettyPhoto"
-									class="img-border preloading-light align-left project-thumbnail image-preview"><img
-										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/02a.jpg"
-										alt=""></a> <a
 									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/04b.jpg"
 									title="" rel="prettyPhoto"
 									class="img-border preloading-light align-left project-thumbnail image-preview"><img
 										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/04a.jpg"
 										alt=""></a> <a
-									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/01b.jpg"
+									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/05b.jpg"
 									title="" rel="prettyPhoto"
 									class="img-border preloading-light align-left project-thumbnail image-preview"><img
-										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/01a.jpg"
+										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/05a.jpg"
+										alt=""></a> <a
+									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/06b.jpg"
+									title="" rel="prettyPhoto"
+									class="img-border preloading-light align-left project-thumbnail image-preview"><img
+										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc850/06a.jpg"
 										alt=""></a></td>
 							</tr>
 						</table>

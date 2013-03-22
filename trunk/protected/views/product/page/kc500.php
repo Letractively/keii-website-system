@@ -563,11 +563,11 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc500' );
 									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/07b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
 									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/07a.jpg" alt="">
 									</a> 
-									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/03b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
-									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/03a.jpg"	alt="">
+									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/09b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
+									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/09a.jpg"	alt="">
 									</a> 
-									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/05b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
-									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/05a.jpg" alt="">
+									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/10b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
+									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/10a.jpg" alt="">
 									</a>									
 									</td>
 							</tr>

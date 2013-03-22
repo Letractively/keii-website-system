@@ -42,9 +42,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'gl600' );
 								<div class="product-info-box">
 								<div class="product-info-box-span"></div>					
 								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/01b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/01a.jpg" alt="">								
-								</a>
+								
 								<p>
 									<strong>独特的非制冷双波段探测器（384 X 288）</strong></p>
 								</div>
@@ -53,10 +51,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'gl600' );
 								<td>
 								<div class="product-info-box">
 															<div class="product-info-box-span"></div>					
-								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/02b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/02a.jpg" alt="">
-								</a>
+							
 										<p><strong>检漏测温双用途</strong>GL600实现了在检测气体泄漏的同时实现检测设备的精确温度检测。</p>									
 								</div>
 								</td>
@@ -67,9 +62,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'gl600' );
 								<div class="product-info-box">
 															<div class="product-info-box-span"></div>					
 								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/03b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/03a.jpg" alt="">								
-								</a>
+							
 								<p>
 								<strong>电气设备可带电检测：</strong>GL600可以实现非接触式远距离检测，设备在正常运行中即可完成气体泄漏检测工作。
 								</p>
@@ -80,9 +73,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'gl600' );
 								<div class="product-info-box">
 															<div class="product-info-box-span"></div>					
 								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/04b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/04a.jpg" alt="">
-								</a>
+								
 									<p>
 									<strong>全新机芯设计，启动时间小于1分钟：</strong>
 									</p>
@@ -97,12 +88,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'gl600' );
 								<div class="product-info-box">
 															<div class="product-info-box-span"></div>					
 								
-								<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/05b.jpg"
-											title="" rel="prettyPhoto"
-											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/05a.jpg"
-											alt=""></a>
+								
 									<p>
 											<strong>不需要辅助光源，不需要反射背景，可天空背景直接拍摄</strong>
 										</p>
@@ -113,9 +99,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'gl600' );
 								<div class="product-info-box">
 															<div class="product-info-box-span"></div>					
 								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/06b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/06a.jpg" alt="">								
-								</a>
+							
 								<p>
 											<strong>高灵敏度：</strong>可以检测到0.001毫克/秒的微小流量。
 										</p>
@@ -130,9 +114,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'gl600' );
 								<div class="product-info-box">
 															<div class="product-info-box-span"></div>					
 								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/07b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/07a.jpg" alt="">
-								</a>
+							
 									<p>
 											<strong>轻巧方便携带:</strong>GL600的重量只有1.6Kg，是世界上最轻的气体红外检漏仪。
 										</p>
@@ -144,9 +126,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'gl600' );
 								<div class="product-info-box">
 															<div class="product-info-box-span"></div>					
 								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/08a.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/08a.jpg" alt="">
-								</a>
+								
 									<p>
 										<strong>强大的红外视频分析软件：</strong>录制的红外视频可进行再分析
 									</p>
@@ -666,6 +646,9 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'gl600' );
 								
 								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/14b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
 								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/14a.jpg" alt=""></a>
+								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/15b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/gl600/15a.jpg" alt=""></a>
 								</td>
 							</tr>
 						</table>

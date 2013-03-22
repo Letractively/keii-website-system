@@ -311,15 +311,15 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'substation' );
 									class="img-border preloading-light align-left project-thumbnail image-preview"><img
 										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/substation/01a.jpg"
 										alt=""></a> <a
-									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/substation/02b.jpg"
+									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/substation/07b.jpg"
 									title="" rel="prettyPhoto"
 									class="img-border preloading-light align-right project-thumbnail image-preview"><img
-										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/substation/02a.jpg"
+										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/substation/07a.jpg"
 										alt=""></a> <a
-									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/substation/03b.jpg"
+									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/substation/08b.jpg"
 									title="" rel="prettyPhoto"
 									class="img-border preloading-light align-left project-thumbnail image-preview"><img
-										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/substation/03a.jpg"
+										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/substation/08a.jpg"
 										alt=""></a></td>
 							</tr>
 						</table>

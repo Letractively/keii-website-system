@@ -43,8 +43,8 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'helicopter' );
 					<tr>
 								<td colspan="2">
 									<blockquote>											
-									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/06b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/06a.jpg" alt="">
+									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/helicopter/01b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/helicopter/01a.jpg" alt="">
 									</a>
 									<p><strong>提供完善的吊舱系统解决方案：</strong>
 									广州科易公司能提供的不仅仅是适用的吊舱、红外热像仪及配套软硬件设备，而是整套完善的系统解决方案，协助客户解决在巡线中遇到的所有技术疑难问题，<br>

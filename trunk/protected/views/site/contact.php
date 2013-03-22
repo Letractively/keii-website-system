@@ -20,10 +20,10 @@ $this->breadcrumbs=array(
 <div class="first one-half address">
 <p class="B_text_B"><strong>联系信息</strong></p><span class="map-point"></span><p><strong></strong>科易光电技术有限公司<br>
             地址：广州市科学城彩频路11号F1101A</p>
-<p> 电话: +86 20 3206 8870<br>
+<p>电话: +86 20 3206 8870<br>
   传真: +86 20 3206 8887</p>
-<p> Email:keii@keii.com.cn<br>
-  Website:  <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=site/index" title="">www.keii.com.cn</a></p>
+<p> Email:<a href="mailto:keii@keii.com.cn" >keii@keii.com.cn</a><br>
+  Website:  <a href="www.keii.com.cn" title="">www.keii.com.cn</a></p>
 </div>
 <div class="clear"></div>
 

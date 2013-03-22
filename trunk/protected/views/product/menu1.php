@@ -5,7 +5,6 @@ $this->widget('zii.widgets.CMenu',array(
 		'id'=>'',
 		'htmlOptions'=>array('class'=>'list cat'),
 		'items'=>array(
-				array('label'=>Yii::t('zii', 'workstation'), 'url'=>array('/product/workstation')),
 				array('label'=>Yii::t('zii', 'kc100'), 'url'=>array('/product/kc100')),
 				array('label'=>Yii::t('zii', 'kc500'), 'url'=>array('/product/kc500')),
 				array('label'=>Yii::t('zii', 'kc700'), 'url'=>array('/product/kc700')),

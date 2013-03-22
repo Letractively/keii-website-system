@@ -27,6 +27,17 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Automation');
 <br>
 比如汽车生产流程中焊接，预热，铸模等。
 </td></tr>
+
+<tr>
+<td><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e8-01a.jpg" width="200">
+&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e8-02a.jpg"  width="200">
+&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e8-03a.jpg"  width="200">
+&nbsp;
+</td>
+</tr>
 </tbody>
 </table>
 <div class="clear"></div>

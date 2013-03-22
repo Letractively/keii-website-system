@@ -34,11 +34,6 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Petrochemical Industry'
 &nbsp;
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e4-03a.jpg"  width="200">
 &nbsp;
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e4-04a.jpg"  width="200">
-&nbsp;
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e4-05a.jpg"  width="200">
-&nbsp;
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e4-06a.jpg"  width="200">
 </td>
 </tr>
 </tbody>
