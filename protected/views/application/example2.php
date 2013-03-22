@@ -27,16 +27,12 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Cement and Glass');
 <tr>
 <td><br>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e2-01a.jpg" width="200">
-&nbsp;
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e2-02a.jpg"  width="200">
-&nbsp;
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e2-03a.jpg"  width="200">
-&nbsp;
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e2-04a.jpg"  width="200">
-&nbsp;
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e2-05a.jpg"  width="200">
-&nbsp;
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e2-06a.jpg"  width="200">
+&nbsp;&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e2-02a.jpg" width="200">
+<div style="height: 10px"></div>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e2-03a.jpg" width="200">
+&nbsp;&nbsp;
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e2-04a.jpg" width="200">
 </td>
 </tr>
 </tbody>

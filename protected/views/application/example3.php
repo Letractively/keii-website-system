@@ -26,8 +26,8 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Metallurgy and steel');
 </td></tr>
 <tr>
 <td><br>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e3-01a.jpg" width="94" height="276">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e3-02a.jpg"  width="94" height="276">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e3-01a.jpg"  width="494">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e3-02a.jpg"  width="494">
 </td>
 </tr>
 </tbody>

@@ -120,10 +120,10 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'carmobile' );
 									class="img-border preloading-light align-right project-thumbnail image-preview"><img
 										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/02a.jpg"
 										alt=""></a> <a
-									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/03b.jpg"
+									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/09b.jpg"
 									title="" rel="prettyPhoto"
 									class="img-border preloading-light align-left project-thumbnail image-preview"><img
-										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/03a.jpg"
+										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/09a.jpg"
 										alt=""></a></td>
 							</tr>
 						</table>
