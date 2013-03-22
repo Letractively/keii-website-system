@@ -389,7 +389,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc500' );
 									防护等级																		
 									</td>
 									<td>
-									IP67，IEC 529，全金属外壳封装																	
+									IP54，IEC 529，全金属外壳封装
 									</td>
 								</tr>
 								<tr>
