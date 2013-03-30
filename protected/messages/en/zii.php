@@ -51,7 +51,10 @@ return array (
 	'products.gl.600.abbr' => 'GL600',
 	
 	'product.product_list' => 'Product List',
-		
+	'product.application' => 'Application',
+	'product.introduction' => 'Introduction',
+	'product.parameter' => 'Parameter',
+	'product.gallery' => 'Gallery',
 	
 	'menu.index.application_gallery' => 'Application Gallery',
 	'menu.index.application_gallery.industries' => 'Industries',

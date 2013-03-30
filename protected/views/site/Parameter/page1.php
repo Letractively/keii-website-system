@@ -65,7 +65,7 @@ $this->breadcrumbs=array(
 <!--box-->
 <div class="box">
 <h1 class="first-word double-color sp">Products</h1>
-<?php $this->renderPartial('//product/menu2'); ?>
+<?php $this->renderPartial('//product/menu1'); ?>
 </div>
 <!--/box-->
 <!--box-->

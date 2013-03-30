@@ -51,6 +51,10 @@ return array (
 	'products.gl.600.abbr' => 'GL600',
 	
 	'product.product_list' => '产品列表',
+	'product.application' => '产品应用',
+	'product.introduction' => '产品介绍',
+	'product.parameter' => '产品参数',
+	'product.gallery' => '产品图库',
 	
 	'menu.index.application_gallery' => '案例图库',
 	'menu.index.application_gallery.industries' => '行业',
