@@ -623,7 +623,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc800' );
 			</div>
 
 			<div class="one-fourth">
-				<?php $this->renderPartial('//site/menu1'); ?>				
+				<?php $this->renderPartial('//site/sidebar.'.Yii::app()->language); ?>				
 				<dl class="m-simple-toggle">				
 				<?php $this->renderPartial('//product/menu1'); ?>					
 				<?php $this->renderPartial('//application/menu1');?>										

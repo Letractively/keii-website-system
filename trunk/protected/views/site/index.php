@@ -32,9 +32,13 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 					
 					</p>							
 				</div>
-				<a class="img-border clear"><img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/index/website1.jpg"
-					alt=""></a> <br></br> <br></br> <br></br>
+				<?php echo CHtml::link(
+								CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/index/website1.jpg'),
+								array('/site/infraredcamera'),
+								array('class'=>'img-border clear')
+								);
+				?>
+				<br></br><br></br><br></br>
 				</div>
 
 			<div class="one-fourth">
@@ -44,9 +48,13 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 					
 					</p>
 				</div>
-				<a  class="img-border clear"><img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/index/website2.jpg"
-					alt=""></a> <br></br> <br></br> <br></br>
+				<?php echo CHtml::link(
+								CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/index/website2.jpg'),
+								array('/site/infraredcamera'),
+								array('class'=>'img-border clear')
+								);
+				?>
+				<br></br> <br></br> <br></br>
 
 				<p style="padding-top:48px;letter-spacing: 0.5px;"><?php echo Yii::t('zii', 'content.index.application.content')?></p>
 			</div>
@@ -58,9 +66,13 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 					
 					</p>
 				</div>
-				<a  class="img-border clear"><img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/index/website3.jpg"
-					alt=""></a> <br></br> <br></br> <br></br>
+				<?php echo CHtml::link(
+								CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/index/website3.jpg'),
+								array('/site/infraredcamera'),
+								array('class'=>'img-border clear')
+								);
+				?>
+				<br></br> <br></br> <br></br>
 
 				<p style="padding-top:48px;letter-spacing: 0.5px;"><?php echo Yii::t('zii', 'content.index.gallery.content')?></p>
 			</div>
@@ -72,9 +84,13 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 					
 					</p>
 				</div>
-				<a  class="img-border clear"><img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/index/website4.jpg"
-					alt=""></a> <br></br> <br></br> <br></br>
+				<?php echo CHtml::link(
+								CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/index/website4.jpg'),
+								array('/site/infraredcamera'),
+								array('class'=>'img-border clear')
+								);
+				?>
+				<br></br> <br></br> <br></br>
 
 				<p style="padding-top:48px;letter-spacing: 0.5px;"><?php echo Yii::t('zii', 'content.index.certificates.content')?></p>
 
