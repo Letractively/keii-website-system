@@ -21,7 +21,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc500' );
 		<div id="content" class="fixed-width-wrapper">
 
 			<div class="two-third first">
-				<img class="align-left" src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/index_cn.jpg">
+				<img class="align-left" src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc500/index.jpg">
 			</div>
 
 			<div class="one-third"></div>
@@ -40,8 +40,8 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc500' );
 						<tr>
 								<td colspan="2">
 									<blockquote>
-											<a	href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/01b.jpg"	title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-											<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/01a.jpg"	alt=""></a>
+											<a	href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc500/01b.jpg"	title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+											<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc500/01a.jpg"	alt=""></a>
 									<p><strong>4.3寸高清高亮触摸液晶屏：</strong>触摸式操控直观快捷，可在屏幕上直接添加多点、多斜线、多区域进行检测分析。</p>										
 									</blockquote>
 								</td>
@@ -58,8 +58,8 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc500' );
 						<tr>
 								<td colspan="2">
 									<blockquote>
-											<a	href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/03b.jpg"	title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-											<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/03a.jpg"	alt=""></a>
+											<a	href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc500/03b.jpg"	title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+											<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc500/03a.jpg"	alt=""></a>
 									<p><strong>丰富镜头群：</strong><br>8°×6°，16°×12°，24°×18°，48°×36° &nbsp;全区域获得清晰的成像质量。	</p>
 									</blockquote>
 								</td>
@@ -84,8 +84,8 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc500' );
 						<tr>
 								<td colspan="2">
 									<blockquote>											
-									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/06b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/06a.jpg" alt="">
+									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc500/06b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc500/06a.jpg" alt="">
 									</a>
 									<p><strong>照射灯 / 激光点定位：</strong>照射灯在昏暗环境下照亮检测现场。激光点温度直接显示于液晶显示屏上，便于现场操作人员更加直观地寻找和观测到故障点。</p>
 									</blockquote>
@@ -560,14 +560,14 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc500' );
 						<table>
 							<tr>
 								<td>
-									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/07b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
-									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/07a.jpg" alt="">
+									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc500/07b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
+									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc500/07a.jpg" alt="">
 									</a> 
-									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/09b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
-									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/09a.jpg"	alt="">
+									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc500/09b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
+									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc500/09a.jpg"	alt="">
 									</a> 
-									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/10b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
-									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc500/10a.jpg" alt="">
+									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc500/10b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
+									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc500/10a.jpg" alt="">
 									</a>									
 									</td>
 							</tr>

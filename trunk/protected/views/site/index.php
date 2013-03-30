@@ -33,50 +33,50 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 					</p>							
 				</div>
 				<a class="img-border clear"><img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/index/website1.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/index/website1.jpg"
 					alt=""></a> <br></br> <br></br> <br></br>
 				</div>
 
 			<div class="one-fourth">
 				<div class="text1">
 					<p class="B_text_B">
-					<?php echo CHtml::link('应用',array('/application')); ?>
+					<?php echo CHtml::link(Yii::t('zii', 'content.index.application'),array('/application')); ?>
 					
 					</p>
 				</div>
 				<a  class="img-border clear"><img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/index/website2.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/index/website2.jpg"
 					alt=""></a> <br></br> <br></br> <br></br>
 
-				<p style="padding-top:48px;letter-spacing: 0.5px;">基于现场应用，提供电站，防火，安防，研发等领域领先的解决方案</p>
+				<p style="padding-top:48px;letter-spacing: 0.5px;"><?php echo Yii::t('zii', 'content.index.application.content')?></p>
 			</div>
 
 			<div class="one-fourth">
 				<div class="text1">
 					<p class="B_text_B">
-					<?php echo CHtml::link('图库',array('/product')); ?>
+					<?php echo CHtml::link(Yii::t('zii', 'content.index.gallery'),array('/product')); ?>
 					
 					</p>
 				</div>
 				<a  class="img-border clear"><img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/index/website3.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/index/website3.jpg"
 					alt=""></a> <br></br> <br></br> <br></br>
 
-				<p style="padding-top:48px;letter-spacing: 0.5px;">KEII自主品牌红外热像仪，基于现场应用开发，性能卓越，您的明智首选!</p>
+				<p style="padding-top:48px;letter-spacing: 0.5px;"><?php echo Yii::t('zii', 'content.index.gallery.content')?></p>
 			</div>
 
 			<div class="one-fourth">
 				<div class="text1">
 					<p class="B_text_B">
-					<?php echo CHtml::link('证书',array('/about/page2')); ?>
+					<?php echo CHtml::link(Yii::t('zii', 'content.index.certificates'),array('/about/page2')); ?>
 					
 					</p>
 				</div>
 				<a  class="img-border clear"><img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/index/website4.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/index/website4.jpg"
 					alt=""></a> <br></br> <br></br> <br></br>
 
-				<p style="padding-top:48px;letter-spacing: 0.5px;">广州科易公司掌握多项行业专利技术，并通过ISO9001认证，保证产品质量</p>
+				<p style="padding-top:48px;letter-spacing: 0.5px;"><?php echo Yii::t('zii', 'content.index.certificates.content')?></p>
 
 			</div>
 

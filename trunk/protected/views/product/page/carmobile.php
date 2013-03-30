@@ -18,7 +18,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'carmobile' );
 		<div id="content" class="fixed-width-wrapper">
 
 			<div class="two-third first">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/index_cn.jpg" class="align-left">				
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/index.jpg" class="align-left">				
 			</div>
 
 			<div class="one-third">
@@ -41,8 +41,8 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'carmobile' );
 						<div class="product-info-box">
 												
 						
-						<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/01b.jpg"	title="" rel="prettyPhoto"	class="img-border preloading-light align-right project-thumbnail image-preview">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/01a.jpg" alt="">
+						<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/01b.jpg"	title="" rel="prettyPhoto"	class="img-border preloading-light align-right project-thumbnail image-preview">
+						<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/01a.jpg" alt="">
 						</a>
 						
 						<p>
@@ -55,10 +55,10 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'carmobile' );
 						<td>
 						<div class="product-info-box">
 						<a
-								href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/03b.jpg"
+								href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/03b.jpg"
 								title="" rel="prettyPhoto"
 								class="img-border preloading-light align-right project-thumbnail image-preview"><img
-								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/03a.jpg"
+								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/03a.jpg"
 								alt=""></a>
 						<p><strong>配置高精度云台系统，实现全方位快速定位。</strong></p>
 						</div>
@@ -71,10 +71,10 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'carmobile' );
 						<td>
 						<div class="product-info-box">
 						<a
-								href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/04b.jpg"
+								href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/04b.jpg"
 								title="" rel="prettyPhoto"
 								class="img-border preloading-light align-right project-thumbnail image-preview"><img
-								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/04a.jpg"
+								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/04a.jpg"
 								alt=""></a>
 						<p>
 						<strong>一体化操控平台，快捷实现车载系统控制</strong>
@@ -89,10 +89,10 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'carmobile' );
 						
 						<div class="product-info-box">
 						<a
-								href="<?php echo Yii::app()->request->baseUrl;?>/images/zh_CN/products/carmobile/05b.jpg"
+								href="<?php echo Yii::app()->request->baseUrl;?>/images/zh_cn/products/carmobile/05b.jpg"
 								title="" rel="prettyPhoto"
 								class="img-border preloading-light align-right project-thumbnail image-preview"><img
-								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/05a.jpg"
+								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/05a.jpg"
 								alt=""></a>
 							<p>
 								<strong>功能强大的分析及报告制作软件</strong></p>
@@ -110,20 +110,20 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'carmobile' );
 						<table>
 							<tr>
 								<td><a
-									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/01b.jpg"
+									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/01b.jpg"
 									title="" rel="prettyPhoto"
 									class="img-border preloading-light align-left project-thumbnail image-preview"><img
-										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/01a.jpg"
+										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/01a.jpg"
 										alt=""></a> <a
-									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/02b.jpg"
+									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/02b.jpg"
 									title="" rel="prettyPhoto"
 									class="img-border preloading-light align-right project-thumbnail image-preview"><img
-										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/02a.jpg"
+										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/02a.jpg"
 										alt=""></a> <a
-									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/09b.jpg"
+									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/09b.jpg"
 									title="" rel="prettyPhoto"
 									class="img-border preloading-light align-left project-thumbnail image-preview"><img
-										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/carmobile/09a.jpg"
+										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/09a.jpg"
 										alt=""></a></td>
 							</tr>
 						</table>

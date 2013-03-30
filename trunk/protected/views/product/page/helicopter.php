@@ -24,7 +24,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'helicopter' );
 
 
 			<div class="two-third first">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/helicopter/index_cn.jpg" class="align-left">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/helicopter/index.jpg" class="align-left">
 			</div>
 
 			<div class="one-third"></div>
@@ -43,8 +43,8 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'helicopter' );
 					<tr>
 								<td colspan="2">
 									<blockquote>											
-									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/helicopter/01b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/helicopter/01a.jpg" alt="">
+									<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/helicopter/01b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+									<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/helicopter/01a.jpg" alt="">
 									</a>
 									<p><strong>提供完善的吊舱系统解决方案：</strong>
 									广州科易公司能提供的不仅仅是适用的吊舱、红外热像仪及配套软硬件设备，而是整套完善的系统解决方案，协助客户解决在巡线中遇到的所有技术疑难问题，<br>
@@ -64,20 +64,20 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'helicopter' );
 						<table>
 							<tr>
 								<td><a
-									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/helicopter/09b.jpg"
+									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/helicopter/09b.jpg"
 									title="" rel="prettyPhoto"
 									class="img-border preloading-light align-left project-thumbnail image-preview"><img
-										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/helicopter/09a.jpg"
+										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/helicopter/09a.jpg"
 										alt=""></a> <a
-									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/helicopter/10b.jpg"
+									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/helicopter/10b.jpg"
 									title="" rel="prettyPhoto"
 									class="img-border preloading-light align-right project-thumbnail image-preview"><img
-										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/helicopter/10a.jpg"
+										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/helicopter/10a.jpg"
 										alt=""></a> <a
-									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/helicopter/11b.jpg"
+									href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/helicopter/11b.jpg"
 									title="" rel="prettyPhoto"
 									class="img-border preloading-light align-left project-thumbnail image-preview"><img
-										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/helicopter/11a.jpg"
+										src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/helicopter/11a.jpg"
 										alt=""></a></td>
 							</tr>
 						</table>

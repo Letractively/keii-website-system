@@ -16,7 +16,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Cases');
 <!--Porfolio Content-->
 <div class="portfolio-content three-column clear">
 <div data-id="post-1" data-type="384" class="block">
-<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e1-indexb_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e1-index_cn.jpg" alt=""></a>
+<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e1-indexb_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e1-index_cn.jpg" alt=""></a>
 <p class="B_text_B">
 <a  href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=Application&example=1" title="了解更多"><strong>建筑诊断应用</strong> </a>
 </p>
@@ -27,7 +27,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Cases');
 </div>
 </div>
 <div data-id="post-2" data-type="384" class="block" >
-<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e2-indexb_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e2-index_cn.jpg" alt=""></a>
+<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e2-indexb_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e2-index_cn.jpg" alt=""></a>
 <p class="B_text_B">
 <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=Application&example=2" title="了解更多"><strong>水泥和玻璃工业应用</strong></a>
 </p>
@@ -37,7 +37,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Cases');
 </div>
 </div>
 <div data-id="post-3" data-type="384" class="block" >
-<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e3-indexb_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e3-index_cn.jpg" alt=""></a>
+<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e3-indexb_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e3-index_cn.jpg" alt=""></a>
 <p class="B_text_B">
 <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=Application&example=3" title="了解更多">
 <strong>冶金及钢铁工业应用</strong></a>
@@ -48,7 +48,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Cases');
 </div>
 </div>
 <div data-id="post-4" data-type="384" class="block" >
-<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e4-indexb_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e4-index_cn.jpg" alt=""></a>
+<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e4-indexb_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e4-index_cn.jpg" alt=""></a>
 <p class="B_text_B">
 <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=Application&example=4" title="了解更多">
 <strong>石化工业应用</strong></a>
@@ -60,7 +60,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Cases');
 </div>
 </div>
 <div data-id="post-5" data-type="384" class="block" >
-<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e5-indexb_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e5-index_cn.jpg" alt=""></a>
+<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e5-indexb_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e5-index_cn.jpg" alt=""></a>
 <p class="B_text_B">
 <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=Application&example=5" title="了解更多">
 <strong>预防性检测应用</strong></a>
@@ -72,7 +72,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Cases');
 </div>
 </div>
 <div data-id="post-6" data-type="384" class="block" >
-<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e6-indexb_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e6-index_cn.jpg" alt=""></a>
+<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e6-indexb_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e6-index_cn.jpg" alt=""></a>
 <p class="B_text_B">
 <a  href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=Application&example=6" title="了解更多">
 <strong>造纸工业应用</strong></a>
@@ -83,7 +83,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Cases');
 </div>
 </div>
 <div data-id="post-7" data-type="384" class="block" >
-<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e7-indexb_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e7-index_cn.jpg" alt=""></a>
+<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e7-indexb_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e7-index_cn.jpg" alt=""></a>
 <p class="B_text_B">
 <a  href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=Application&example=7" title="了解更多">
 <strong>研发领域应用</strong></a>
@@ -94,7 +94,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Cases');
 </div>
 </div>
 <div data-id="post-9" data-type="384" class="block" >
-<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e9-index_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e9-index_cn.jpg" alt=""></a>
+<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e9-index_cn.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-none project-thumbnail image-preview"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e9-index_cn.jpg" alt=""></a>
 <p class="B_text_B">
 <a  href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=Application&example=9" title="了解更多">
 <strong>电力行业 </strong></a>

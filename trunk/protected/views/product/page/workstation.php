@@ -21,7 +21,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'workstation' );
 			
 			<div class="two-third first">
 				<img
-					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/index_cn.jpg"
+					src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/index.jpg"
 					class="align-left img-border">
 			</div>
 
@@ -46,8 +46,8 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'workstation' );
 					<td>
 					<div class="product-info-box">
 						<div class="product-info-box-span"></div>
-						<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/01b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/01a.jpg" alt="">
+						<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/01b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+						<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/01a.jpg" alt="">
 						</a>
 						<p>
 							384 × 288像素
@@ -60,10 +60,10 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'workstation' );
 					<div class="product-info-box">
 							<div class="product-info-box-span"></div>
 					
-					<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/02b.jpg"
+					<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/02b.jpg"
 								title="" rel="prettyPhoto"
 								class="img-border preloading-light align-right project-thumbnail image-preview"><img
-								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/02a.jpg"
+								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/02a.jpg"
 								alt=""></a>
 										<p>
 											金属外壳数，机身IP67，适合于任何恶劣的工作环境。
@@ -79,10 +79,10 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'workstation' );
 					<div class="product-info-box">
 							<div class="product-info-box-span"></div>					
 					<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/03b.jpg"
+											href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/03b.jpg"
 											title="" rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/03a.jpg"
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/03a.jpg"
 											alt=""></a>
 										<p>
 											超长时间的红外视频录像功能
@@ -96,10 +96,10 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'workstation' );
 					<div class="product-info-box">
 							<div class="product-info-box-span"></div>					
 				<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/04b.jpg"
+											href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/04b.jpg"
 											title="" rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/04a.jpg"
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/04a.jpg"
 											alt=""></a>
 										<p>
 											全面、专业的红外分析功能
@@ -113,10 +113,10 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'workstation' );
 					<div class="product-info-box">
 							<div class="product-info-box-span"></div>					
 					<a
-											href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/08b.jpg"
+											href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/08b.jpg"
 											title="" rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/08a.jpg"
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/08a.jpg"
 											alt=""></a>
 										<p>
 											强大的数据传输功能
@@ -129,9 +129,9 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'workstation' );
 					<td>
 					<div class="product-info-box">
 							<div class="product-info-box-span"></div>					
-											<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/09b.jpg" title=""	rel="prettyPhoto"
+											<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/09b.jpg" title=""	rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview"><img
-											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/09a.jpg"
+											src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/09a.jpg"
 											alt=""></a>
 										<p>
 											可以同时、实时远程控制多台红外热像仪
@@ -142,9 +142,9 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'workstation' );
 					<tr>
 								<td colspan="2">
 									<blockquote>
-										<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/06b.jpg" title=""	rel="prettyPhoto"
+										<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/06b.jpg" title=""	rel="prettyPhoto"
 											class="img-border preloading-light align-right project-thumbnail image-preview">
-										<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/06a.jpg"	alt=""></a>
+										<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/06a.jpg"	alt=""></a>
 									<p>
 											加装防护外壳组成移动工作站
 										</p>
@@ -667,14 +667,14 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'workstation' );
 						<table>
 							<tr>
 								<td>
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/05b.jpg" title="" rel="prettyPhoto"	class="img-border preloading-light align-left project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/05a.jpg" alt="">
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/05b.jpg" title="" rel="prettyPhoto"	class="img-border preloading-light align-left project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/05a.jpg" alt="">
 								</a> 
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/06b.jpg" title="" rel="prettyPhoto"	class="img-border preloading-light align-left project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/06a.jpg" alt="">
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/06b.jpg" title="" rel="prettyPhoto"	class="img-border preloading-light align-left project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/06a.jpg" alt="">
 								</a>
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/07b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/workstation/07a.jpg" alt="">
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/07b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/workstation/07a.jpg" alt="">
 								</a>
 								</td>
 							</tr>

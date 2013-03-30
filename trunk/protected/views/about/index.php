@@ -26,10 +26,10 @@ echo '&nbsp';
 				<div class="portfolio-content three-column clear">
 					<div data-id="post-1" data-type="new" class="block">
 						<a
-							href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/about/about-01b.jpg"
+							href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/about/about-01b.jpg"
 							title="" rel="prettyPhoto"
 							class="img-border preloading-light align-none project-thumbnail image-preview"><img
-							src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/about/about-01a.jpg" alt=""></a>
+							src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/about/about-01a.jpg" alt=""></a>
 						<p class="B_text_B">
 								<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=about/page1" title="了解更多"><strong><?php echo Yii::t('zii', 'Profile') ?></strong></a>
 						</p>
@@ -41,9 +41,9 @@ echo '&nbsp';
 						<div class="sp"></div>
 					</div>
 					<div data-id="post-1" data-type="old" class="block">
-						<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/about/about-02b.jpg" title="" rel="prettyPhoto"
+						<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/about/about-02b.jpg" title="" rel="prettyPhoto"
 							class="img-border preloading-light align-none project-thumbnail image-preview"><img
-							src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/about/about-02a.jpg" alt=""></a>
+							src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/about/about-02a.jpg" alt=""></a>
 						<p class="B_text_B">
 							<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=about/page2" title="了解更多"><strong>科易荣誉</strong></a>
 						</p>

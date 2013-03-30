@@ -27,7 +27,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'R&D');
 </td></tr>
 <tr>
 <td><br>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e7-01a.jpg" width="400">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e7-01a.jpg" width="400">
 </td>
 </tr>
 <tr><td>
@@ -39,7 +39,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'R&D');
 </td></tr>
 <tr>
 <td><br>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e7-02a.jpg"  width="400">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e7-02a.jpg"  width="400">
 </td>
 </tr>
 </tbody>

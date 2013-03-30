@@ -46,6 +46,9 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+		'coreMessages'=>array(
+				'basePath'=>'protected/messages',
+		),
 		// uncomment the following to enable URLs in path-format
 		/*
 		'urlManager'=>array(
