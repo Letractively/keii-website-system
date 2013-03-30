@@ -21,7 +21,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc700' );
 		<div id="content" class="fixed-width-wrapper">
 
 			<div class="two-third first">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc700/index_cn.jpg" class="align-left">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc700/index.jpg" class="align-left">
 			</div>
 
 			<div class="one-third"></div>
@@ -42,8 +42,8 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc700' );
 								<div class="product-info-box">
 								<div class="product-info-box-span"></div>					
 								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc700/01b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc700/01a.jpg" alt=""></a>
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc700/01b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc700/01a.jpg" alt=""></a>
 								<p>外观设计紧凑精致，人性化设计使操作舒适快捷。</p>
 								
 								</div>
@@ -52,8 +52,8 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc700' );
 								<div class="product-info-box">
 								<div class="product-info-box-span"></div>					
 								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc700/02b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc700/02a.jpg"	alt=""></a>
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc700/02b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc700/02a.jpg"	alt=""></a>
 								<p>270度可旋转液晶屏，因应不同的场境调整至最佳角度，有效降低强光对观测效果的影响。</p>
 									
 								</div>
@@ -65,8 +65,8 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc700' );
 								<div class="product-info-box">
 															<div class="product-info-box-span"></div>					
 								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc700/03b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc700/03a.jpg" alt="">
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc700/03b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc700/03a.jpg" alt="">
 																
 								
 								</a>		
@@ -78,8 +78,8 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc700' );
 								<div class="product-info-box">
 															<div class="product-info-box-span"></div>					
 								
-								<a	href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc700/04b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc700/04a.jpg"	alt="">
+								<a	href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc700/04b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-right project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc700/04a.jpg"	alt="">
 																
 								
 								</a>			
@@ -569,14 +569,14 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc700' );
 						<table>
 							<tr>
 								<td>
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc700/05b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc700/05a.jpg" alt=""></a>
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc700/05b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc700/05a.jpg" alt=""></a>
 								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc700/06b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc700/06a.jpg" alt=""></a>
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc700/06b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc700/06a.jpg" alt=""></a>
 								
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc700/07b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
-								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/products/kc700/07a.jpg" alt=""></a>								
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc700/07b.jpg" title="" rel="prettyPhoto" class="img-border preloading-light align-left project-thumbnail image-preview">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/kc700/07a.jpg" alt=""></a>								
 								</td>
 							</tr>
 						</table>

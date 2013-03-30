@@ -28,13 +28,13 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Building Diagnostics');
 </td></tr>
 <tr>
 <td><br>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e1-01a.jpg" width="200">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e1-01a.jpg" width="200">
 &nbsp;&nbsp;
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e1-02a.jpg" width="200">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e1-02a.jpg" width="200">
 <div style="height: 10px"></div>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e1-03a.jpg" width="200">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e1-03a.jpg" width="200">
 &nbsp;&nbsp;
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e1-04a.jpg" width="200">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e1-04a.jpg" width="200">
 </td>
 </tr>
 </tbody>

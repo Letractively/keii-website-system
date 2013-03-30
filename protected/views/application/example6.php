@@ -26,11 +26,11 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Pulp and Paper Industry
 </td></tr>
 <tr>
 <td><br>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e6-01a.jpg" width="200">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e6-02a.jpg"  width="200">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e6-01a.jpg" width="200">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e6-02a.jpg"  width="200">
 <br>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e6-03a.jpg"  width="200">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e6-04a.jpg"  width="200">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e6-03a.jpg"  width="200">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e6-04a.jpg"  width="200">
 </td>
 </tr>
 </tbody>

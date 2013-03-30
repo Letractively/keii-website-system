@@ -28,11 +28,11 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Petrochemical Industry'
 </td></tr>
 <tr>
 <td><br>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e4-01a.jpg" width="200">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e4-01a.jpg" width="200">
 &nbsp;
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e4-02a.jpg"  width="200">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e4-02a.jpg"  width="200">
 &nbsp;
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e4-03a.jpg"  width="200">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e4-03a.jpg"  width="200">
 &nbsp;
 </td>
 </tr>

@@ -30,11 +30,11 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Automation');
 
 <tr>
 <td><br>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e8-01a.jpg" width="200">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e8-01a.jpg" width="200">
 &nbsp;
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e8-02a.jpg"  width="200">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e8-02a.jpg"  width="200">
 &nbsp;
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_CN/application/e8-03a.jpg"  width="200">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e8-03a.jpg"  width="200">
 &nbsp;
 </td>
 </tr>
