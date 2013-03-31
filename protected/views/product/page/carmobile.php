@@ -18,7 +18,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'carmobile' );
 		<div id="content" class="fixed-width-wrapper">
 
 			<div class="two-third first">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/index.jpg" class="align-left">				
+				<?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/products/carmobile/index.jpg',('Mobile-mounted inspection system'),array('class'=>'align-left'));?>
 			</div>
 
 			<div class="one-third">
@@ -28,82 +28,11 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'carmobile' );
 			<div class="three-fourth first">
 				<div id="product_tabs">
 					<ul class="tab_list">
-						<li><a href="#tabs-1">产品介绍</a></li>
-						<li><a href="#tabs-2">产品图库</a></li>
-
+						<li><a href="#tabs-1"><?php echo Yii::t('zii', 'product.introduction')?></a></li>
+						<li><a href="#tabs-2"><?php echo Yii::t('zii', 'product.gallery')?></a></li>
 					</ul>
 					<div id="tabs-1">
-					<table >
-						<tr>
-						
-						<td>
-						
-						<div class="product-info-box">
-												
-						
-						<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/01b.jpg"	title="" rel="prettyPhoto"	class="img-border preloading-light align-right project-thumbnail image-preview">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/01a.jpg" alt="">
-						</a>
-						
-						<p>
-						配件齐全
-						</p>
-						
-						</div>
-						</td>
-						
-						<td>
-						<div class="product-info-box">
-						<a
-								href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/03b.jpg"
-								title="" rel="prettyPhoto"
-								class="img-border preloading-light align-right project-thumbnail image-preview"><img
-								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/03a.jpg"
-								alt=""></a>
-						<p><strong>配置高精度云台系统，实现全方位快速定位。</strong></p>
-						</div>
-						</td>
-						
-						</tr>
-					
-					
-						<tr>
-						<td>
-						<div class="product-info-box">
-						<a
-								href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/04b.jpg"
-								title="" rel="prettyPhoto"
-								class="img-border preloading-light align-right project-thumbnail image-preview"><img
-								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/04a.jpg"
-								alt=""></a>
-						<p>
-						<strong>一体化操控平台，快捷实现车载系统控制</strong>
-						</p>
-							
-						</div>
-					
-						</td>
-						
-						
-						<td>
-						
-						<div class="product-info-box">
-						<a
-								href="<?php echo Yii::app()->request->baseUrl;?>/images/zh_cn/products/carmobile/05b.jpg"
-								title="" rel="prettyPhoto"
-								class="img-border preloading-light align-right project-thumbnail image-preview"><img
-								src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/products/carmobile/05a.jpg"
-								alt=""></a>
-							<p>
-								<strong>功能强大的分析及报告制作软件</strong></p>
-						
-						
-						</div>
-						</td>
-						</tr>
-					
-					
-					</table>						
+							<?php $this->renderPartial('//product/page/carmobile.introduction.'.Yii::app()->language); ?>		
 					</div>			
 				
 					<div id="tabs-2">

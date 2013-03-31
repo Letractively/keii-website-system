@@ -20,7 +20,7 @@ $this->pageTitle = Yii::app ()->name . ' - ' . Yii::t ( 'zii', 'kc100' );
 		<div id="content" class="fixed-width-wrapper">
 
 			<div class="two-third first">
-			<?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/products/kc100/index.jpg',('KC100'),array('class'=>'align-left img-border'));?>
+			<?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/products/kc100/index.jpg',('KC100'),array('class'=>'align-left'));?>
 			</div>
 
 			<div class="one-third">
