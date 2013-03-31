@@ -66,10 +66,23 @@ return array (
 	'menu.index.application_gallery.pulp&paper' => '造纸工业',
 	'menu.index.application_gallery.petrochemical' => '石化工业',
 	
+	'application_gallery.industries' => '行业',
+	'application_gallery.automation' => '自动化行业',
+	'application_gallery.building_diagnostics' => '建筑行业',
+	'application_gallery.cement&glass' => '水泥和玻璃工业',
+	'application_gallery.electrical' => '电力行业',
+	'application_gallery.metallurgy&steel' => '冶金及钢铁工业',
+	'application_gallery.pulp&paper' => '造纸工业',
+	'application_gallery.petrochemical' => '石化工业',
+	
 	'menu.index.application_gallery.applications' => '应用',
 	'menu.index.application_gallery.gas_leak_checking' => '气体泄漏检查应用',
 	'menu.index.application_gallery.predictive_maintenance' => '预防性检测',
 	'menu.index.application_gallery.R&D' => '研发领域应用',
+	
+	'application_gallery.gas_leak_checking' => '气体泄漏检查应用',
+	'application_gallery.predictive_maintenance' => '预防性检测',
+	'application_gallery.R&D' => '研发领域应用',
 	
 	'menu.index.thermography_theory.abbr' => '红外理论',
 	'menu.index.thermography_theory' => '红外热像理论',
