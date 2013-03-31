@@ -1,6 +1,6 @@
 <?php
 /* @var $this ServiceController */
-$this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'menu.index.technical_support');
+$this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'menu.index.inspection_service');
 ?>
 <!--Body content-->
 <div class="full-width-wrapper">
@@ -8,7 +8,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'menu.index.technical_su
 <!--Content-->
 <div id="content" class="float-left content-left">
 <div class="post entry-content">
-<?php $this->renderPartial('//service/training.content.'.Yii::app()->language); ?>		
+<?php $this->renderPartial('//service/inspection.content.'.Yii::app()->language); ?>		
 </div>
 
 </div>
