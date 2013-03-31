@@ -1,5 +1,4 @@
 <table class="m-table">
-
 	<tbody>
 		<tr>
 			<td colspan="2" class="m-table-title">性能参数</td>
@@ -18,7 +17,7 @@
 		</tr>
 		<tr>
 			<td>光学系统对焦</td>
-			<td>手动 / 自动</td>
+			<td>手动</td>
 		</tr>
 
 		<tr>
@@ -39,7 +38,10 @@
 			<td>探测器</td>
 			<td>非制冷焦平面，像素数384×288</td>
 		</tr>
-
+		<tr>
+			<td>数码相机</td>
+			<td>内置高分辨率可见光数码相机 / 内置照明灯</td>
+		</tr>
 		<tr>
 			<td>工作波段</td>
 			<td>7~14µm</td>
@@ -52,10 +54,16 @@
 
 		<tr>
 			<td>视频输出</td>
-			<td>RS170 EIA / NTSC 或 CCIR / PAL复合视频</td>
+			<td>复合视频</td>
 		</tr>
-
-
+		<tr>
+			<td>外部液晶显示器</td>
+			<td>16:9，4.3寸高亮度TFT触摸屏 LCD，全部功能可通过触摸屏操作实现,</td>
+		</tr>
+		<tr>
+			<td>寻像器</td>
+			<td>高分辨率TFT LCD寻像器</td>
+		</tr>
 		<tr>
 			<td>独立伪彩</td>
 			<td>有</td>
@@ -119,7 +127,14 @@
 			<td>辐射率校正</td>
 			<td>0.01~1.0可调，或从预设菜单中选择</td>
 		</tr>
-
+		<tr>
+			<td>外部光学</td>
+			<td>自动，根据输入的光学</td>
+		</tr>
+		<tr>
+			<td>窗口校正</td>
+			<td>窗口穿透率和温度进行校正</td>
+		</tr>
 
 		<tr>
 			<td colspan="2" class="m-table-title">录像</td>
@@ -159,15 +174,44 @@
 			<td>2.5G，IEC 68-2-6</td>
 		</tr>
 
+		<tr>
+			<td colspan="2" class="m-table-title">图像存贮</td>
+		</tr>
+		<tr>
+			<td>话音记录</td>
+			<td>60秒，与图像同时存储 ( 选配：无线蓝牙耳机 )</td>
+		</tr>
+		<tr>
+			<td>文本注释</td>
+			<td>与图像同时存储</td>
+		</tr>
+		<tr>
+			<td>内存记忆体</td>
+			<td>1G，可存储2000幅以上图像</td>
+		</tr>
+		<tr>
+			<td>可移动 SD卡</td>
+			<td>4G，( 选配：可扩展至16G )</td>
+		</tr>
 
-
+		<tr>
+			<td colspan="2" class="m-table-title">激光指示器</td>
+		</tr>
+		<tr>
+			<td>激光</td>
+			<td>二级，红色</td>
+		</tr>
+		<tr>
+			<td>激光点位置与温度</td>
+			<td>激光点位置直接显示于红外图像上，并同时显示激光点温度</td>
+		</tr>
 
 		<tr>
 			<td colspan="2" class="m-table-title">传输界面</td>
 		</tr>
 		<tr>
 			<td>RJ45</td>
-			<td>实时传输包含全部温度数据的16位全动态红外视频流至电脑</td>
+			<td>实时传输包含全部温度数据的16位全动态红外视频流至电脑(选配)</td>
 		</tr>
 
 		<tr>
@@ -180,28 +224,36 @@
 		</tr>
 		<tr>
 			<td>重量</td>
-			<td>≤1.4kg</td>
+			<td>≤1.5kg(含电池)</td>
 		</tr>
 		<tr>
 			<td>尺寸 ( L×W×H )</td>
-			<td>220×85×85 (mm)</td>
+			<td>200×132×120 (mm)</td>
 		</tr>
 
 		<tr>
 			<td colspan="2" class="m-table-title">电源系统</td>
 		</tr>
-
 		<tr>
-			<td>AC交流电</td>
-			<td>110 / 230V AC 50 / 60Hz</td>
+			<td>电池</td>
+			<td>智能锂离子电池</td>
 		</tr>
+		<tr>
+			<td>工作时间</td>
+			<td>≥3小时</td>
+		</tr>
+		<tr>
+			<td>智能外部供电</td>
+			<td>供电的同时可为热像仪电池充电</td>
+		</tr>
+
 
 		<tr>
 			<td colspan="2" class="m-table-title">可选镜头参数 ( 选配 )</td>
 		</tr>
 		<tr>
 			<td>视场角</td>
-			<td>8°×6°，12°×9°，48°×36°，微距镜头：25µm，100µm</td>
+			<td>8 °×6°，12°×9°，48°×36°，60°×45°，微距镜头: 25µm，100µm</td>
 		</tr>
 
 

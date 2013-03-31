@@ -96,7 +96,6 @@
 								array('label'=>Yii::t('zii', 'products.kc.100'), 'url'=>array('/product/kc100'),'itemOptions'=>array('class'=>'l2')),
 								array('label'=>Yii::t('zii', 'products.kc.500'), 'url'=>array('/product/kc500'),'itemOptions'=>array('class'=>'l2')),
 								array('label'=>Yii::t('zii', 'products.kc.700'), 'url'=>array('/product/kc700'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.kc.750'), 'url'=>array('/product/kc750'),'itemOptions'=>array('class'=>'l2'), 'visible'=>strstr(Yii::app()->language, 'en')),
 								array('label'=>Yii::t('zii', 'products.kc.800'), 'url'=>array('/product/kc800'),'itemOptions'=>array('class'=>'l2')),
 								array('label'=>Yii::t('zii', 'products.kc.850'), 'url'=>array('/product/kc850'),'itemOptions'=>array('class'=>'l2')),
 								array('label'=>Yii::t('zii', 'products.gl.600'), 'url'=>array('/product/gl600'),'itemOptions'=>array('class'=>'l2')),

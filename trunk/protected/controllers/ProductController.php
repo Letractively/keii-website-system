@@ -32,7 +32,7 @@ class ProductController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','kc100','kc500','kc700','kc790','kc800','kc850','gl600','carmobile','workstation','substation','helicopter','view'),
+				'actions'=>array('index','kc100','kc500','kc700','kc790','kc800','kc850','gl600','carmobile','substation','helicopter','view'),
 				'users'=>array('*'),
 			),
 		
@@ -218,10 +218,6 @@ class ProductController extends Controller
 		$this->render('page/helicopter');
 	}
 	
-	public function actionWorkstation()
-	{
-		$this->render('page/workstation');
-	}
 	
 
 	/**
