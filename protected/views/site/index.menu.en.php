@@ -4,13 +4,13 @@
 		<?php
 		$keii_request_url = Yii::app()->request->url;
 		
-		$itemOptions = array('home' => array('class' =>'l1' ),
-				'about' => array('class' =>'l1' ),
-				'product' => array('class' =>'l1' ),
-				'application' => array('class' =>'l1' ),
-				'irtheory' => array('class' =>'l1' ),
-				'service' => array('class' =>'l1' ),
-				'contactus' => array('class' =>'l1' )
+		$itemOptions = array('home' => array('class' =>'l1 language-en' ),
+				'about' => array('class' =>'l1 language-en' ),
+				'product' => array('class' =>'l1 language-en' ),
+				'application' => array('class' =>'l1 language-en' ),
+				'irtheory' => array('class' =>'l1 language-en' ),
+				'service' => array('class' =>'l1 language-en' ),
+				'contactus' => array('class' =>'l1 language-en' )
 		);
 				
 	

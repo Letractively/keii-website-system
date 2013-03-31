@@ -207,6 +207,7 @@ ul.list.quote li a b,.calendar.white h1,.blog-entry-content h3,.blog-entry-conte
 ul.simple-drop-down-menu{position:relative;z-index:1000;}
 ul.simple-drop-down-menu li{ font-weight:700;float:left;position:relative;}
 ul.simple-drop-down-menu li a{color:#555555;position:relative;z-index:10;padding:12px 12px 13px; letter-spacing: 1px;text-decoration:none;font-size:16px;}
+ul.simple-drop-down-menu li.language-en a{color:#555555;position:relative;z-index:10;padding:23px 6px 13px; letter-spacing: 1px;text-decoration:none;font-size:12px;}
 ul.simple-drop-down-menu li a:hover{color:#960000};
 ul.simple-drop-down-menu li a.parent{position:relative;}
 ul.simple-drop-down-menu li:hover{color:#fff;}
@@ -239,7 +240,7 @@ ul.footer-list li{padding: 0 25px 4px; width:108px;}
 .application-entry-content table td{color:rgb(111, 111, 111);font-size:12px;text-align:left;line-height: 24px;letter-spacing: 1.5px;}
 
 
-.product-page-contact-info{padding:8px 10px;border:1px solid #E5E5E5;background-color:#fafafa;text-transform:uppercase;margin-top:5px;font-size:10px;text-indent:0px}
+.product-page-contact-info{padding:8px 10px;border:1px solid #E5E5E5;background-color:#fafafa;text-transform:normal;margin-top:5px;font-size:10px;text-indent:0px}
 .product-page-contact-info h2{text-align:center;font-size:21px;color:#00568a;margin-top:-5px}
 .product-page-contact-info ul{font-size: 13px;color:#000;padding-left:13px;width: 180px}
 .product-page-contact-info li{list-style-type:square;}
