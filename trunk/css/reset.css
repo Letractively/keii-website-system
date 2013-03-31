@@ -27,7 +27,7 @@ span{
 }
 
 em,small{
-	text-transform:uppercase;
+	text-transform:normal;
 	font-size:10px;
 }
 em{
