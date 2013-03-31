@@ -66,10 +66,23 @@ return array (
 	'menu.index.application_gallery.pulp&paper' => 'Pulp and Paper',
 	'menu.index.application_gallery.petrochemical' => 'Petrochemical',
 	
+	'application_gallery.automation' => 'Automation Industry',
+	'application_gallery.building_diagnostics' => 'Building Diagnostics',
+	'application_gallery.cement&glass' => 'Cement and Glass Industry',
+	'application_gallery.electrical' => 'Electrical Industry',
+	'application_gallery.metallurgy&steel' => 'Metallurgy and Steel Industry',
+	'application_gallery.pulp&paper' => 'Pulp and Paper Industry',
+	'application_gallery.petrochemical' => 'Petrochemical',
+	
+	
 	'menu.index.application_gallery.applications' => 'Applications',
 	'menu.index.application_gallery.gas_leak_checking' => 'Gas leak checking',
 	'menu.index.application_gallery.predictive_maintenance' => 'Predictive maintenance',
 	'menu.index.application_gallery.R&D' => 'R&D',
+	
+	'application_gallery.gas_leak_checking' => 'Gas leak checking',
+	'application_gallery.predictive_maintenance' => 'Predictive maintenance',
+	'application_gallery.R&D' => 'R&D',
 	
 	'menu.index.thermography_theory.abbr' => 'Thermography Theory',
 	'menu.index.thermography_theory' => 'Thermography',
