@@ -7,9 +7,9 @@ class ServiceController extends Controller
 		$this->render('index');
 	}
 	
-	public function actionSoftware()
+	public function actionInspection()
 	{
-		$this->render('software');
+		$this->render('inspection');
 	}
 	
 	public function actionPresales()

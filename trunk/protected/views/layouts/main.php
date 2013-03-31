@@ -34,7 +34,13 @@
 	<!--Header-->
 	<div class="full-width-wrapper" id="header">
 	<div class="login-panel">
-	<a>English</a>
+	<a><?php 
+				$lang = Yii::app()->language;
+				if ($lang == 'zh_cn')
+		 			echo CHtml::link('English',array('&lang=en'));
+				else 
+					echo CHtml::link('中文',array('&lang=zh_cn'));
+				?></a>
 	<span>|</span>
 	<a><?php echo Yii::t('zii', 'system.login')?></a>
 	<span>|</span>
@@ -57,28 +63,6 @@
 				'service' => array('class' =>'l1' ),
 				'contactus' => array('class' =>'l1' )
 		);
-		
-		if (preg_match("/site\/index/i",$keii_request_url))
-			$itemOptions['home'] = array('class' =>'current' );
-		elseif (preg_match("/about/i",$keii_request_url))
-			$itemOptions['about'] = array('class' =>'current' );
-		elseif (preg_match("/product/i",$keii_request_url))
-			$itemOptions['product'] = array('class' =>'current' );
-		elseif (preg_match("/application/i",$keii_request_url))
-			$itemOptions['application'] = array('class' =>'current' );
-		elseif (preg_match("/principle/i",$keii_request_url) ||  
-				preg_match("/terms/i",$keii_request_url) ||
-				preg_match("/infraredcamera/i",$keii_request_url) ||
-				preg_match("/dinfraredcamera/i",$keii_request_url) ||
-				preg_match("/choose/i",$keii_request_url)
-				)
-			$itemOptions['irtheory'] = array('class' =>'current' );
-		elseif (preg_match("/service/i",$keii_request_url))
-			$itemOptions['service'] = array('class' =>'current' );
-		elseif (preg_match("/contact/i",$keii_request_url))
-			$itemOptions['contactus'] = array('class' =>'current' );
-		else
-			$itemOptions['home'] = array('class' =>'current' );
 				
 	
 			 $this->widget('zii.widgets.CMenu',array(
@@ -144,7 +128,7 @@
 							array('label'=>Yii::t('zii', 'menu.index.pre-sales_enquiry'), 'url'=>array('/service/presales'),'itemOptions'=>array('class'=>'l2')),
 							array('label'=>Yii::t('zii', 'menu.index.after-sales_service'), 'url'=>array('/service/aftersales'),'itemOptions'=>array('class'=>'l2')),
 							array('label'=>Yii::t('zii', 'menu.index.technical_support'), 'url'=>array('/service/training'),'itemOptions'=>array('class'=>'l2')),
-							array('label'=>Yii::t('zii', 'menu.index.inspection_service'), 'url'=>array('/service/aftersales'),'itemOptions'=>array('class'=>'l2')),					),
+							array('label'=>Yii::t('zii', 'menu.index.inspection_service'), 'url'=>array('/service/inspection'),'itemOptions'=>array('class'=>'l2')),					),
 				),
 				//array('label'=>Yii::t('zii', 'Member'), 'url'=>array($member_url),'itemOptions'=>array('class'=>'l1')),
 				array('label'=>Yii::t('zii', 'menu.index.contact'), 'url'=>array('site/contact'),'itemOptions'=>$itemOptions['contactus']),
