@@ -17,11 +17,8 @@
 			</p>
 			<p
 				style="line-height: 24px; letter-spacing: 1.5px; margin-top: -5px;">
-				广州科易光电技术有限公司成立于2003年，是一家专业从事各种光电探测产品，光电稳定平台及高端系统集成的高新技术企业。
-			
-			
+				广州科易光电技术有限公司成立于2003年，是一家专业从事各种光电探测产品，光电稳定平台及高端系统集成的高新技术企业。</p>
 			<p style="height: 19px"></p>
-			</p>
 			<p></p>
 			<div class="sp"></div>
 		</div>
@@ -46,4 +43,4 @@
 
 	</div>
 	<!--/Porfolio Content-->
-</div> 
+</div>

@@ -3646,3 +3646,17 @@ Stack trace:
 #15 {main}
 REQUEST_URI=/
 ---
+2013/04/07 09:05:06 [error] [php] Undefined index: HTTP_ACCEPT_LANGUAGE (D:\workspace\keii\protected\components\Controller.php:21)
+Stack trace:
+#0 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#1 D:\workspace\keii\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in D:\workspace\keii\protected\components\Controller.php (21)
+in D:\workspace\keii\index.php (13)
+2013/04/07 09:05:18 [error] [php] Undefined index: HTTP_ACCEPT_LANGUAGE (D:\workspace\keii\protected\components\Controller.php:21)
+Stack trace:
+#0 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#1 D:\workspace\keii\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in D:\workspace\keii\protected\components\Controller.php (21)
+in D:\workspace\keii\index.php (13)
