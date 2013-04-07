@@ -15,7 +15,7 @@
 					alt="">
 				</a>
 
-				<p>Whole set of accessories.</p>
+				<p>Whole set with accessories.</p>
 
 			</div>
 		</td>
