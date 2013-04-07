@@ -8,7 +8,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'menu.index.pre-sales_en
 <!--Content-->
 <div id="content" class="float-left content-left">
 <div class="post entry-content">
-<?php $this->renderPartial('//service/presales.content.'.Yii::app()->language); ?>		
+<?php $this->renderPartial('//service/aftersales.content.'.Yii::app()->language); ?>		
 </div>
 
 </div>

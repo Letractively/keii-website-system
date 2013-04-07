@@ -228,7 +228,10 @@ ul.simple-drop-down-menu ul ul{left:100%;top:0;padding-left:0px;}
 .product-info-box p{padding-left: 20px; padding-top:10px; line-height:1.3; height:130px;line-height: 24px;letter-spacing: 1.5px;}
 
 p.product-page-index-text-title {line-height: 44px;letter-spacing: 1.5px;font-size:18px}
+p.product-en-page-index-text-title {line-height: 20px;letter-spacing: 1px;font-size:18px}
 p.product-page-index-text-info {line-height: 15px;letter-spacing: 1.5px;margin-top:-17px;}
+p.product-en-page-index-text-info {line-height: 15px;letter-spacing: 1.5px;margin-top:5px;}
+
 
 
 ul.footer-list{margin-top:-3px;}
