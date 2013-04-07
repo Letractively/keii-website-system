@@ -16,12 +16,13 @@
 					title="了解更多"><strong><?php echo Yii::t('zii', 'menu.index.company.about_keii') ?></strong></a>
 			</p>
 			<p
-				style="line-height: 24px; letter-spacing: 1.5px; margin-top: -5px;">
-				广州科易光电技术有限公司成立于2003年，是一家专业从事各种光电探测产品，光电稳定平台及高端系统集成的高新技术企业。
-			
-			
+				style="line-height: 21px; letter-spacing: 1px; margin-top: -5px;">
+				Keii Electro Optics Technology Co., Ltd. committed to the maximum
+				implementation of infrared imaging technology where the use of such
+				technology has proven to be an invaluable tool in detecting and
+				predicting failure modes within machinery, production processes, and
+				complicated natural processes. </p>
 			<p style="height: 19px"></p>
-			</p>
 			<p></p>
 			<div class="sp"></div>
 		</div>
@@ -38,8 +39,12 @@
 					title="了解更多"><strong><?php echo Yii::t('zii', 'menu.index.company.certificates');?></strong></a>
 			</p>
 			<p
-				style="line-height: 24px; letter-spacing: 1.5px; margin-top: -5px;">我们的目标是成为红外热成像系统制造领域中仪器、系统以及相关软件的领先供应商。</p>
-			<p style="height: 42px"></p>
+				style="line-height: 21px; letter-spacing: 1px; margin-top: -5px;">
+				Guangzhou Keii Electro Optics Technology Co.,Ltd, which found in
+				2003 and is authorized enterprise of new and cutting-edge technology
+				in 2008, is a highly recognized provider of infrared cameras and
+				system to the industrial and scientific communities.</p>
+			<p style="height: 39px"></p>
 			<div class="sp"></div>
 		</div>
 
