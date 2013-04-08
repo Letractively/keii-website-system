@@ -37,9 +37,9 @@
 	<a><?php 
 				$lang = Yii::app()->language;
 				if ($lang == 'zh_cn')
-		 			echo CHtml::link('English',array('&lang=en'));
+		 			echo CHtml::link('English',array('/site/index&lang=en'));
 				else 
-					echo CHtml::link('中文',array('&lang=zh_cn'));
+					echo CHtml::link('中文',array('/site/index&lang=zh_cn'));
 				?></a>
 	<span>|</span>
 	<a><?php echo Yii::t('zii', 'system.login')?></a>
@@ -70,69 +70,7 @@
 
 <div class="full-width-wrapper" id="footer-wrapper">
 <div class="fixed-width-wrapper" id="footer-content">
-<div class="footer-list-1">
-<div class="text"><?php echo Yii::t('zii', 'menu.index.about_us')?></div>
-<?php $this->widget('zii.widgets.CMenu',array(
-			'id'=>'',
-			'htmlOptions'=>array('class'=>'footer-list'),
-			'items'=>array(
-				array('label'=>Yii::t('zii', 'menu.index.company.about_keii'), 'url'=>array('/about/page1')),
-				array('label'=>Yii::t('zii', 'menu.index.company.certificates'), 'url'=>array('/about/page2'))
-			),
-			)); 
-			?>
-</div>
-<div class="footer-list-2">
-<div class="text"><?php echo Yii::t('zii', 'menu.index.thermography_theory')?></div>
-<?php
-			$this->widget('zii.widgets.CMenu',array(
-					'id'=>'',
-					'htmlOptions'=>array('class'=>'footer-list'),
-					'items'=>array(
-							array('label'=>Yii::t('zii', 'menu.index.IR_camera_history'), 'url'=>array('/site/history')),
-							array('label'=>Yii::t('zii', 'menu.index.parameter'), 'url'=>array('/site/parameter')),
-							array('label'=>Yii::t('zii', 'menu.index.technical.terms'), 'url'=>array('/site/terms')),
-							array('label'=>Yii::t('zii', 'menu.index.field'), 'url'=>array('/site/Field')),
-
-					),
-			));
-			?>
-</div>
-
-
-<div class="footer-list-3">
-<div class="text"><?php echo Yii::t('zii', 'menu.index.product.kc&gl')?></div>
-<?php 
-				$this->renderPartial('//product/menu5');
-			?>
-</div>
-<div class="footer-list-4">
-<div class="text"><?php echo Yii::t('zii', 'menu.index.product.system')?></div>
-<?php 
-				$this->renderPartial('//product/menu4');
-			?>
-</div>
-<div class="footer-list-5">
-<div class="text"><?php echo Yii::t('zii', 'menu.index.service&support')?></div>
-<?php 
-			$this->renderPartial('//service/menu1');
-			?>
-</div>
-<div class="footer-list-6">
-<div class="text"><?php echo Yii::t('zii', 'menu.index.contact')?></div>
-<?php
-			$this->widget('zii.widgets.CMenu',array(
-					'id'=>'',
-					'htmlOptions'=>array('class'=>'footer-list'),
-					'items'=>array(
-							array('label'=>Yii::t('zii', 'menu.index.address'), 'url'=>array('/site/contact')),
-							array('label'=>Yii::t('zii', 'menu.index.guestbook'), 'url'=>array('/site/contact')),
-
-					),
-			));
-			?>
-</div>
-
+			<?php $this->renderPartial('//site/footer.'.Yii::app()->language); ?>
 </div>
 </div>
 
@@ -141,12 +79,7 @@
 <!--Footer Extra-->
 <div class="full-width-wrapper" id="footer-extra-wrapper">
 <div class="fixed-width-wrapper">
-<div id="copyright">
-<ul>
-<li>© 2011 - 广州科易光电技术有限公司</li>
-<li><a class="icp-number" href="404.html" title="">ICP05093365</a></li>
-</ul>
-</div>
+			<?php $this->renderPartial('//site/copyright.'.Yii::app()->language); ?>
 </div>
 </div>
 <!--/Footer Extra-->

@@ -19,29 +19,29 @@
 				array('label'=>Yii::t('zii', 'system.home'), 'url'=>array('/site/index'),'itemOptions'=>$itemOptions['home']),
 				array('label'=>Yii::t('zii', 'menu.index.company'), 'url'=>array('/about'),'itemOptions'=>$itemOptions['about'],
 						'items'=>array(
-								array('label'=>Yii::t('zii', 'menu.index.company.about_keii'), 'url'=>array('/about/page1'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'menu.index.company.certificates'), 'url'=>array('/about/page2'),'itemOptions'=>array('class'=>'l2')),
+								array('label'=>Yii::t('zii', 'menu.index.company.about_keii'), 'url'=>array('/about/page1'),'itemOptions'=>array('class'=>'l2 language-en')),
+								array('label'=>Yii::t('zii', 'menu.index.company.certificates'), 'url'=>array('/about/page2'),'itemOptions'=>array('class'=>'l2 language-en')),
 						),
 				),
 				
 				array('label'=>Yii::t('zii', 'menu.index.product'), 'url'=>array('/product'), 'itemOptions'=>$itemOptions['product'],
 						'items'=>array(
-								array('label'=>Yii::t('zii', 'products.kc.100'), 'url'=>array('/product/kc100'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.kc.500'), 'url'=>array('/product/kc500'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.kc.700'), 'url'=>array('/product/kc700'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.kc.800'), 'url'=>array('/product/kc800'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.kc.850'), 'url'=>array('/product/kc850'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.gl.600'), 'url'=>array('/product/gl600'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.carmobile'), 'url'=>array('/product/carmobile'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.substation'), 'url'=>array('/product/substation'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.helicopter'), 'url'=>array('/product/helicopter'),'itemOptions'=>array('class'=>'l2')),
+								array('label'=>Yii::t('zii', 'products.kc.100'), 'url'=>array('/product/kc100'),'itemOptions'=>array('class'=>'l2 language-en')),
+								array('label'=>Yii::t('zii', 'products.kc.500'), 'url'=>array('/product/kc500'),'itemOptions'=>array('class'=>'l2 language-en')),
+								array('label'=>Yii::t('zii', 'products.kc.700'), 'url'=>array('/product/kc700'),'itemOptions'=>array('class'=>'l2 language-en')),
+								array('label'=>Yii::t('zii', 'products.kc.800'), 'url'=>array('/product/kc800'),'itemOptions'=>array('class'=>'l2 language-en')),
+								array('label'=>Yii::t('zii', 'products.kc.850'), 'url'=>array('/product/kc850'),'itemOptions'=>array('class'=>'l2 language-en')),
+								array('label'=>Yii::t('zii', 'products.gl.600'), 'url'=>array('/product/gl600'),'itemOptions'=>array('class'=>'l2 language-en')),
+								array('label'=>Yii::t('zii', 'products.carmobile'), 'url'=>array('/product/carmobile'),'itemOptions'=>array('class'=>'l2 language-en')),
+								array('label'=>Yii::t('zii', 'products.substation'), 'url'=>array('/product/substation'),'itemOptions'=>array('class'=>'l2 language-en')),
+								array('label'=>Yii::t('zii', 'products.helicopter'), 'url'=>array('/product/helicopter'),'itemOptions'=>array('class'=>'l2 language-en')),
 				
 							),
 				),
 	
 				array('label'=>Yii::t('zii', 'menu.index.application_gallery'), 'url'=>array('/application'),'itemOptions'=>$itemOptions['application'], 
 				'items'=>array(
-						array('label'=>Yii::t('zii', 'menu.index.application_gallery.industries').'»', 'url'=>array('/application'),'itemOptions'=>array('class'=>'l2'),
+						array('label'=>Yii::t('zii', 'menu.index.application_gallery.industries').'»', 'url'=>array('/application'),'itemOptions'=>array('class'=>'l2 language-en'),
 								'items'=>array(
 										array('label'=>Yii::t('zii', 'menu.index.application_gallery.electrical'), 'url'=>array('/application&example=9'),'itemOptions'=>array('class'=>'l3')),
 										array('label'=>Yii::t('zii', 'menu.index.application_gallery.petrochemical'), 'url'=>array('/application&example=4'),'itemOptions'=>array('class'=>'l3')),
@@ -52,7 +52,7 @@
 										array('label'=>Yii::t('zii', 'menu.index.application_gallery.pulp&paper'), 'url'=>array('/application&example=6'),'itemOptions'=>array('class'=>'l3')),
 								)
 							),
-						array('label'=>Yii::t('zii', 'menu.index.application_gallery.applications').'»', 'url'=>array('/application'),'itemOptions'=>array('class'=>'l2'),
+						array('label'=>Yii::t('zii', 'menu.index.application_gallery.applications').'»', 'url'=>array('/application'),'itemOptions'=>array('class'=>'l2 language-en'),
 							'items'=>array(
 										array('label'=>Yii::t('zii', 'menu.index.application_gallery.R&D'), 'url'=>array('/application&example=7'),'itemOptions'=>array('class'=>'l3')),
 										array('label'=>Yii::t('zii', 'menu.index.application_gallery.predictive_maintenance'), 'url'=>array('/application&example=5'),'itemOptions'=>array('class'=>'l3')),

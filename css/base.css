@@ -96,10 +96,14 @@ h1.double-color.sp{margin-bottom:30px;}
 #footer-content .three-column .block .content{padding:45px 0 30px;}
 #footer-content .three-column .block .content .tweet p{margin:0 0 3px;}
 #footer-content .three-column .block .content .latest-news li{margin-bottom:25px;}
-#footer-extra-wrapper{font-size:12px;text-transform:uppercase;color:#828282;padding:20px 0;width:950px;margin:0 auto;border-top:1px solid #aaaaaa;}
+#footer-extra-wrapper{font-size:12px;text-transform:normal;color:#828282;padding:20px 0;width:950px;margin:0 auto;border-top:1px solid #aaaaaa;}
 #copyright {width:520px;margin:0 auto;padding-left:180px;}
 #copyright ul li{color:#000;display:inline;margin-top:5px;float:left;overflow:hidden;border-left:1px solid #333;padding:0 10px;text-align:center;}
 #copyright ul li:first-child{border:none;}
+#copyright-en {width:600px;margin:0 auto;padding-left:100px;}
+#copyright-en ul li{color:#000;display:inline;margin-top:5px;float:left;overflow:hidden;border-left:1px solid #333;padding:0 10px;text-align:center;}
+#copyright-en ul li:first-child{border:none;}
+
 #footer-extra-wrapper .logo{}
 .back-to-top{float:right;cursor:pointer;background-position:-986px 4px;padding:5px 0 0 20px;}
 .portfolio-main.filter li{display:inline;text-align:right;margin:0 0 0 20px;}
@@ -207,17 +211,16 @@ ul.list.quote li a b,.calendar.white h1,.blog-entry-content h3,.blog-entry-conte
 ul.simple-drop-down-menu{position:relative;z-index:1000;}
 ul.simple-drop-down-menu li{ font-weight:700;float:left;position:relative;}
 ul.simple-drop-down-menu li a{color:#555555;position:relative;z-index:10;padding:12px 12px 13px; letter-spacing: 1px;text-decoration:none;font-size:16px;}
-ul.simple-drop-down-menu li.language-en a{color:#555555;position:relative;z-index:10;padding:23px 6px 13px; letter-spacing: 1px;text-decoration:none;font-size:12px;}
+ul.simple-drop-down-menu li.language-en a{color:#555555;position:relative;z-index:10;padding:10px 5px 13px; letter-spacing: 0px;text-decoration:none;font-family:"Segoe UI";font-size:13px;}
 ul.simple-drop-down-menu li a:hover{color:#960000};
 ul.simple-drop-down-menu li a.parent{position:relative;}
 ul.simple-drop-down-menu li:hover{color:#fff;}
 ul.simple-drop-down-menu ul{width:210px;position:absolute;top:90%;left:0;display:none;}
 ul.simple-drop-down-menu ul li{border-right:none;background:#fff;border-bottom:none;border-top:none;float:none;clear:both;margin-right:0;font-weight:300;border-left:0px solid #fbfbfb;}
+ul.simple-drop-down-menu ul li.language-en{line-height:11px; border-right:none;background:#fff;border-bottom:none;border-top:none;float:none;clear:both;margin-right:0;font-weight:300;border-left:0px solid #fbfbfb;}
 ul.simple-drop-down-menu ul li:first-child{border-top:none;  border-left:0px solid #fbfbfb;}
 ul.simple-drop-down-menu ul li a{color:#575757;padding:5px 10px;font-size:14px;}
 ul.simple-drop-down-menu ul li a:hover{color:#960000;}
-ul.simple-drop-down-menu li a span{background:url(../images/drop-down-arr.png) no-repeat 0 0;width:9px;height:9px;overflow:hidden;position:absolute;right:7px;top:17px;}
-ul.simple-drop-down-menu li ul li a span{background-position:0 -9px;top:10px;}
 ul.simple-drop-down-menu li ul li:hover{background:#FFF;border-left:0px solid #dd303a;}
 ul.simple-drop-down-menu ul ul{left:100%;top:0;padding-left:0px;}
 
