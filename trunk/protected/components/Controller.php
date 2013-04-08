@@ -22,10 +22,14 @@ class Controller extends CController
 			$website_language = strtolower(str_replace('-', '_', $lang[0]));
 		}
 		
-		if (strstr($website_language, 'zh'))
+		if (strstr($website_language, 'zh')) {
 			Yii::app()->language = 'zh_cn';
-		else 
+		}
+		else{ 
 			Yii::app()->language = 'en';
+		}
+		
+		
 	}
 	
 	/**

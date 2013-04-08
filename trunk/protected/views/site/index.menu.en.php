@@ -1,6 +1,6 @@
-<div  id="navigation-bar">
+<div  id="navigation-bar-en">
 			
-				<div id="navigation">
+		<div id="navigation">
 		<?php
 		$keii_request_url = Yii::app()->request->url;
 		
@@ -62,7 +62,7 @@
 					),
 				),
 
-				array('label'=>Yii::t('zii', 'menu.index.thermography_theory.abbr'), 'url'=>array('/site/principle'),'itemOptions'=>$itemOptions['irtheory'],
+				array('label'=>Yii::t('zii', 'menu.index.thermography_theory.abbr'), 'url'=>array('/site/terms'),'itemOptions'=>$itemOptions['irtheory'],
 						'items'=>array(
 								array('label'=>Yii::t('zii', 'menu.index.technical.terms'), 'url'=>array('/site/terms'),'itemOptions'=>array('class'=>'l2')),
 								array('label'=>Yii::t('zii', 'menu.index.IR_camera?'), 'url'=>array('/site/infraredcamera'),'itemOptions'=>array('class'=>'l2')),

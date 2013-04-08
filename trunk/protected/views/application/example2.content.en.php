@@ -8,9 +8,14 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td>
-				For cement or any manufacturing enterprise with rotary kiln, using the Infrared thermal imaging system can monitor the surface temperature of rotary kiln incessantly and master the situation of skinning and accretion formation in the kiln. In that way, the manufacturing enterprise can adopt necessary steps to prevent the damage of the kiln and increase the kiln’s running rate, and realize the economic operating and prolong the safe operating cycle of the kiln.
-			</td>
+			<td>For cement or any manufacturing enterprise with rotary kiln,
+				using the Infrared thermal imaging system can monitor the surface
+				temperature of rotary kiln incessantly and master the situation of
+				skinning and accretion formation in the kiln. In that way, the
+				manufacturing enterprise can adopt necessary steps to prevent the
+				damage of the kiln and increase the kiln’s running rate, and realize
+				the economic operating and prolong the safe operating cycle of the
+				kiln.</td>
 		</tr>
 		<tr>
 			<td><br> <img

@@ -4,7 +4,6 @@
 <li class="cat-item 384"><a href="" title="">384x288</a></li>
 <li class="cat-item 640"><a href="" title="">640x480</a></li>
 <li class="cat-item 641"><a href="" title="">System</a></li>
-<li class="cat-item 642"><a href="" title="">Workstation</a></li>
 <li class="cat-item 643"><a href="" title="">Service</a></li>
 </ul>
 <!--Porfolio Content-->
@@ -82,7 +81,7 @@ Powerful analysis software
 <div class="sp">
 </div>
 </div>
-<div data-id="post-7" data-type="642" class="block" >
+<div data-id="post-7" data-type="641" class="block" >
 <?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/en/products/carmobile/carmobile.jpg'),array('product/carmobile'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
 <?php echo CHtml::link('<p class="product-en-page-index-text-title">'.Yii::t('zii', 'products.carmobile').'</p>',array('product/carmobile')); ?>
 <p class="product-en-page-index-text-info">
@@ -101,16 +100,16 @@ IR inspection system for substation</p>
 <div data-id="post-9" data-type="641" class="block" >
 <?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/en/products/helicopter/helicopter.jpg'),array('product/helicopter'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
 <?php echo CHtml::link('<p class="product-en-page-index-text-title">'.Yii::t('zii', 'products.helicopter').'</p>',array('product/helicopter')); ?>
-<p class="product-en-page-index-text-info">
-Helicopter Patrol & Inspection System</p>
+<p class="product-en-page-index-text-info">Helicopter Patrol & Inspection System</p>
+
 <div class="sp">
 </div>
 </div>
 <div data-id="post-10" data-type="643" class="block" >
 <?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/en/products/preventive/preventive.jpg'),Yii::app()->request->baseUrl.'/images/en/products/preventive/preventive.jpg',array('class'=>'img-border preloading-light align-none project-thumbnail image-preview','rel' => 'prettyPhoto'))?>
-<?php echo CHtml::link('<p class="product-en-page-index-text-title">'.Yii::t('zii', 'products.preventive').'</p>',array('service/aftersales')); ?>
+<?php echo CHtml::link('<p class="product-en-page-index-text-title">'.Yii::t('zii', 'products.preventive').'</p>',array('service/inspection')); ?>
 <p class="product-en-page-index-text-info">
-广州科易公司退出红外热成像预知性检测服务，专业红外工程师检测...</p>
+Keii certified thermographers provide best solution for predictive maintenance serivece.</p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <div class="sp">
 </div>

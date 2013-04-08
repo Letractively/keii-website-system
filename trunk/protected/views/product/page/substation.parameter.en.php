@@ -82,23 +82,23 @@
 			<td colspan="2" class="m-table-title">Other</td>
 		</tr>
 		<tr>
-			<td>可见光摄像头</td>
+			<td>Digital Camera</td>
 			<td>1440x1080</td>
 		</tr>
 
 		<tr>
-			<td>云台系统</td>
-			<td>0-360度（连续旋转）</td>
+			<td>Pan-Tilt</td>
+			<td>0-360 continuous</td>
 		</tr>
 
 		<tr>
-			<td>图像分析</td>
-			<td>配套平台软件系统</td>
+			<td>Data Analysis</td>
+			<td>PC software</td>
 		</tr>
 
 		<tr>
-			<td>功能</td>
-			<td>安防监测、温度监测，声光报警等</td>
+			<td>Funtion</td>
+			<td>Real-time temperature monitoring, Color/sound alarm, etc.</td>
 		</tr>
 	</tbody>
 </table>

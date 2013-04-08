@@ -21,6 +21,8 @@ return array (
 	'system.login' => 'Login',
 	'system.logout' => 'Logout',
 	'system.register' => 'Register',
+	
+	'company.name' => 'Guangzhou Keii Electro Optics Technology Co., Ltd',
 		
 	'menu.index.company' => 'Company',
 	'menu.index.about_us' => 'About Us',
@@ -40,7 +42,7 @@ return array (
 	'products.carmobile' => 'Mobile-mounted Inspection System',
 	'products.helicopter' => 'Helicopter Patrol & Inspection System',
 	'products.substation' => 'IR Inspection System for Substation',
-	'products.preventive' => '外热成像预知性检测服务',
+	'products.preventive' => 'Predictive maintenance service',
 	
 	'products.kc.100.abbr' => 'KC100',
 	'products.kc.500.abbr' => 'KC500',
@@ -49,6 +51,10 @@ return array (
 	'products.kc.800.abbr' => 'KC800',
 	'products.kc.850.abbr' => 'KC850',
 	'products.gl.600.abbr' => 'GL600',
+	'products.carmobile.abbr' => 'Mobile-mounted Inspection ',
+	'products.helicopter.abbr' => 'Helicopter Patrol & Inspection ',
+	'products.substation.abbr' => 'IR Inspection for Substation',
+	#'products.preventive' => 'Predictive maintenance service',
 	
 	'product.product_list' => 'Product List',
 	'product.application' => 'Application',
@@ -94,7 +100,7 @@ return array (
 	'menu.index.dynamic_IR?' => 'What is dynamic IR camera?',
 	'menu.index.choose?' => 'How to choose an IR camera?',
 	
-	'menu.index.service&support.abbr' => 'Service & Support',
+	'menu.index.service&support.abbr' => 'Support',
 	'menu.index.service&support' => 'Service',
 	'menu.index.pre-sales_enquiry' => 'Pre-sales enquiry',
 	'menu.index.after-sales_service' => 'After-sales service',
