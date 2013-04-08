@@ -205,13 +205,14 @@ ul.list.quote li a b,.calendar.white h1,.blog-entry-content h3,.blog-entry-conte
 
 #navigation-bar{background-position:0 0;margin-top:42px; margin-right:-11px; }
 #navigation {height:40px;float:right;}
+#navigation-bar-en{background-position:0 0;margin-top:55px; margin-right:-11px; }
 
 
 
 ul.simple-drop-down-menu{position:relative;z-index:1000;}
 ul.simple-drop-down-menu li{ font-weight:700;float:left;position:relative;}
 ul.simple-drop-down-menu li a{color:#555555;position:relative;z-index:10;padding:12px 12px 13px; letter-spacing: 1px;text-decoration:none;font-size:16px;}
-ul.simple-drop-down-menu li.language-en a{color:#555555;position:relative;z-index:10;padding:10px 5px 13px; letter-spacing: 0px;text-decoration:none;font-family:"Segoe UI";font-size:13px;}
+ul.simple-drop-down-menu li.language-en a{color:#555555;position:relative;z-index:10;padding:10px 8px 13px; letter-spacing: 0px;text-decoration:none;font-family:"Segoe UI";font-size:14px;}
 ul.simple-drop-down-menu li a:hover{color:#960000};
 ul.simple-drop-down-menu li a.parent{position:relative;}
 ul.simple-drop-down-menu li:hover{color:#fff;}

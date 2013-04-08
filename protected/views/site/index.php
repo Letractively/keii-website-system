@@ -15,13 +15,13 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 			<div class="one-frist-news">
 				<div class="text1_news">
 					<p class="B_text_news">
-					<?php echo CHtml::link('News',array('/site/infraredcamera')); ?>
+					<?php echo CHtml::link('News',array('/product/gl600')); ?>
 					
 					</p>							
 				</div>
 				<?php echo CHtml::link(
 								CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/index/website1.jpg'),
-								array('/site/infraredcamera'),
+								array('/product/gl600'),
 								array('class'=>'img-border clear')
 								);
 				?>
@@ -37,7 +37,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 				</div>
 				<?php echo CHtml::link(
 								CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/index/website2.jpg'),
-								array('/site/infraredcamera'),
+								array('/application'),
 								array('class'=>'img-border clear')
 								);
 				?>
@@ -55,7 +55,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 				</div>
 				<?php echo CHtml::link(
 								CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/index/website3.jpg'),
-								array('/site/infraredcamera'),
+								array('/product'),
 								array('class'=>'img-border clear')
 								);
 				?>
@@ -73,7 +73,7 @@ $this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Home');
 				</div>
 				<?php echo CHtml::link(
 								CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/index/website4.jpg'),
-								array('/site/infraredcamera'),
+								array('/about/page2'),
 								array('class'=>'img-border clear')
 								);
 				?>

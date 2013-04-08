@@ -21,11 +21,14 @@ return array (
 	'system.login' => '登陆',
 	'system.logout' => '退出',
 	'system.register' => '注册',
+
+	'company.name' => '广州科易光电技术有限公司',
 		
 	'menu.index.company' => '走进科易',
 	'menu.index.about_us' => '关于我们',
 	'menu.index.company.about_keii' => '公司简介',
 	'menu.index.company.certificates' => '相关证书',
+	
 		
 	'menu.index.product' => '产品',
 	'menu.index.product.kc&gl' => '系列产品',
@@ -40,7 +43,7 @@ return array (
 	'products.carmobile' => '车载移动检测系统',
 	'products.helicopter' => '直升机巡检系统',
 	'products.substation' => '变电站红外监测系统',
-	'products.preventive' => '外热成像预知性检测服务',
+	'products.preventive' => '红外热成像预知性检测服务',
 	
 	'products.kc.100.abbr' => 'KC100',
 	'products.kc.500.abbr' => 'KC500',
@@ -49,6 +52,9 @@ return array (
 	'products.kc.800.abbr' => 'KC800',
 	'products.kc.850.abbr' => 'KC850',
 	'products.gl.600.abbr' => 'GL600',
+	'products.carmobile.abbr' => '车载移动检测系统',
+	'products.helicopter.abbr' => '直升机巡检系统',
+	'products.substation.abbr' => '变电站红外监测系统',
 	
 	'product.product_list' => '产品列表',
 	'product.application' => '产品应用',

@@ -27,10 +27,11 @@
     });
     </script>
 
-<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+<title>
+<?php  $this->pageTitle = Yii::t('zii', 'company.name'); echo CHtml::encode($this->pageTitle); ?>
+ </title>
 </head>
 <body>
-
 	<!--Header-->
 	<div class="full-width-wrapper" id="header">
 	<div class="login-panel">
