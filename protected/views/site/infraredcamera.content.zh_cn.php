@@ -1,6 +1,6 @@
 <div style="margin: 0 auto; width: 560px">
 
-	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中文名称：热像仪英文名称：thermovision定义：利用热成像技术，以可见热图显示被测目标温度及其分布的装置。</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp	中文名称：红外热像仪；英文名称：thermovision。定义：利用热成像技术，以可见热图显示被测目标温度及其分布的装置。</p>
 	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;应用学科：机械工程（一级学科）；工业自动化仪表与系统（二级学科）；温度测量仪表-温度测量仪表名称（二级学科）</p>
 
 	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;任何有温度的物体都会发出红外线，热像仪就是接收物体发出的红外线，通过有颜色的图片来显示被测量物表面的温度分布，根据温度的微小差异来找出温度的异常点，从而起到与维护的作用。一般也称作红外热像仪。</p>

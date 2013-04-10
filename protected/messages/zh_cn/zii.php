@@ -32,7 +32,7 @@ return array (
 		
 	'menu.index.product' => '产品',
 	'menu.index.product.kc&gl' => '系列产品',
-	'menu.index.product.system' => '工作站与系统',
+	'menu.index.product.system' => '系统',
 	'products.kc.100' => 'KC100红外热成像仪',
 	'products.kc.500' => 'KC500红外热成像仪',
 	'products.kc.700' => 'KC700红外热成像仪',

@@ -17,11 +17,10 @@
 					'id'=>'',
 					'htmlOptions'=>array('class'=>'footer-list'),
 					'items'=>array(
-							array('label'=>Yii::t('zii', 'menu.index.IR_camera_history'), 'url'=>array('/site/history')),
-							array('label'=>Yii::t('zii', 'menu.index.parameter'), 'url'=>array('/site/parameter')),
-							array('label'=>Yii::t('zii', 'menu.index.technical.terms'), 'url'=>array('/site/terms')),
-							array('label'=>Yii::t('zii', 'menu.index.field'), 'url'=>array('/site/Field')),
-
+						array('label'=>Yii::t('zii', 'menu.index.technical.terms'), 'url'=>array('/site/terms')),
+						array('label'=>Yii::t('zii', 'menu.index.IR_camera?'), 'url'=>array('/site/infraredcamera')),
+						array('label'=>Yii::t('zii', 'menu.index.dynamic_IR?'), 'url'=>array('/site/dinfraredcamera')),
+						array('label'=>Yii::t('zii', 'menu.index.choose?'), 'url'=>array('/site/choose')),
 					),
 			));
 			?>

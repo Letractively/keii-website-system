@@ -68,7 +68,7 @@ return array (
 	'menu.index.application_gallery.building_diagnostics' => 'Building Diagnostics',
  	'menu.index.application_gallery.cement&glass' => 'Cement and Glass',
 	'menu.index.application_gallery.electrical' => 'Electrical',
-	'menu.index.application_gallery.metallurgy&steel' => 'Mmetallurgy Steel',
+	'menu.index.application_gallery.metallurgy&steel' => 'Metallurgy Steel',
 	'menu.index.application_gallery.pulp&paper' => 'Pulp and Paper',
 	'menu.index.application_gallery.petrochemical' => 'Petrochemical',
 	

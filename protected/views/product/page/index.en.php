@@ -55,18 +55,7 @@ High-definition viewfinder
 <div class="sp">
 </div>
 </div>
-<div data-id="post-5" data-type="384" class="block" >
-<?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/en/products/gl600/gl600.jpg'),array('product/gl600'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
-<?php echo CHtml::link('<p class="product-en-page-index-text-title">'.Yii::t('zii', 'products.gl.600').'</p>',array('product/gl600')); ?>
-<p class="product-en-page-index-text-info">
-Double function: SF6 detection & IR image
-High sensitivity:  1µl/s ; easy to carry : 1.6 kg
-
-</p>
-<div class="sp">
-</div>
-</div>
-<div data-id="post-6" data-type="640" class="block" >
+<div data-id="post-5" data-type="640" class="block" >
 <?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/en/products/kc850/kc850.jpg'),array('product/kc850'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
 <?php echo CHtml::link('<p class="product-en-page-index-text-title">'.Yii::t('zii', 'products.kc.850').'</p>',array('product/kc850')); ?>
 <p class="product-en-page-index-text-info">
@@ -76,7 +65,17 @@ Powerful analysis software
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<div class="sp">
+</div>
+</div>
 
+<div data-id="post-6" data-type="384" class="block" >
+<?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/en/products/gl600/gl600.jpg'),array('product/gl600'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
+<?php echo CHtml::link('<p class="product-en-page-index-text-title">'.Yii::t('zii', 'products.gl.600').'</p>',array('product/gl600')); ?>
+<p class="product-en-page-index-text-info">
+Double function: SF6 detection & IR image
+High sensitivity:  1µl/s ; easy to carry : 1.6 kg
 </p>
 <div class="sp">
 </div>
