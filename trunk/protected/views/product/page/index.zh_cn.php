@@ -44,20 +44,21 @@
 <div class="sp">
 </div>
 </div>
-<div data-id="post-5" data-type="384" class="block" >
-<?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/products/gl600/gl600.jpg'),array('product/gl600'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
-<?php echo CHtml::link('<p class="product-page-index-text-title">'.Yii::t('zii', 'products.gl.600').'</p>',array('product/gl600')); ?>
-<p class="product-page-index-text-info">
-广州科易公司精心打造的非制冷式红外气体检漏仪GL600，是国内首屈一指的可以使用于气体检漏的产品供应商。</p>
-<div class="sp">
-</div>
-</div>
-<div data-id="post-6" data-type="640" class="block" >
+
+<div data-id="post-5" data-type="640" class="block" >
 <?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/products/kc850/kc850.jpg'),array('product/kc850'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
 <?php echo CHtml::link('<p class="product-page-index-text-title">'.Yii::t('zii', 'products.kc.850').'</p>',array('product/kc850')); ?>
 <p class="product-page-index-text-info">
 广州科易公司精心打造的国内首屈640×480 非制冷焦平面探测器KC850.</p>
 <div style="height: 15px"></div>
+<div class="sp">
+</div>
+</div>
+<div data-id="post-6" data-type="384" class="block" >
+<?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/products/gl600/gl600.jpg'),array('product/gl600'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
+<?php echo CHtml::link('<p class="product-page-index-text-title">'.Yii::t('zii', 'products.gl.600').'</p>',array('product/gl600')); ?>
+<p class="product-page-index-text-info">
+广州科易公司精心打造的非制冷式红外气体检漏仪GL600，是国内首屈一指的可以使用于气体检漏的产品供应商。</p>
 <div class="sp">
 </div>
 </div>

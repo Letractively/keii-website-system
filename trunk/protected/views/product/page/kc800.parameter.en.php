@@ -67,10 +67,7 @@
 			<td>View finder</td>
 			<td>Built-in, high-resolution color LCD ( TFT )</td>
 		</tr>
-		<tr>
-			<td>Independent palette for box areas</td>
-			<td>√</td>
-		</tr>
+
 		<tr>
 			<td>Palette</td>
 			<td>12 standard palettes</td>

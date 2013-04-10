@@ -4,16 +4,14 @@
 	<!--Porfolio Content-->
 	<div class="portfolio-content three-column clear">
 		<div data-id="post-1" data-type="new" class="block">
-			<a
-				href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/about/about-01b.jpg"
-				title="" rel="prettyPhoto"
-				class="img-border preloading-light align-none project-thumbnail image-preview"><img
-				src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/about/about-01a.jpg"
-				alt=""></a>
+			<?php echo CHtml::link(
+								CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/about/about-01a.jpg'),
+								array('/about/page1'),
+								array('class'=>'img-border preloading-light align-none project-thumbnail')
+								);
+				?>
 			<p class="B_text_B">
-				<a
-					href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=about/page1"
-					title="了解更多"><strong><?php echo Yii::t('zii', 'menu.index.company.about_keii') ?></strong></a>
+			<?php echo CHtml::link('<strong>'.Yii::t('zii', 'menu.index.company.about_keii').'</strong>',array('/about/page1'));?>
 			</p>
 			<p
 				style="line-height: 24px; letter-spacing: 1.5px; margin-top: -5px;">
@@ -23,16 +21,14 @@
 			<div class="sp"></div>
 		</div>
 		<div data-id="post-1" data-type="old" class="block">
-			<a
-				href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/about/about-02b.jpg"
-				title="" rel="prettyPhoto"
-				class="img-border preloading-light align-none project-thumbnail image-preview"><img
-				src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/about/about-02a.jpg"
-				alt=""></a>
+					<?php echo CHtml::link(
+								CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/about/about-02a.jpg'),
+								array('/about/page2'),
+								array('class'=>'img-border preloading-light align-none project-thumbnail')
+								);
+				?>
 			<p class="B_text_B">
-				<a
-					href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=about/page2"
-					title="了解更多"><strong>科易荣誉</strong></a>
+				<?php echo CHtml::link('<strong>'.Yii::t('zii', 'menu.index.company.certificates').'</strong>',array('/about/page2'));?>
 			</p>
 			<p
 				style="line-height: 24px; letter-spacing: 1.5px; margin-top: -5px;">我们的目标是成为红外热成像系统制造领域中仪器、系统以及相关软件的领先供应商。</p>
