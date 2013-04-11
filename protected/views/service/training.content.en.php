@@ -1,10 +1,3 @@
-<a
-	href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/about-1.jpg"
-	class="preloading-light img-border clear" rel="prettyPhoto" title=""> <img
-	src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/about-1.jpg"
-	alt="Lorem ipsum dolor si amet">
-</a>
-
 <div style="margin: 0 auto; width: 560px">
 
 	<p class="B_text_B">
