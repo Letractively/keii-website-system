@@ -14,7 +14,6 @@ $this->breadcrumbs=array(
 <!--Content-->
 <div id="content" class="float-left content-left">
 <div class="post entry-content">
-<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/about-1.jpg" class="preloading-light img-border clear" rel="prettyPhoto" title=""><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/about-1.jpg" alt="Lorem ipsum dolor si amet"></a>
 <?php $this->renderPartial('//site/infraredcamera.content.'.Yii::app()->language); ?>
 
 

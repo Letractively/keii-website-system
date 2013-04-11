@@ -1,7 +1,7 @@
 <div class="post entry-content">
 	
-	<p>
-		<strong>How to choose the infrared Camera </strong>
+	<p class="B_text_B">
+	<strong>How to choose the infrared Camera </strong>
 	</p>
 <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/site/choose01.jpg','',array('width'=>'500'))?>
 	

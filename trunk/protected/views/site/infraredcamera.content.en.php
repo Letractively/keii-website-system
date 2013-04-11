@@ -1,5 +1,6 @@
 <div style="margin: 0 auto; width: 560px">
-<p><strong>What is Infrared Camera? </strong></p>
+<p class="B_text_B">
+	<strong>What is Infrared Camera? </strong></p>
 <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/site/infraredcamera01.jpg','',array('width'=>'500'))?>
 <p>Infrared Camera is one kind of electronic device which can scan the infrared radiation of the object surface and convert this signal to visual signal which we can see.</p>
 <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/'.Yii::app()->language.'/site/infraredcamera02.jpg','',array('width'=>'500'))?>
