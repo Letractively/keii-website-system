@@ -1,10 +1,6 @@
 
 <div class="post entry-content">
-	<a
-		href="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/about-1.jpg"
-		class="preloading-light img-border clear" rel="prettyPhoto" title=""><img
-		src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/about-1.jpg"
-		alt="Lorem ipsum dolor si amet"></a>
+
 	<ul class="ordered-list">
 		<li><strong>什么样的像素满足您的要求?</strong>
 			<p></p>

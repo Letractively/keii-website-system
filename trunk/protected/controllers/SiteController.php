@@ -148,37 +148,8 @@ class SiteController extends Controller
 	
 	public function  actionPrinciple()
 	{
-		
-		if(isset($_GET['page'])) {
-		
-			$page = $_GET['page'];
-		
-			switch ($page) {
-				case 1:
-					$this->render('Principle/page1');
-					break;
-				case 2:
-					$this->render('Principle/page2');
-					break;
-				case 3:
-					$this->render('Principle/page3');
-					break;
-				case 4:
-					$this->render('Principle/page4');
-					break;
-				case 5:
-					$this->render('Principle/page5');
-					break;
-				default:
-					throw new CHttpException(404,'The requested page does not exist.');
-					break;
-			}
-		}
-		else
-		{
-			$this->render('Principle/page1');
+			$this->render('Principle/index');
 			//throw new CHttpException(404,'The requested page does not exist.');
-		}
 		
 	}
 	

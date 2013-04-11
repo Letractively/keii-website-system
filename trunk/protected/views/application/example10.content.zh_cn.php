@@ -13,7 +13,9 @@
 			</td>
 		</tr>
 		<tr>
-			<td><br></td>
+			<td><br> <img
+				src="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/application/e10-01a.jpg"
+				width="200">
 		</tr>
 	</tbody>
 </table>

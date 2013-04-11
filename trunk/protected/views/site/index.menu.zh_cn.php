@@ -62,7 +62,7 @@
 					),
 				),
 
-				array('label'=>Yii::t('zii', 'menu.index.thermography_theory.abbr'), 'url'=>array(''),'itemOptions'=>$itemOptions['irtheory'],
+				array('label'=>Yii::t('zii', 'menu.index.thermography_theory.abbr'), 'url'=>array('/site/principle'),'itemOptions'=>$itemOptions['irtheory'],
 						'items'=>array(
 								array('label'=>Yii::t('zii', 'menu.index.technical.terms'), 'url'=>array('/site/terms'),'itemOptions'=>array('class'=>'l2')),
 								array('label'=>Yii::t('zii', 'menu.index.IR_camera?'), 'url'=>array('/site/infraredcamera'),'itemOptions'=>array('class'=>'l2')),
@@ -72,12 +72,13 @@
 
 				),
 
-				array('label'=>Yii::t('zii', 'menu.index.service&support.abbr'), 'url'=>array(''),'itemOptions'=>$itemOptions['service'],
+				array('label'=>Yii::t('zii', 'menu.index.service&support.abbr'), 'url'=>array('/service/index'),'itemOptions'=>$itemOptions['service'],
 					'items'=>array(
 							array('label'=>Yii::t('zii', 'menu.index.pre-sales_enquiry'), 'url'=>array('/service/presales'),'itemOptions'=>array('class'=>'l2')),
 							array('label'=>Yii::t('zii', 'menu.index.after-sales_service'), 'url'=>array('/service/aftersales'),'itemOptions'=>array('class'=>'l2')),
 							array('label'=>Yii::t('zii', 'menu.index.technical_support'), 'url'=>array('/service/training'),'itemOptions'=>array('class'=>'l2')),
-							array('label'=>Yii::t('zii', 'menu.index.inspection_service'), 'url'=>array('/service/inspection'),'itemOptions'=>array('class'=>'l2')),					),
+							array('label'=>Yii::t('zii', 'menu.index.inspection_service'), 'url'=>array('/service/inspection'),'itemOptions'=>array('class'=>'l2')),					
+					),
 				),
 				//array('label'=>Yii::t('zii', 'Member'), 'url'=>array($member_url),'itemOptions'=>array('class'=>'l1')),
 				array('label'=>Yii::t('zii', 'menu.index.contact'), 'url'=>array('site/contact'),'itemOptions'=>$itemOptions['contactus']),

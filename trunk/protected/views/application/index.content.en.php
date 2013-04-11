@@ -39,6 +39,17 @@
 </div>
 
 <div data-id="post-4" data-type="384" class="block">
+<?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/application/e8-index.jpg', '' , array('width' => '286' , 'height' => '210')),array('/application&example=8'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
+<p class="B_text_B">
+<?php echo CHtml::link('<strong>'.Yii::t('zii', 'application_gallery.automation').'</strong>' ,array('/application&example=8')); ?>
+</p>
+<p>For the automotive industry,  thermal cameras directly show you the defects ...
+</p>
+<div class="sp">
+</div>
+</div>
+
+<div data-id="post-5" data-type="384" class="block">
 <?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/application/e1-index_cn.jpg'),array('/application&example=1'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
 <p class="B_text_B">
 <?php echo CHtml::link('<strong>'.Yii::t('zii', 'application_gallery.building_diagnostics').'</strong>' ,array('/application&example=1')); ?>
@@ -49,7 +60,7 @@
 </div>
 </div>
 
-<div data-id="post-5" data-type="384" class="block" >
+<div data-id="post-6" data-type="384" class="block" >
 <?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/application/e2-index_cn.jpg'),array('/application&example=2'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
 <p class="B_text_B">
 <?php echo CHtml::link('<strong>'.Yii::t('zii', 'application_gallery.cement&glass').'</strong>' ,array('/application&example=2')); ?>
@@ -61,7 +72,7 @@
 </div>
 
 
-<div data-id="post-6" data-type="384" class="block" >
+<div data-id="post-7" data-type="384" class="block" >
 <?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/application/e6-index_cn.jpg'),array('/application&example=6'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
 <p class="B_text_B">
 <?php echo CHtml::link('<strong>'.Yii::t('zii', 'application_gallery.pulp&paper').'</strong>' ,array('/application&example=6')); ?>
@@ -72,7 +83,7 @@
 </div>
 </div>
 
-<div data-id="post-7" data-type="384" class="block" >
+<div data-id="post-8" data-type="384" class="block" >
 <?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/application/e7-index_cn.jpg'),array('/application&example=7'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
 <p class="B_text_B">
 <?php echo CHtml::link('<strong>'.Yii::t('zii', 'application_gallery.R&D').'</strong>' ,array('/application&example=7')); ?>
@@ -83,7 +94,7 @@
 </div>
 </div>
 
-<div data-id="post-8" data-type="384" class="block" >
+<div data-id="post-9" data-type="384" class="block" >
 <?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/application/e5-index_cn.jpg'),array('/application&example=5'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
 <p class="B_text_B">
 <?php echo CHtml::link('<strong>'.Yii::t('zii', 'application_gallery.predictive_maintenance').'</strong>' ,array('/application&example=5')); ?>
@@ -96,6 +107,18 @@ Nearly all electro-mechanical equipment becomes anomalously warm before it ...
 </div>
 
 
+<div data-id="post-10" data-type="384" class="block" >
+<?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/application/e10-index.jpg', '' , array('width' => '286' , 'height' => '210')),array('/application&example=10'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
+<p class="B_text_B">
+<?php echo CHtml::link('<strong>'.Yii::t('zii', 'application_gallery.gas_leak_checking').'</strong>' ,array('/application&example=10')); ?>
+</p>
+<p>
+SF6 (Sulfur Hexafluoride) is widely used  in the electric utility
+				industry for  ...
+</p>
+<div class="sp">
+</div>
+</div>
 
 
 </div>
