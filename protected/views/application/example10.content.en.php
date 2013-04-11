@@ -15,7 +15,9 @@
 				displaying the gas leakage as a puff of smoke in the infrared image.</td>
 		</tr>
 		<tr>
-			<td><br></td>
+			<td><br> <img
+				src="<?php echo Yii::app()->request->baseUrl; ?>/images/en/application/e10-01a.jpg"
+				width="200">
 		</tr>
 	</tbody>
 </table>

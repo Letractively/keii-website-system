@@ -5,9 +5,10 @@
 			<div class="product-info-box">
 				<div class="product-info-box-span"></div>
 				<?php
-				echo CHtml::link ( CHtml::image ( Yii::app ()->request->baseUrl . '/images/' . Yii::app ()->language . '/products/kc100/01a.jpg' ), '/images/' . Yii::app ()->language . '/products/kc100/01b.jpg', array (
+				echo CHtml::link ( CHtml::image ( Yii::app ()->request->baseUrl . '/images/' . Yii::app ()->language . '/products/kc100/01a.jpg','' ), '/images/' . Yii::app ()->language . '/products/kc100/01b.jpg', array (
 						'class' => 'img-border preloading-light align-right project-thumbnail image-preview',
-						'rel' => 'prettyPhoto' 
+						'rel' => 'prettyPhoto', 
+						'title'=>''
 				) )?>
 				<p>384x288 pixel resolution</p>
 			</div>
@@ -20,7 +21,8 @@
 				<?php
 				echo CHtml::link ( CHtml::image ( Yii::app ()->request->baseUrl . '/images/' . Yii::app ()->language . '/products/kc100/02a.jpg' ), '/images/' . Yii::app ()->language . '/products/kc100/02b.jpg', array (
 						'class' => 'img-border preloading-light align-right project-thumbnail image-preview',
-						'rel' => 'prettyPhoto' 
+						'rel' => 'prettyPhoto' , 
+						'title'=>''
 				) )?>
 			
 				<p>Metal casing, IP67, suitable for any atmospherical or
@@ -38,7 +40,8 @@
 				<?php
 				echo CHtml::link ( CHtml::image ( Yii::app ()->request->baseUrl . '/images/' . Yii::app ()->language . '/products/kc100/03a.jpg' ), '/images/' . Yii::app ()->language . '/products/kc100/03b.jpg', array (
 						'class' => 'img-border preloading-light align-right project-thumbnail image-preview',
-						'rel' => 'prettyPhoto' 
+						'rel' => 'prettyPhoto' , 
+						'title'=>''
 				) )?>
 				<p>Long-time radiometric video recording</p>
 
@@ -52,7 +55,8 @@
 				<?php
 				echo CHtml::link ( CHtml::image ( Yii::app ()->request->baseUrl . '/images/' . Yii::app ()->language . '/products/kc100/04a.jpg' ), '/images/' . Yii::app ()->language . '/products/kc100/04b.jpg', array (
 						'class' => 'img-border preloading-light align-right project-thumbnail image-preview',
-						'rel' => 'prettyPhoto' 
+						'rel' => 'prettyPhoto' , 
+						'title'=>''
 				) )?>
 				<p>Professional infrared analysis function</p>
 			</div>
@@ -67,7 +71,8 @@
 				<?php
 				echo CHtml::link ( CHtml::image ( Yii::app ()->request->baseUrl . '/images/' . Yii::app ()->language . '/products/kc100/07a.jpg' ), '/images/' . Yii::app ()->language . '/products/kc100/07b.jpg', array (
 						'class' => 'img-border preloading-light align-right project-thumbnail image-preview',
-						'rel' => 'prettyPhoto' 
+						'rel' => 'prettyPhoto' , 
+						'title'=>''
 				) )?>
 				
 			
@@ -83,7 +88,8 @@
 				<?php
 				echo CHtml::link ( CHtml::image ( Yii::app ()->request->baseUrl . '/images/' . Yii::app ()->language . '/products/kc100/08a.jpg' ), '/images/' . Yii::app ()->language . '/products/kc100/08b.jpg', array (
 						'class' => 'img-border preloading-light align-right project-thumbnail image-preview',
-						'rel' => 'prettyPhoto' 
+						'rel' => 'prettyPhoto' , 
+						'title'=>''
 				) )?>
 				<p>Control more than one camera real-timely</p>
 			</div>
@@ -95,7 +101,8 @@
 				<?php
 				echo CHtml::link ( CHtml::image ( Yii::app ()->request->baseUrl . '/images/' . Yii::app ()->language . '/products/kc100/06a.jpg' ), '/images/' . Yii::app ()->language . '/products/kc100/06b.jpg', array (
 						'class' => 'img-border preloading-light align-right project-thumbnail image-preview',
-						'rel' => 'prettyPhoto' 
+						'rel' => 'prettyPhoto' , 
+						'title'=>''
 				) )?>
 				<p>Extra-protection case can be added into Mobile Workstation</p>
 

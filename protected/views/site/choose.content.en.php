@@ -1,6 +1,5 @@
 <div class="post entry-content">
-	<img
-		src="<?php echo Yii::app()->request->baseUrl; ?>/images/pix/about-1.jpg">
+	
 	<p>
 		<strong>How to choose the infrared Camera </strong>
 	</p>

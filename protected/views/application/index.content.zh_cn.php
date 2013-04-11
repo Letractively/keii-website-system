@@ -40,6 +40,18 @@
 </div>
 
 <div data-id="post-4" data-type="384" class="block">
+<?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/application/e8-index.jpg', '' , array('width' => '286' , 'height' => '210')),array('/application&example=8'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
+<p class="B_text_B">
+<?php echo CHtml::link('<strong>'.Yii::t('zii', 'application_gallery.automation').'</strong>' ,array('/application&example=8')); ?>
+</p>
+<p>热像仪能够通过产品表面温度分布检测质量，使您提前发现异常状况，同时也可以监测生产设备...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<div class="sp">
+</div>
+</div>
+
+<div data-id="post-5" data-type="384" class="block">
 <?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/application/e1-index_cn.jpg'),array('/application&example=1'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
 <p class="B_text_B">
 <?php echo CHtml::link('<strong>'.Yii::t('zii', 'application_gallery.building_diagnostics').'</strong>' ,array('/application&example=1')); ?>
@@ -51,7 +63,7 @@
 </div>
 </div>
 
-<div data-id="post-5" data-type="384" class="block" >
+<div data-id="post-6" data-type="384" class="block" >
 <?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/application/e2-index_cn.jpg'),array('/application&example=2'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
 <p class="B_text_B">
 <?php echo CHtml::link('<strong>'.Yii::t('zii', 'application_gallery.cement&glass').'</strong>' ,array('/application&example=2')); ?>
@@ -63,7 +75,7 @@
 </div>
 
 
-<div data-id="post-6" data-type="384" class="block" >
+<div data-id="post-7" data-type="384" class="block" >
 <?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/application/e6-index_cn.jpg'),array('/application&example=6'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
 <p class="B_text_B">
 <?php echo CHtml::link('<strong>'.Yii::t('zii', 'application_gallery.pulp&paper').'</strong>' ,array('/application&example=6')); ?>
@@ -74,7 +86,7 @@
 </div>
 </div>
 
-<div data-id="post-7" data-type="384" class="block" >
+<div data-id="post-8" data-type="384" class="block" >
 <?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/application/e7-index_cn.jpg'),array('/application&example=7'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
 <p class="B_text_B">
 <?php echo CHtml::link('<strong>'.Yii::t('zii', 'application_gallery.R&D').'</strong>' ,array('/application&example=7')); ?>
@@ -85,18 +97,29 @@
 </div>
 </div>
 
-<div data-id="post-8" data-type="384" class="block" >
+<div data-id="post-9" data-type="384" class="block" >
 <?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/application/e5-index_cn.jpg'),array('/application&example=5'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
 <p class="B_text_B">
 <?php echo CHtml::link('<strong>'.Yii::t('zii', 'application_gallery.predictive_maintenance').'</strong>' ,array('/application&example=5')); ?>
 </p>
 <p>
-几乎所有的机电设备在发生故障以前都会不规则地发热，根据这一特点科易公司的产品都具备检测功能
+几乎所有的机电设备在发生故障以前都会不规则地发热，根据这一特点科易公司的产品都具备检测功能...
 </p>
 <div class="sp">
 </div>
 </div>
 
+<div data-id="post-10" data-type="384" class="block" >
+<?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/images/zh_cn/application/e10-index.jpg', '' , array('width' => '286' , 'height' => '210')),array('/application&example=10'),array('class'=>'img-border preloading-light align-none project-thumbnail image-preview'))?>
+<p class="B_text_B">
+<?php echo CHtml::link('<strong>'.Yii::t('zii', 'application_gallery.gas_leak_checking').'</strong>' ,array('/application&example=10')); ?>
+</p>
+<p>
+SF6（六氟化硫）被广泛用于电力行业绝缘断路器，变电站和开关设备，电力传输，然而气体泄漏...
+</p>
+<div class="sp">
+</div>
+</div>
 
 
 

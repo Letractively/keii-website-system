@@ -9,6 +9,7 @@
 	<tbody>
 		<tr>
 			<td>
+				For the automotive industry,  thermal cameras directly show you the defects of products on thermal image, which monitor facilities at the same time. Thus, thermal cameras work as an effecient tool for the product process. 
 				
 			</td>
 		</tr>
