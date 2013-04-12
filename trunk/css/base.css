@@ -258,55 +258,31 @@ ul.footer-list li{padding: 0 25px 4px; width:108px;}
 
 ul.content-list { padding-top:10%;   padding-left:10%;}
 ul.content-list  li{ 
-	background-color: rgba(238, 238, 238, 1);  
      -webkit-transition: all 0.3s ease-in-out 0s;  
      -moz-transition: all 0.3s ease-in-out 0s;  
      -o-transition: all 0.3s ease-in-out 0s;  
      -ms-transition: all 0.3s ease-in-out 0s;  
      transition: all 0.3s ease-in-out 0s;  
      padding-left:3%;
-	line-height: 65px;  
-     height: 60px;  
-     min-height: 50px;  
+	line-height: 35px;  
+     height: 30px;  
      width: 220px;  
      font-family:"Oswald";  
-     font-size:25px;  }
+     font-size:14px;  }
 	
-
-ul.content-list  li:hover{ 
-	background-color: rgba(179, 234, 255, 1);  
-     -webkit-transition: all 0.3s ease-in-out 0s;  
-     -moz-transition: all 0.3s ease-in-out 0s;  
-     -o-transition: all 0.3s ease-in-out 0s;  
-     -ms-transition: all 0.3s ease-in-out 0s;  
-     transition: all 0.3s ease-in-out 0s;  
-     width:240px;
-}
 
 ul.content-list-en{ padding-top:10%;   padding-left:10%;}
 
 
 ul.content-list-en  li{ 
-	background-color: rgba(238, 238, 238, 1);  
      -webkit-transition: all 0.3s ease-in-out 0s;  
      -moz-transition: all 0.3s ease-in-out 0s;  
      -o-transition: all 0.3s ease-in-out 0s;  
      -ms-transition: all 0.3s ease-in-out 0s;  
      transition: all 0.3s ease-in-out 0s;  
      padding-left:3%;
-	line-height: 65px;  
-     height: 60px;  
-     min-height: 50px;  
+	line-height: 35px;  
+     height: 30px;  
      width: 310px;  
-     font-size:21px;  }
+     font-size:14px;  }
 	
-
-ul.content-list-en  li:hover{ 
-	background-color: rgba(179, 234, 255, 1);  
-     -webkit-transition: all 0.3s ease-in-out 0s;  
-     -moz-transition: all 0.3s ease-in-out 0s;  
-     -o-transition: all 0.3s ease-in-out 0s;  
-     -ms-transition: all 0.3s ease-in-out 0s;  
-     transition: all 0.3s ease-in-out 0s;  
-     width:330px;
-}
