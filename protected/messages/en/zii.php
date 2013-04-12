@@ -22,6 +22,8 @@ return array (
 	'system.logout' => 'Logout',
 	'system.register' => 'Register',
 	
+	'website.keyword' => 'thermal imaging camera, thermal imagers, infrared cameras, IR cameras, thermal cameras, thermography, infrared monitoring systems, IR surveillance systems, thermal surveillance camera, thermal security systems',
+		
 	'company.name' => 'Guangzhou Keii Electro Optics Technology Co., Ltd',
 		
 	'menu.index.company' => 'Company',

@@ -64,6 +64,16 @@ class ApplicationController extends Controller
 			//throw new CHttpException(404,'The requested page does not exist.');
 		}
 	}
+	
+	public function actionIndustry()
+	{
+		$this->render('industry');
+	}
+	
+	public function actionCase()
+	{
+		$this->render('case');
+	}
 
 	// Uncomment the following methods and override them if needed
 	/*

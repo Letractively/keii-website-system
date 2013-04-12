@@ -22,6 +22,8 @@ return array (
 	'system.logout' => '退出',
 	'system.register' => '注册',
 
+	'website.keyword' => '红外热像仪,热像仪,红外,红外线热像仪,红外热成像仪,红外成像仪,科易红外热像仪,专业制造红外热成像仪,红外热像仪厂家,红外热像仪价格,红外热像仪产品',
+		
 	'company.name' => '广州科易光电技术有限公司',
 		
 	'menu.index.company' => '走进科易',
