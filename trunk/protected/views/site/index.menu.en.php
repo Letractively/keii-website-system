@@ -41,7 +41,7 @@
 	
 				array('label'=>Yii::t('zii', 'menu.index.application_gallery'), 'url'=>array('/application'),'itemOptions'=>$itemOptions['application'], 
 				'items'=>array(
-						array('label'=>Yii::t('zii', 'menu.index.application_gallery.industries').'»', 'url'=>array('/application'),'itemOptions'=>array('class'=>'l2 language-en'),
+						array('label'=>Yii::t('zii', 'menu.index.application_gallery.industries').'»', 'url'=>array('/application/industry'),'itemOptions'=>array('class'=>'l2 language-en'),
 								'items'=>array(
 										array('label'=>Yii::t('zii', 'menu.index.application_gallery.electrical'), 'url'=>array('/application&example=9'),'itemOptions'=>array('class'=>'l3')),
 										array('label'=>Yii::t('zii', 'menu.index.application_gallery.petrochemical'), 'url'=>array('/application&example=4'),'itemOptions'=>array('class'=>'l3')),
@@ -52,7 +52,7 @@
 										array('label'=>Yii::t('zii', 'menu.index.application_gallery.pulp&paper'), 'url'=>array('/application&example=6'),'itemOptions'=>array('class'=>'l3')),
 								)
 							),
-						array('label'=>Yii::t('zii', 'menu.index.application_gallery.applications').'»', 'url'=>array('/application'),'itemOptions'=>array('class'=>'l2 language-en'),
+						array('label'=>Yii::t('zii', 'menu.index.application_gallery.applications').'»', 'url'=>array('/application/case'),'itemOptions'=>array('class'=>'l2 language-en'),
 							'items'=>array(
 										array('label'=>Yii::t('zii', 'menu.index.application_gallery.R&D'), 'url'=>array('/application&example=7'),'itemOptions'=>array('class'=>'l3')),
 										array('label'=>Yii::t('zii', 'menu.index.application_gallery.predictive_maintenance'), 'url'=>array('/application&example=5'),'itemOptions'=>array('class'=>'l3')),

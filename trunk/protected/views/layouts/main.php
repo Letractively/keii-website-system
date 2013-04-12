@@ -30,6 +30,7 @@
 <title>
 <?php  $this->pageTitle = Yii::t('zii', 'company.name'); echo CHtml::encode($this->pageTitle); ?>
  </title>
+ <meta name="Keywords" content="<?php echo Yii::t('zii', 'website.keyword')?>">
 </head>
 <body>
 	<!--Header-->
