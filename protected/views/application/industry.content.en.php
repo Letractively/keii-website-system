@@ -43,7 +43,7 @@
 <p class="B_text_B">
 <?php echo CHtml::link('<strong>'.Yii::t('zii', 'application_gallery.automation').'</strong>' ,array('/application&example=8')); ?>
 </p>
-<p>For the automotive industry,  thermal cameras directly show you the defects ...
+<p>For the automotive industry,  thermal cameras directly show you the ...
 </p>
 <div class="sp">
 </div>
