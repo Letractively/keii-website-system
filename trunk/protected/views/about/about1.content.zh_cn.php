@@ -20,7 +20,7 @@
 	<div class="clear"></div>
 
 </div>
-<div style="line-height: 30px; font-size: 18px; font-family: 黑体">易科的工作环境</div>
+<div style="line-height: 30px; font-size: 18px; font-family: 黑体">科易的工作环境</div>
 <div style="float: left">
 	<a
 		href="<?php echo Yii::app()->request->baseUrl; ?>/images/zh_cn/about/about-03b.jpg"
