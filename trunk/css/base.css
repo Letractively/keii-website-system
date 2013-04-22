@@ -286,3 +286,7 @@ ul.content-list-en  li{
      width: 310px;  
      font-size:14px;  }
 	
+	
+#webcounter {margin:0 auto;width:960px;}
+#webcounter p {text-align:center;}
+	
