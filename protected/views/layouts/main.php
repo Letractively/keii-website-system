@@ -3,6 +3,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+ <meta name="Keywords" content="<?php echo Yii::t('zii', 'website.keyword')?>" />
+
 	<link rel="stylesheet" type="text/css"	href="<?php echo Yii::app()->request->baseUrl; ?>/css/reset.css" />
 		<link rel="stylesheet" type="text/css"	href="<?php echo Yii::app()->request->baseUrl; ?>/css/base.css" />
 		<link rel="stylesheet" type="text/css"	href="<?php echo Yii::app()->request->baseUrl; ?>/css/short-code.css" />
@@ -30,7 +32,6 @@
 <title>
 <?php  $this->pageTitle = Yii::t('zii', 'company.name'); echo CHtml::encode($this->pageTitle); ?>
  </title>
- <meta name="Keywords" content="<?php echo Yii::t('zii', 'website.keyword')?>">
 </head>
 <body>
 	<!--Header-->

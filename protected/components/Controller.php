@@ -29,6 +29,14 @@ class Controller extends CController
 			Yii::app()->language = 'en';
 		}
 		
+		#page view count
+		$webcounter = Counter::model()->find('ID=:ID', array(':ID'=>1));
+		$webcounter->counter = $webcounter->counter + 1;
+		$webcounter->save();
+		
+		#set the view count in session
+		Yii::app()->session['webcounter'] = $webcounter->counter + 1;
+		
 		
 	}
 	
