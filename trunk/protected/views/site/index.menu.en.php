@@ -17,10 +17,10 @@
 			 $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>Yii::t('zii', 'system.home'), 'url'=>array('/site/index'),'itemOptions'=>$itemOptions['home']),
-				array('label'=>Yii::t('zii', 'menu.index.company'), 'url'=>array('/about'),'itemOptions'=>$itemOptions['about'],
+				array('label'=>Yii::t('zii', 'menu.index.company'), 'url'=>array('/page/1'),'itemOptions'=>$itemOptions['about'],
 						'items'=>array(
-								array('label'=>Yii::t('zii', 'menu.index.company.about_keii'), 'url'=>array('/about/page1'),'itemOptions'=>array('class'=>'l2 language-en')),
-								array('label'=>Yii::t('zii', 'menu.index.company.certificates'), 'url'=>array('/about/page2'),'itemOptions'=>array('class'=>'l2 language-en')),
+								array('label'=>Yii::t('zii', 'menu.index.company.about_keii'), 'url'=>array('/page/2'),'itemOptions'=>array('class'=>'l2 language-en')),
+								array('label'=>Yii::t('zii', 'menu.index.company.certificates'), 'url'=>array('/page/3'),'itemOptions'=>array('class'=>'l2 language-en')),
 						),
 				),
 				
@@ -81,7 +81,7 @@
 				),
 				//array('label'=>Yii::t('zii', 'Member'), 'url'=>array($member_url),'itemOptions'=>array('class'=>'l1')),
 				array('label'=>Yii::t('zii', 'menu.index.contact'), 'url'=>array('site/contact'),'itemOptions'=>$itemOptions['contactus']),
-				array('label'=>Yii::t('zii', 'system.logout'), 'url'=>array('site/logout'),'itemOptions'=>array('class'=>'l1'), 'visible'=>!Yii::app()->user->isGuest)
+				#array('label'=>Yii::t('zii', 'system.logout'), 'url'=>array('site/logout'),'itemOptions'=>array('class'=>'l1'), 'visible'=>!Yii::app()->user->isGuest)
 			),
 			'htmlOptions'=>array('class'=>'simple-drop-down-menu'),
 			)); ?>

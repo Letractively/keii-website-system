@@ -36,18 +36,23 @@
 <body>
 	<!--Header-->
 	<div class="full-width-wrapper" id="header">
-	<div class="login-panel">
-	<a><?php 
-				$lang = Yii::app()->language;
-				if ($lang == 'zh_cn')
-		 			echo CHtml::link('English',array('/site/index&lang=en'));
-				else 
-					echo CHtml::link('中文',array('/site/index&lang=zh_cn'));
-				?></a>
-	<span>|</span>
-	<a><?php echo Yii::t('zii', 'system.login')?></a>
-	<span>|</span>
-	<a><?php echo Yii::t('zii', 'system.register')?></a>&nbsp;&nbsp;&nbsp;&nbsp;
+	<div id="login-panel">
+		<ul>
+				<li><a><?php $lang = Yii::app()->language;
+							if ($lang == 'zh_cn')
+					 			echo CHtml::link('English',array('/site/index/lang/en'));
+							else 
+								echo CHtml::link('中文',array('/site/index/lang/zh_cn'));	?></a></li>
+				<li>|</li>
+				<li><a><?php if (Yii::app()->user->isGuest) 
+												echo CHtml::link(Yii::t('zii', 'system.login'),array('/site/login'));
+											else
+												echo CHtml::link(Yii::t('zii', 'system.logout'),array('/site/logout'));
+								?>
+						</a></li>
+				<li>|</li>
+				<li><?php  echo  CHtml::link(Yii::t('zii', 'system.register'),array('/user/create'))?></li>
+	</ul>
 	</div>
 		<!--Banner-->
 		<div class="fixed-width-wrapper" id="banner">

@@ -280,13 +280,14 @@ ul.content-list-en  li{
      -o-transition: all 0.3s ease-in-out 0s;  
      -ms-transition: all 0.3s ease-in-out 0s;  
      transition: all 0.3s ease-in-out 0s;  
-     padding-left:3%;
-	line-height: 35px;  
-     height: 30px;  
-     width: 310px;  
-     font-size:14px;  }
+     padding-left:3%; line-height: 35px;  height: 30px;  width: 310px;   font-size:14px;  }
 	
 	
 #webcounter {margin:0 auto;width:960px;}
 #webcounter p {text-align:center;}
-	
+
+#header #login-panel{margin:0 auto;width:960px;height:23px;text-align:right;line-height:19px;padding-top:60px; padding-right:40px;  color:#c0c0c0;}
+#header #login-panel ul {list-style-type:none;}
+#header #login-panel li {display:inline; }
+#header #login-panel a{text-decoration:none;color:#d46b32;font-size:14px}
+#header #login-panel a:hover{color:#666666;}

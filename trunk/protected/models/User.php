@@ -1,14 +1,15 @@
 <?php
 
 /**
- * This is the model class for table "keii_user".
+ * This is the model class for table "TBL_USER".
  *
- * The followings are the available columns in table 'keii_user':
+ * The followings are the available columns in table 'TBL_USER':
  * @property integer $id
  * @property string $username
  * @property string $password
  * @property string $email
  * @property string $corporation
+ * @property string $contact_number
  * @property string $contact_address
  */
 class User extends CActiveRecord
@@ -28,7 +29,7 @@ class User extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'keii_user';
+		return 'TBL_USER';
 	}
 
 	/**
@@ -39,12 +40,12 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, password,email, corporation, contact_address', 'required'),
-			array('username, password,email, corporation', 'length', 'max'=>128),
-			array('contact_address', 'length', 'max'=>200),
+			array('username, password, email, corporation, contact_number, contact_address', 'required'),
+			array('username, password, email, corporation', 'length', 'max'=>128),
+			array('contact_number, contact_address', 'length', 'max'=>200),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, username, password,email, corporation, contact_address', 'safe', 'on'=>'search'),
+			array('id, username, password, email, corporation, contact_number, contact_address', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -66,11 +67,12 @@ class User extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'username' => Yii::t('zii','Username'),
-			'password' => Yii::t('zii','Password'),
+			'username' => 'Username',
+			'password' => 'Password',
 			'email' => 'Email',
-			'corporation' => Yii::t('zii','Corporation'),
-			'contact_address' => Yii::t('zii','Contact Address'),
+			'corporation' => 'Corporation',
+			'contact_number' => 'Contact Number',
+			'contact_address' => 'Contact Address',
 		);
 	}
 
@@ -90,12 +92,14 @@ class User extends CActiveRecord
 		$criteria->compare('password',$this->password,true);
 		$criteria->compare('email',$this->email,true);
 		$criteria->compare('corporation',$this->corporation,true);
+		$criteria->compare('contact_number',$this->contact_number,true);
 		$criteria->compare('contact_address',$this->contact_address,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
+	
 	
 	public function validatePassword($password){
 		if($this->hashPassword($password)==$this->password)

@@ -18,7 +18,7 @@ $('.search-button').click(function(){
 	return false;
 });
 $('.search-form form').submit(function(){
-	$.fn.yiiGridView.update('user-grid', {
+	$('#user-grid').yiiGridView('update', {
 		data: $(this).serialize()
 	});
 	return false;
@@ -50,7 +50,10 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'password',
 		'email',
 		'corporation',
+		'contact_number',
+		/*
 		'contact_address',
+		*/
 		array(
 			'class'=>'CButtonColumn',
 		),
