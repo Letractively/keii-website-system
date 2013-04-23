@@ -25,6 +25,10 @@
 	<?php echo CHtml::encode($data->corporation); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('contact_number')); ?>:</b>
+	<?php echo CHtml::encode($data->contact_number); ?>
+	<br />
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('contact_address')); ?>:</b>
 	<?php echo CHtml::encode($data->contact_address); ?>
 	<br />

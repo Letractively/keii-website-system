@@ -3,24 +3,15 @@
 /* @var $model LoginForm */
 /* @var $form CActiveForm  */
 
-$this->pageTitle=Yii::app()->name . ' - '.Yii::t('zii', 'Login');
+$this->pageTitle=Yii::app()->name . ' - Login';
 $this->breadcrumbs=array(
 	'Login',
 );
-  
-
 ?>
-
-<!--Body content-->
-<div class="full-width-wrapper">
-<div class="fixed-width-wrapper" id="body-content">
-<!--Content-->
-<div id="content" class="float-left content-left">
 
 <h1>Login</h1>
 
-<p>请输入您的用户名与密码进行登陆:</p>
-
+<p>Please fill out the following form with your login credentials:</p>
 
 <div class="form">
 <?php $form=$this->beginWidget('CActiveForm', array(
@@ -31,25 +22,20 @@ $this->breadcrumbs=array(
 	),
 )); ?>
 
-	<p class="note">带<span class="required">*</span>为必填.</p>
-	
-	
-			<?php echo $form->errorSummary($model); ?>
-	
-		
-			<?php echo $form->error($model, 'username'); ?>
-			<?php echo $form->error($model,'password'); ?>
-						
-	<div class="form-row">
-		<?php echo $form->labelEx($model,  Yii::t('zii', 'Username'), array('class'=>'form-row-label')); ?>
+	<p class="note">Fields with <span class="required">*</span> are required.</p>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'username'); ?>
 		<?php echo $form->textField($model,'username'); ?>
+		<?php echo $form->error($model,'username'); ?>
 	</div>
 
-	<div class="form-row">
-		<?php echo $form->labelEx($model, Yii::t('zii', 'Password'), array('class'=>'form-row-label')); ?>
+	<div class="row">
+		<?php echo $form->labelEx($model,'password'); ?>
 		<?php echo $form->passwordField($model,'password'); ?>
+		<?php echo $form->error($model,'password'); ?>
 		<p class="hint">
-			请注意帐户安全
+			Hint: You may login with <kbd>demo</kbd>/<kbd>demo</kbd> or <kbd>admin</kbd>/<kbd>admin</kbd>.
 		</p>
 	</div>
 
@@ -59,40 +45,9 @@ $this->breadcrumbs=array(
 		<?php echo $form->error($model,'rememberMe'); ?>
 	</div>
 
-	<div class="form-row">
-		<?php echo CHtml::submitButton(Yii::t('zii', 'Login'),array('class'=>'black border-radius-3px bold submit')); ?>
+	<div class="row buttons">
+		<?php echo CHtml::submitButton('Login'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
 </div><!-- form -->
-
-<br>
-
-</div>
-<!--/Content-->
-
-<!--Sidebar-->
-<div id="sidebar" class="float-right">
-<!--box-->
-<div class="box">
-<h1 class="first-word double-color sp">Contact Us</h1>
-<div class="address">
-<p class="B_text_B"><strong>联系信息</strong></p><span class="map-point"></span><p><strong></strong>科易光电技术有限公司<br><br>
-地址：广州市科学城彩频路11号F1101A</p>
-<p>电话:  +86 20 3206 8870<br>
-传真: +86 20 3206 8887 </p>
-<p> Email: keii@keii.com.cn<br>
-  Website:  <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=site/index" title="">www.keii.com.cn</a></p>
-</div>
-</div>
-<!--/box-->
-</div>
-<!--/Sidebar-->
-</div>
-</div>
-<!--/Body content-->
-
-
-
-
-
