@@ -1,12 +1,19 @@
 <?php
 
 /**
- * This is the model class for table "keii_product".
+ * This is the model class for table "tbl_product".
  *
- * The followings are the available columns in table 'keii_product':
+ * The followings are the available columns in table 'tbl_product':
  * @property integer $id
  * @property string $product_name
+ * @property string $product_alias
+ * @property string $page_language
+ * @property string $page_summary
+ * @property string $product_page_content
+ * @property string $product_introduction
  * @property string $product_parameter
+ * @property string $product_gallery
+ * @property string $product_series
  */
 class Product extends CActiveRecord
 {
@@ -25,7 +32,7 @@ class Product extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'keii_product';
+		return 'tbl_product';
 	}
 
 	/**
@@ -36,11 +43,12 @@ class Product extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('product_name, product_parameter', 'required'),
-			array('product_name', 'length', 'max'=>128),
+			array('product_name, product_alias, page_language, page_summary, product_page_content, product_introduction, product_parameter, product_gallery, product_series', 'required'),
+			array('product_name, product_alias, page_language, product_series', 'length', 'max'=>128),
+			array('page_summary', 'length', 'max'=>512),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, product_name, product_parameter', 'safe', 'on'=>'search'),
+			array('id, product_name, product_alias, page_language, page_summary, product_page_content, product_introduction, product_parameter, product_gallery, product_series', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -63,7 +71,14 @@ class Product extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'product_name' => 'Product Name',
+			'product_alias' => 'Product Alias',
+			'page_language' => 'Page Language',
+			'page_summary' => 'Page Summary',
+			'product_page_content' => 'Product Page Content',
+			'product_introduction' => 'Product Introduction',
 			'product_parameter' => 'Product Parameter',
+			'product_gallery' => 'Product Gallery',
+			'product_series' => 'Product Series',
 		);
 	}
 
@@ -80,55 +95,17 @@ class Product extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('product_name',$this->product_name,true);
+		$criteria->compare('product_alias',$this->product_alias,true);
+		$criteria->compare('page_language',$this->page_language,true);
+		$criteria->compare('page_summary',$this->page_summary,true);
+		$criteria->compare('product_page_content',$this->product_page_content,true);
+		$criteria->compare('product_introduction',$this->product_introduction,true);
 		$criteria->compare('product_parameter',$this->product_parameter,true);
+		$criteria->compare('product_gallery',$this->product_gallery,true);
+		$criteria->compare('product_series',$this->product_series,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
-	}
-	
-	
-	public function getProductList($style)
-	{
-		if ($style == 1) {
-			$menu = $this->widget('zii.widgets.CMenu',array(
-					'id'=>'',
-					'htmlOptions'=>array('class'=>'unordered-list'),
-					'items'=>array(
-							array('label'=>Yii::t('zii', 'kc100'), 'url'=>array('/product/kc100')),
-							array('label'=>Yii::t('zii', 'kc500'), 'url'=>array('/product/kc500')),
-							array('label'=>Yii::t('zii', 'kc700'), 'url'=>array('/product/kc700')),
-							array('label'=>Yii::t('zii', 'kc750'), 'url'=>array('/product/kc750'), 'visible'=>strstr(Yii::app()->language, 'en')),
-							array('label'=>Yii::t('zii', 'kc800'), 'url'=>array('/product/kc800')),
-							array('label'=>Yii::t('zii', 'kc850'), 'url'=>array('/product/kc850')),
-							array('label'=>Yii::t('zii', 'gl600'), 'url'=>array('/product/gl600')),
-							array('label'=>Yii::t('zii', 'carmobile'), 'url'=>array('/product/carmobile')),
-							array('label'=>Yii::t('zii', 'substation'), 'url'=>array('/product/substation')),
-							array('label'=>Yii::t('zii', 'helicopter'), 'url'=>array('/product/helicopter'))
-					),
-			));
-		}
-		elseif ($style == 2) {
-		$menu = $this->widget('zii.widgets.CMenu',array(
-				'id'=>'',
-				'htmlOptions'=>array('class'=>'list cat'),
-				'items'=>array(
-						array('label'=>Yii::t('zii', 'kc100'), 'url'=>array('/product/kc100')),
-						array('label'=>Yii::t('zii', 'kc500'), 'url'=>array('/product/kc500')),
-						array('label'=>Yii::t('zii', 'kc700'), 'url'=>array('/product/kc700')),
-						array('label'=>Yii::t('zii', 'kc750'), 'url'=>array('/product/kc750'), 'visible'=>strstr(Yii::app()->language, 'en')),
-						array('label'=>Yii::t('zii', 'kc800'), 'url'=>array('/product/kc800')),
-						array('label'=>Yii::t('zii', 'kc850'), 'url'=>array('/product/kc850')),
-						array('label'=>Yii::t('zii', 'gl600'), 'url'=>array('/product/gl600')),
-						array('label'=>Yii::t('zii', 'carmobile'), 'url'=>array('/product/carmobile')),
-						array('label'=>Yii::t('zii', 'substation'), 'url'=>array('/product/substation')),
-						array('label'=>Yii::t('zii', 'helicopter'), 'url'=>array('/product/helicopter'))
-				),
-		));
-		}
-		else
-			continue;
-	
-		return $menu;
 	}
 }
