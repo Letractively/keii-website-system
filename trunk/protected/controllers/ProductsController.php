@@ -1,6 +1,6 @@
 <?php
 
-class PageController extends Controller
+class ProductsController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -28,9 +28,9 @@ class PageController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('view','open'),
+				'actions'=>array('index','view','open'),
 				'users'=>array('*'),
-			),
+			),		
 			array('allow', 
 				'actions'=>array('admin','delete','create','update'),
 				'users'=>array('root'),
@@ -57,8 +57,9 @@ class PageController extends Controller
 		$this->render('view',array(
 				'model'=>$this->loadModelbyAlias($name),
 		));
-		
+	
 	}
+	
 
 	/**
 	 * Creates a new model.
@@ -66,19 +67,17 @@ class PageController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Page;
+		$model=new Product;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Page']))
+		if(isset($_POST['Product']))
 		{
-			$model->attributes=$_POST['Page'];
+			$model->attributes=$_POST['Product'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
-		
-		//var_dump($model);
 
 		$this->render('create',array(
 			'model'=>$model,
@@ -97,9 +96,9 @@ class PageController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Page']))
+		if(isset($_POST['Product']))
 		{
-			$model->attributes=$_POST['Page'];
+			$model->attributes=$_POST['Product'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -128,7 +127,7 @@ class PageController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Page');
+		$dataProvider=new CActiveDataProvider('Product');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -139,10 +138,10 @@ class PageController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Page('search');
+		$model=new Product('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Page']))
-			$model->attributes=$_GET['Page'];
+		if(isset($_GET['Product']))
+			$model->attributes=$_GET['Product'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -153,12 +152,12 @@ class PageController extends Controller
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer $id the ID of the model to be loaded
-	 * @return Page the loaded model
+	 * @return Product the loaded model
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)
 	{
-		$model=Page::model()->findByPk($id);
+		$model=Product::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -166,7 +165,8 @@ class PageController extends Controller
 	
 	public function loadModelbyAlias($name)
 	{
-		$model=Page::model()->find(array('condition'=>'page_alias=:page_alias and page_language=:page_language','params'=>array(':page_alias'=>$name,':page_language'=> Yii::app()->language )));
+		$model=Product::model()->find(array('condition'=>'product_alias=:product_alias and page_language=:page_language','params'=>array(':product_alias'=>$name,':page_language'=> Yii::app()->language )));
+		#$model=Page::model()->find(array('condition'=>'page_alias=:page_alias and page_language=:page_language','params'=>array(':page_alias'=>$name,':page_language'=> Yii::app()->language )));
 		#$model=Page::model()->findAllByAttributes(array('page_alias'=>$alias , 'page_language' => Yii::app()->language ));
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
@@ -175,11 +175,11 @@ class PageController extends Controller
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param Page $model the model to be validated
+	 * @param Product $model the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='page-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='product-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

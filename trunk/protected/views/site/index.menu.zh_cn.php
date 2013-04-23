@@ -17,24 +17,24 @@
 			 $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>Yii::t('zii', 'system.home'), 'url'=>array('/site/index'),'itemOptions'=>$itemOptions['home']),
-				array('label'=>Yii::t('zii', 'menu.index.company'), 'url'=>array('/page/1'),'itemOptions'=>$itemOptions['about'],
+				array('label'=>Yii::t('zii', 'menu.index.company'), 'url'=>array('/page/open/name/about-keii.html'),'itemOptions'=>$itemOptions['about'],
 						'items'=>array(
-								array('label'=>Yii::t('zii', 'menu.index.company.about_keii'), 'url'=>array('/page/2'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'menu.index.company.certificates'), 'url'=>array('/page/3'),'itemOptions'=>array('class'=>'l2')),
+								array('label'=>Yii::t('zii', 'menu.index.company.about_keii'), 'url'=>array('/page/open/name/company-intro.html'),'itemOptions'=>array('class'=>'l2')),
+								array('label'=>Yii::t('zii', 'menu.index.company.certificates'), 'url'=>array('/page/open/name/certificates.html'),'itemOptions'=>array('class'=>'l2')),
 						),
 				),
 				
-				array('label'=>Yii::t('zii', 'menu.index.product'), 'url'=>array('/product'), 'itemOptions'=>$itemOptions['product'],
+				array('label'=>Yii::t('zii', 'menu.index.product'), 'url'=>array('/products'), 'itemOptions'=>$itemOptions['product'],
 						'items'=>array(
-								array('label'=>Yii::t('zii', 'products.kc.100'), 'url'=>array('/product/kc100'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.kc.500'), 'url'=>array('/product/kc500'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.kc.700'), 'url'=>array('/product/kc700'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.kc.800'), 'url'=>array('/product/kc800'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.kc.850'), 'url'=>array('/product/kc850'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.gl.600'), 'url'=>array('/product/gl600'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.carmobile'), 'url'=>array('/product/carmobile'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.substation'), 'url'=>array('/product/substation'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.helicopter'), 'url'=>array('/product/helicopter'),'itemOptions'=>array('class'=>'l2')),
+								array('label'=>Yii::t('zii', 'products.kc.100'), 'url'=>array('/products/open/name/kc100.html'),'itemOptions'=>array('class'=>'l2')),
+								array('label'=>Yii::t('zii', 'products.kc.500'), 'url'=>array('/products/open/name/kc500.html'),'itemOptions'=>array('class'=>'l2')),
+								array('label'=>Yii::t('zii', 'products.kc.700'), 'url'=>array('/products/open/name/kc700.html'),'itemOptions'=>array('class'=>'l2')),
+								array('label'=>Yii::t('zii', 'products.kc.800'), 'url'=>array('/products/open/name/kc800.html'),'itemOptions'=>array('class'=>'l2')),
+								array('label'=>Yii::t('zii', 'products.kc.850'), 'url'=>array('/products/open/name/kc850.html'),'itemOptions'=>array('class'=>'l2')),
+								array('label'=>Yii::t('zii', 'products.gl.600'), 'url'=>array('/products/open/name/gl600.html'),'itemOptions'=>array('class'=>'l2')),
+								array('label'=>Yii::t('zii', 'products.carmobile'), 'url'=>array('/products/open/name/mobile-mounted-inspection-system.html'),'itemOptions'=>array('class'=>'l2')),
+								array('label'=>Yii::t('zii', 'products.substation'), 'url'=>array('/products/open/name/ir-inspection-system-for-substation.html'),'itemOptions'=>array('class'=>'l2')),
+								array('label'=>Yii::t('zii', 'products.helicopter'), 'url'=>array('/products/open/name/helicopter-patrol-inspection-system.html'),'itemOptions'=>array('class'=>'l2')),
 				
 							),
 				),
