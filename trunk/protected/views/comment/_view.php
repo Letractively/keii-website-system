@@ -5,21 +5,12 @@
 
 <div class="view">
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id)); ?>
-	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('author_id')); ?>:</b>
-	<?php echo CHtml::encode($data->author_id); ?>
-	<br />
+	<b>留言日期:</b>
+	<?php echo CHtml::encode( date('Y-m-d H:i:s' , $data->commit_date)); ?>
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('create_time')); ?>:</b>
-	<?php echo CHtml::encode($data->create_time); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('comment_content')); ?>:</b>
+	<b>留言内容:</b>
 	<?php echo CHtml::encode($data->comment_content); ?>
-	<br />
 
 
 </div>

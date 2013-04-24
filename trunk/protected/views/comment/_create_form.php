@@ -15,12 +15,21 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
+	
 	<div class="row">
-		<?php echo $form->labelEx($model,'contact_info'); ?>
-		<?php echo $form->textArea($model,'contact_info',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'contact_info'); ?>
+		<label for="Comment_contact_email" class="required">Email<span class="required">*</span></label>		
+		<textarea rows="6" cols="50" name="email" id="Comment_contact_info"></textarea>
 	</div>
-
+	
+	<div class="row">
+		<label for="Comment_contact_email" class="required">phone <span class="required">*</span></label>		
+		<textarea rows="6" cols="50" name="phone" id="Comment_contact_info"></textarea>
+	</div>
+	
+	<div class="row">
+		<label for="Comment_contact_email" class="required">"address" <span class="required">*</span></label>		
+		<textarea rows="6" cols="50" name="address" id="Comment_contact_info"></textarea>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'comment_content'); ?>

@@ -16,6 +16,12 @@ $this->menu=array(
 );
 ?>
 
+<div class="full-width-wrapper" >
+<div style="margin: 0 auto;width:940px;">
+
 <h1>Update User <?php echo $model->id; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+
+</div>
+</div>

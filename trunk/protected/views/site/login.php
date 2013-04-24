@@ -9,6 +9,9 @@ $this->breadcrumbs=array(
 );
 ?>
 
+<div class="full-width-wrapper" >
+<div style="margin: 0 auto;width:940px;">
+
 <h1>Login</h1>
 
 <p>Please fill out the following form with your login credentials:</p>
@@ -34,9 +37,6 @@ $this->breadcrumbs=array(
 		<?php echo $form->labelEx($model,'password'); ?>
 		<?php echo $form->passwordField($model,'password'); ?>
 		<?php echo $form->error($model,'password'); ?>
-		<p class="hint">
-			Hint: You may login with <kbd>demo</kbd>/<kbd>demo</kbd> or <kbd>admin</kbd>/<kbd>admin</kbd>.
-		</p>
 	</div>
 
 	<div class="row rememberMe">
@@ -51,3 +51,6 @@ $this->breadcrumbs=array(
 
 <?php $this->endWidget(); ?>
 </div><!-- form -->
+
+</div>
+</div>

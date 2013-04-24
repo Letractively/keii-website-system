@@ -75,7 +75,7 @@ h1.double-color.sp{margin-bottom:30px;}
 #breadcrumbs li a{font-size:10px;text-transform:uppercase;color:#787878;}
 #breadcrumbs li a:hover,#breadcrumbs li.current a{color:#454545;text-decoration:none;}
 .post p{margin:0 0 20px;line-height: 24px; letter-spacing: 1.5px;}
-#sidebar{width:280px;}
+#sidebar{width:240px;}
 #sidebar .ads a{border:1px solid #E5E5E5;border-bottom-width:3px;margin:7px 0;padding:3px;}
 #sidebar .ads a:hover{border-color:#CCC;}
 #sidebar .ads a.even{margin-right:14px;}

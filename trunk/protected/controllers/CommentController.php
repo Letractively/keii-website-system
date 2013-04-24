@@ -6,7 +6,7 @@ class CommentController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/column2';
+	public $layout='//layouts/column1';
 
 	/**
 	 * @return array action filters
@@ -28,16 +28,12 @@ class CommentController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','create','view'),
 				'users'=>array('*'),
 			),
-			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
-				'users'=>array('@'),
-			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
+				'actions'=>array('admin','update','delete'),
+				'users'=>array('root'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -67,11 +63,16 @@ class CommentController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
+		
+		
 		if(isset($_POST['Comment']))
 		{
+			//var_dump($_POST['Comment']);
+			$model->contact_info = 'email:'.$_POST['email'].'[,]phone:'.$_POST['phone'].'[,]address:'.$_POST['address'] ;
+				
 			$model->attributes=$_POST['Comment'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect('index');
 		}
 
 		$this->render('create',array(
@@ -122,7 +123,14 @@ class CommentController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Comment');
+		$dataProvider=new CActiveDataProvider('Comment', array(
+                    'pagination' => array(
+                        'pageSize' => 7
+                    ),
+                    'criteria'=>array(
+                        'order'=>'commit_date DESC'
+                    )
+                ));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -146,7 +154,9 @@ class CommentController extends Controller
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
-	 * @param integer the ID of the model to be loaded
+	 * @param integer $id the ID of the model to be loaded
+	 * @return Comment the loaded model
+	 * @throws CHttpException
 	 */
 	public function loadModel($id)
 	{
@@ -158,7 +168,7 @@ class CommentController extends Controller
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param CModel the model to be validated
+	 * @param Comment $model the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{
@@ -168,4 +178,5 @@ class CommentController extends Controller
 			Yii::app()->end();
 		}
 	}
+	
 }

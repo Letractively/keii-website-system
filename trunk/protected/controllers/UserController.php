@@ -6,7 +6,7 @@ class UserController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/column2';
+	public $layout='//layouts/column1';
 
 	/**
 	 * @return array action filters
@@ -32,11 +32,11 @@ class UserController extends Controller
 				'users'=>array('root'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create'),
+				'actions'=>array('register'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('update'),
+				'actions'=>array('update','info'),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
@@ -55,7 +55,13 @@ class UserController extends Controller
 			'model'=>$this->loadModel($id),
 		));
 	}
-
+	
+	public function actionInfo()
+	{
+		$this->render('view',array(
+				'model'=>$this->loadModel(Yii::app()->user->id),
+		));
+	}
 	/**
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
@@ -78,15 +84,34 @@ class UserController extends Controller
 			'model'=>$model,
 		));
 	}
+	
+	public function  actionRegister()
+	{
+		$model=new User;
+		
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+		
+		if(isset($_POST['User']))
+		{
+			$model->attributes=$_POST['User'];
+			if($model->save())
+				$this->redirect(array('view','id'=>$model->id));
+		}
+		
+		$this->render('register',array(
+				'model'=>$model,
+		));
+	}
 
 	/**
 	 * Updates a particular model.
 	 * If update is successful, the browser will be redirected to the 'view' page.
 	 * @param integer $id the ID of the model to be updated
 	 */
-	public function actionUpdate($id)
+	public function actionUpdate()
 	{
-		$model=$this->loadModel($id);
+		$model=$this->loadModel(Yii::app()->user->id);
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);

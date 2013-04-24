@@ -22,6 +22,15 @@ return array (
 	'system.logout' => '退出',
 	'system.register' => '注册',
 
+	'user.register' => '用户注册',
+	'user.information' => '用户资料',
+	'user.name' => '用户名',
+	'user.password' => '用户密码',
+	'user.email' => '电子邮件',
+	'user.corporation' => '公司名称',
+	'user.contact_number' => '联系电话',
+	'user.contact_address' => '联系地址',
+				
 	'website.keyword' => '红外热像仪,热像仪,红外,红外线热像仪,红外热成像仪,红外成像仪,科易红外热像仪,专业制造红外热成像仪,红外热像仪厂家,红外热像仪价格,红外热像仪产品',
 		
 	'company.name' => '广州科易光电技术有限公司',
@@ -120,6 +129,24 @@ return array (
 	'content.index.certificates' => '证书',
 	'content.index.certificates.content' => '广州科易公司掌握多项行业专利技术，并通过ISO9001认证，保证产品质量',
 	
-	
+	'Home' => '首页',
+	'The button type "{type}" is not supported.' => '按钮类型 "{type}" 不支持。',
+	'Are you sure you want to delete this item?' => '确定要删除这条数据吗?',
+	'Delete' => '删除',
+	'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => '第 {start}-{end} 条, 共 {count} 条.',
+	'Either "name" or "value" must be specified for CDataColumn.' => 'CDataColumn 必须指定 "name" 或 "value" 至少一项.',
+	'No results found.' => '没有找到数据.',
+	'Not set' => '未设置',
+	'Please specify the "attributes" property.' => '请指定 "attributes" 属性.',
+	'Please specify the "data" property.' => '请指定 "data" 属性.',
+	'Sort by: ' => '排序: ',
+	'The "dataProvider" property cannot be empty.' => '"dataProvider" 属性不能为空.',
+	'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => '属性格式 "Name:Type:Label", "Type" 和 "Label" 为可选项.',
+	'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => '栏位格式 "Name:Type:Label", "Type" 和 "Label" 为可选项.',
+	'The property "itemView" cannot be empty.' => '必须指定 "itemView" 属性.',
+	'Total 1 result.|Total {count} results.' => '共 {count} 条.',
+	'Update' => '更新',
+	'View' => '查看',
+	'{class} must specify "model" and "attribute" or "name" property values.' => '{class} 必须给定 "model" 与 "attribute" 或 "name" 属性值.',
 	
 );
