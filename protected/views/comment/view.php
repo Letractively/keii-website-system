@@ -22,8 +22,8 @@ $this->menu=array(
 	'data'=>$model,
 	'attributes'=>array(
 		'id',
-		'author_id',
-		'create_time',
+		'contact_info',
+		'commit_date',
 		'comment_content',
 	),
 )); ?>

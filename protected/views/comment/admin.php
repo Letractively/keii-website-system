@@ -18,7 +18,7 @@ $('.search-button').click(function(){
 	return false;
 });
 $('.search-form form').submit(function(){
-	$.fn.yiiGridView.update('comment-grid', {
+	$('#comment-grid').yiiGridView('update', {
 		data: $(this).serialize()
 	});
 	return false;
@@ -46,8 +46,8 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 	'filter'=>$model,
 	'columns'=>array(
 		'id',
-		'author_id',
-		'create_time',
+		'contact_info',
+		'commit_date',
 		'comment_content',
 		array(
 			'class'=>'CButtonColumn',

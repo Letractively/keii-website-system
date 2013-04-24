@@ -44,14 +44,18 @@
 							else 
 								echo CHtml::link('中文',array('/site/index/lang/zh_cn'));	?></a></li>
 				<li>|</li>
+				<li><?php if (Yii::app()->user->isGuest) 
+												 echo  CHtml::link(Yii::t('zii', 'system.register'),array('/user/register'));
+											else
+												echo CHtml::link(Yii::t('zii', 'user.information'),array('/user/info/'));?></li>
+				<li>|</li>				
 				<li><a><?php if (Yii::app()->user->isGuest) 
 												echo CHtml::link(Yii::t('zii', 'system.login'),array('/site/login'));
 											else
 												echo CHtml::link(Yii::t('zii', 'system.logout'),array('/site/logout'));
 								?>
 						</a></li>
-				<li>|</li>
-				<li><?php  echo  CHtml::link(Yii::t('zii', 'system.register'),array('/user/create'))?></li>
+				
 	</ul>
 	</div>
 		<!--Banner-->

@@ -13,6 +13,10 @@ $this->menu=array(
 );
 ?>
 
-<h1>Create User</h1>
+<div class="full-width-wrapper" >
+<div style="margin: 0 auto;width:940px;">
+<h1>User Register</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+</div>
+</div>

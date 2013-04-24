@@ -30,10 +30,20 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
+		
+		#page view count
+		$webcounter = Counter::model()->find('ID=:ID', array(':ID'=>1));
+		$webcounter->counter = $webcounter->counter + 1;
+		$webcounter->save();
+		
+		#set the view count in session
+		Yii::app()->session['webcounter'] = $webcounter->counter + 1;
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
 		#$this->subtitle =  
 		$this->render('index');
+		
+		
 	}
 
 	/**
@@ -96,7 +106,7 @@ class SiteController extends Controller
 			$model->attributes=$_POST['LoginForm'];
 			// validate user input and redirect to the previous page if valid
 			if($model->validate() && $model->login())
-				$this->redirect(Yii::app()->user->returnUrl);
+				$this->redirect('/user/info');
 		}
 		// display the login form
 		$this->render('login',array('model'=>$model));

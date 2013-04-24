@@ -17,18 +17,18 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'author_id'); ?>
-		<?php echo $form->textField($model,'author_id'); ?>
+		<?php echo $form->label($model,'contact_info'); ?>
+		<?php echo $form->textArea($model,'contact_info',array('rows'=>6, 'cols'=>50)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'create_time'); ?>
-		<?php echo $form->textField($model,'create_time'); ?>
+		<?php echo $form->label($model,'commit_date'); ?>
+		<?php echo $form->textField($model,'commit_date'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'comment_content'); ?>
-		<?php echo $form->textField($model,'comment_content',array('size'=>60,'maxlength'=>300)); ?>
+		<?php echo $form->textArea($model,'comment_content',array('rows'=>6, 'cols'=>50)); ?>
 	</div>
 
 	<div class="row buttons">

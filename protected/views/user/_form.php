@@ -4,6 +4,8 @@
 /* @var $form CActiveForm */
 ?>
 
+
+
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
@@ -11,49 +13,64 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'username'); ?>
-		<?php echo $form->textField($model,'username',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'username'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'password'); ?>
-		<?php echo $form->passwordField($model,'password',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'password'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'email'); ?>
-		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'email'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'corporation'); ?>
-		<?php echo $form->textField($model,'corporation',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'corporation'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'contact_number'); ?>
-		<?php echo $form->textField($model,'contact_number',array('size'=>60,'maxlength'=>200)); ?>
-		<?php echo $form->error($model,'contact_number'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'contact_address'); ?>
-		<?php echo $form->textField($model,'contact_address',array('size'=>60,'maxlength'=>200)); ?>
-		<?php echo $form->error($model,'contact_address'); ?>
-	</div>
-
+	<table>
+	<tr>
+		<td>
+			<?php echo Yii::t('zii', 'user.name'); ?>:
+		</td>
+		<td>
+			<?php echo $form->textField($model,'username',array('size'=>30,'maxlength'=>128)); ?>
+		</td>
+	</tr>
+		
+	<tr><td>
+		<?php echo Yii::t('zii', 'user.password'); ?>:
+		</td>
+		<td>
+		<?php echo $form->passwordField($model,'password',array('size'=>30,'maxlength'=>128)); ?>
+	</td></tr>
+	
+	<tr><td>
+		<?php echo Yii::t('zii', 'user.email'); ?>:
+		</td>
+		<td>
+		<?php echo $form->textField($model,'email',array('size'=>30,'maxlength'=>128)); ?>
+	</td></tr>
+	
+	<tr><td>
+		<?php echo Yii::t('zii', 'user.corporation'); ?>:
+		</td>
+		<td>
+		<?php echo $form->textField($model,'corporation',array('size'=>30,'maxlength'=>128)); ?>
+	</td></tr>
+	
+	<tr><td>
+		<?php echo Yii::t('zii', 'user.contact_number'); ?>:
+		</td>
+		<td>
+		<?php echo $form->textField($model,'contact_number',array('size'=>30,'maxlength'=>200)); ?>
+	</td></tr>
+	
+	<tr><td>
+		<?php echo Yii::t('zii', 'user.contact_address'); ?>:
+		</td>
+		<td>
+		<?php echo $form->textField($model,'contact_address',array('size'=>30,'maxlength'=>200)); ?>
+	</td></tr>
+	
+	<tr><td>
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? Yii::t('zii', 'user.register') : 'Save'); ?>
 	</div>
+	</td></tr>
+	</table>
+	
+
+
+	
 
 <?php $this->endWidget(); ?>
 
