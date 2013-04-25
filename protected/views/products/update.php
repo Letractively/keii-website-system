@@ -19,9 +19,9 @@ $this->menu=array(
 <div class="full-width-wrapper" >
 <div style="margin: 0 auto;width:940px;">
 
-<h1>Update Product <?php echo $model->product_name; ?></h1>
+<h1>修改 <?php echo $model->product_name; ?> 产品页面</h1>
 
-<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php echo $this->renderPartial('update_form', array('model'=>$model)); ?>
 
 
 </div>

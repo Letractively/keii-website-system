@@ -109,7 +109,7 @@ class PageController extends Controller
 		{
 			$model->attributes=$_POST['Page'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('open','name'=>$model->page_alias));
 		}
 
 		$this->render('update',array(
@@ -169,6 +169,7 @@ class PageController extends Controller
 		$model=Page::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
+		Yii::app()->session['object_id'] =$model->id;		
 		return $model;
 	}
 	
@@ -178,6 +179,7 @@ class PageController extends Controller
 		#$model=Page::model()->findAllByAttributes(array('page_alias'=>$alias , 'page_language' => Yii::app()->language ));
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
+		Yii::app()->session['object_id'] =$model->id;
 		return $model;
 	}
 

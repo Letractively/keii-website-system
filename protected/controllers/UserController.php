@@ -58,9 +58,14 @@ class UserController extends Controller
 	
 	public function actionInfo()
 	{
+		if (Yii::app()->user->name == 'root') {
+			echo 'ok';
+		}
+		else {
 		$this->render('view',array(
 				'model'=>$this->loadModel(Yii::app()->user->id),
 		));
+		}
 	}
 	/**
 	 * Creates a new model.

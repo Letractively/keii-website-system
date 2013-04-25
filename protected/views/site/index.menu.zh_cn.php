@@ -81,7 +81,7 @@
 					),
 				),
 				//array('label'=>Yii::t('zii', 'Member'), 'url'=>array($member_url),'itemOptions'=>array('class'=>'l1')),
-				array('label'=>Yii::t('zii', 'menu.index.contact'), 'url'=>array('/comment'),'itemOptions'=>$itemOptions['contactus']),
+				array('label'=>Yii::t('zii', 'menu.index.contact'), 'url'=>array('/page/open/name/contact-us.html'),'itemOptions'=>$itemOptions['contactus']),
 				#array('label'=>Yii::t('zii', 'system.logout'), 'url'=>array('site/logout'),'itemOptions'=>array('class'=>'l1'), 'visible'=>!Yii::app()->user->isGuest)
 			),
 			'htmlOptions'=>array('class'=>'simple-drop-down-menu'),

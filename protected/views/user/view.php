@@ -16,11 +16,31 @@ $this->breadcrumbs=array(
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		'username',
-		'email',
-		'corporation',
-		'contact_number',
-		'contact_address',
+		array(
+		'label'=>Yii::t('zii', 'user.name'),
+		'type'=>'raw',
+		'value'=>$model->username,		
+		),
+		array(
+		'label'=>Yii::t('zii', 'user.email'),
+		'type'=>'raw',
+		'value'=>$model->email,		
+		),
+		array(
+		'label'=>Yii::t('zii', 'user.corporation'),
+		'type'=>'raw',
+		'value'=>$model->corporation,		
+		),
+		array(
+		'label'=>Yii::t('zii', 'user.contact_number'),
+		'type'=>'raw',
+		'value'=>$model->contact_number,		
+		),
+		array(
+		'label'=>Yii::t('zii', 'user.contact_address'),
+		'type'=>'raw',
+		'value'=>$model->contact_address,		
+		),
 	),
 )); ?>
 

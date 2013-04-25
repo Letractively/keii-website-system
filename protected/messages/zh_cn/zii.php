@@ -22,6 +22,8 @@ return array (
 	'system.logout' => '退出',
 	'system.register' => '注册',
 
+	'Remember me next time' => '记住我',
+		
 	'user.register' => '用户注册',
 	'user.information' => '用户资料',
 	'user.name' => '用户名',

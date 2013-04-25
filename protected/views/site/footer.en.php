@@ -4,8 +4,8 @@
 			'id'=>'',
 			'htmlOptions'=>array('class'=>'footer-list'),
 			'items'=>array(
-				array('label'=>Yii::t('zii', 'menu.index.company.about_keii'), 'url'=>array('/about/page1')),
-				array('label'=>Yii::t('zii', 'menu.index.company.certificates'), 'url'=>array('/about/page2'))
+			array('label'=>Yii::t('zii', 'menu.index.company.about_keii'), 'url'=>array('/page/open/name/company-intro.html')),
+				array('label'=>Yii::t('zii', 'menu.index.company.certificates'), 'url'=>array('/page/open/name/certificates.html'))
 			),
 			)); 
 			?>
@@ -17,10 +17,10 @@
 					'id'=>'',
 					'htmlOptions'=>array('class'=>'footer-list'),
 					'items'=>array(
-							array('label'=>Yii::t('zii', 'menu.index.technical.terms'), 'url'=>array('/site/terms')),
-						array('label'=>Yii::t('zii', 'menu.index.IR_camera?'), 'url'=>array('/site/infraredcamera')),
-						array('label'=>Yii::t('zii', 'menu.index.dynamic_IR?'), 'url'=>array('/site/dinfraredcamera')),
-						array('label'=>Yii::t('zii', 'menu.index.choose?'), 'url'=>array('/site/choose')),
+						array('label'=>Yii::t('zii', 'menu.index.technical.terms'), 'url'=>array('/page/open/name/technical-terms1.htm')),
+						array('label'=>Yii::t('zii', 'menu.index.IR_camera?'), 'url'=>array('/page/open/name/ir-camera.html')),
+						array('label'=>Yii::t('zii', 'menu.index.dynamic_IR?'), 'url'=>array('/page/open/name/dynamic-ir.html')),
+						array('label'=>Yii::t('zii', 'menu.index.choose?'), 'url'=>array('/page/open/name/choose.html')),
 					),
 			));
 			?>
@@ -30,13 +30,13 @@
 <div class="footer-list-3">
 <div class="text-en"><?php echo Yii::t('zii', 'menu.index.product.kc&gl')?></div>
 <?php 
-				$this->renderPartial('//product/menu5');
+				$this->renderPartial('//products/menu.kc.gl');
 			?>
 </div>
 <div class="footer-list-4">
 <div class="text-en"><?php echo Yii::t('zii', 'menu.index.product.system')?></div>
 <?php 
-				$this->renderPartial('//product/menu4');
+				$this->renderPartial('//products/menu.system');
 			?>
 </div>
 <div class="footer-list-5">
@@ -52,7 +52,7 @@
 					'id'=>'',
 					'htmlOptions'=>array('class'=>'footer-list'),
 					'items'=>array(
-							array('label'=>Yii::t('zii', 'menu.index.address'), 'url'=>array('/site/contact')),
+							array('label'=>Yii::t('zii', 'menu.index.address'), 'url'=>array('/page/open/name/contact-us.html')),
 							array('label'=>Yii::t('zii', 'menu.index.guestbook'), 'url'=>array('/site/contact')),
 
 					),
