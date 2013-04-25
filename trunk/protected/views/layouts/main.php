@@ -38,23 +38,30 @@
 	<div class="full-width-wrapper" id="header">
 	<div id="login-panel">
 		<ul>
-				<li><a><?php $lang = Yii::app()->language;
+				<?php	
+					 if(Yii::app()->user->name == 'root' ){
+						$ctrlname = Yii::app()->controller->id;
+						if($ctrlname  == 'page'  or  $ctrlname == 'products' or $ctrlname == 'comment')
+							echo '<li><a href=/'.$ctrlname.'/update/'.Yii::app()->session['object_id'].'>编辑此页面</a></li><li> | </li>';						
+					} 
+					?>
+				<li><?php $lang = Yii::app()->language;
 							if ($lang == 'zh_cn')
 					 			echo CHtml::link('English',array('/site/index/lang/en'));
 							else 
-								echo CHtml::link('中文',array('/site/index/lang/zh_cn'));	?></a></li>
+								echo CHtml::link('中文',array('/site/index/lang/zh_cn'));	?></li>
 				<li>|</li>
 				<li><?php if (Yii::app()->user->isGuest) 
 												 echo  CHtml::link(Yii::t('zii', 'system.register'),array('/user/register'));
 											else
-												echo CHtml::link(Yii::t('zii', 'user.information'),array('/user/info/'));?></li>
+												echo CHtml::link(Yii::app()->user->name,array('/user/info/'));?></li>
 				<li>|</li>				
-				<li><a><?php if (Yii::app()->user->isGuest) 
+				<li><?php if (Yii::app()->user->isGuest) 
 												echo CHtml::link(Yii::t('zii', 'system.login'),array('/site/login'));
 											else
 												echo CHtml::link(Yii::t('zii', 'system.logout'),array('/site/logout'));
 								?>
-						</a></li>
+						</li>
 				
 	</ul>
 	</div>
@@ -70,7 +77,7 @@
 		<div class="color-banner">
 		</div>
 		</div>
-
+	
 	<!--/Header-->
 
 	

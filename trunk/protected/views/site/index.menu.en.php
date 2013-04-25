@@ -41,7 +41,7 @@
 	
 				array('label'=>Yii::t('zii', 'menu.index.application_gallery'), 'url'=>array('/page/open/name/gallery.html'),'itemOptions'=>$itemOptions['application'], 
 				'items'=>array(
-						array('label'=>Yii::t('zii', 'menu.index.application_gallery.industries').'»', 'url'=>array('/application/industry'),'itemOptions'=>array('class'=>'l2 language-en'),
+						array('label'=>Yii::t('zii', 'menu.index.application_gallery.industries').'»', 'url'=>array('/page/open/name/industries.html'),'itemOptions'=>array('class'=>'l2 language-en'),
 								'items'=>array(
 										array('label'=>Yii::t('zii', 'menu.index.application_gallery.electrical'), 'url'=>array('/page/open/name/electrical.html'),'itemOptions'=>array('class'=>'l3')),
 										array('label'=>Yii::t('zii', 'menu.index.application_gallery.petrochemical'), 'url'=>array('/page/open/name/petrochemical.html'),'itemOptions'=>array('class'=>'l3')),
@@ -52,7 +52,7 @@
 										array('label'=>Yii::t('zii', 'menu.index.application_gallery.pulp&paper'), 'url'=>array('/page/open/name/pulp-paper.html'),'itemOptions'=>array('class'=>'l3')),
 								)
 							),
-						array('label'=>Yii::t('zii', 'menu.index.application_gallery.applications').'»', 'url'=>array('/application/case'),'itemOptions'=>array('class'=>'l2 language-en'),
+						array('label'=>Yii::t('zii', 'menu.index.application_gallery.applications').'»', 'url'=>array('/page/open/name/case.html'),'itemOptions'=>array('class'=>'l2 language-en'),
 							'items'=>array(
 										array('label'=>Yii::t('zii', 'menu.index.application_gallery.R&D'), 'url'=>array('/page/open/name/r&d.html'),'itemOptions'=>array('class'=>'l3')),
 										array('label'=>Yii::t('zii', 'menu.index.application_gallery.predictive_maintenance'), 'url'=>array('/page/open/name/predictive-maintenance.html'),'itemOptions'=>array('class'=>'l3')),
@@ -80,7 +80,7 @@
 							array('label'=>Yii::t('zii', 'menu.index.inspection_service'), 'url'=>array('/page/open/name/inspection-service.html'),'itemOptions'=>array('class'=>'l2')),					),
 				),
 				//array('label'=>Yii::t('zii', 'Member'), 'url'=>array($member_url),'itemOptions'=>array('class'=>'l1')),
-				array('label'=>Yii::t('zii', 'menu.index.contact'), 'url'=>array('/comment'),'itemOptions'=>$itemOptions['contactus']),
+				array('label'=>Yii::t('zii', 'menu.index.contact'), 'url'=>array('/page/open/name/contact-us.html'),'itemOptions'=>$itemOptions['contactus']),
 				#array('label'=>Yii::t('zii', 'system.logout'), 'url'=>array('site/logout'),'itemOptions'=>array('class'=>'l1'), 'visible'=>!Yii::app()->user->isGuest)
 			),
 			'htmlOptions'=>array('class'=>'simple-drop-down-menu'),

@@ -170,6 +170,7 @@ class ProductsController extends Controller
 		$model=Product::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
+		Yii::app()->session['object_id'] =$model->id;
 		return $model;
 	}
 	
@@ -178,8 +179,11 @@ class ProductsController extends Controller
 		$model=Product::model()->find(array('condition'=>'product_alias=:product_alias and page_language=:page_language','params'=>array(':product_alias'=>$name,':page_language'=> Yii::app()->language )));
 		#$model=Page::model()->find(array('condition'=>'page_alias=:page_alias and page_language=:page_language','params'=>array(':page_alias'=>$name,':page_language'=> Yii::app()->language )));
 		#$model=Page::model()->findAllByAttributes(array('page_alias'=>$alias , 'page_language' => Yii::app()->language ));
+		
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
+		Yii::app()->session['object_id'] =$model->id;
+		
 		return $model;
 	}
 
