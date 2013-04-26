@@ -29,8 +29,8 @@
 	<?php echo CHtml::encode($data->contact_number); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('contact_address')); ?>:</b>
-	<?php echo CHtml::encode($data->contact_address); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('userjobtitle')); ?>:</b>
+	<?php echo CHtml::encode($data->userjobtitle); ?>
 	<br />
 
 

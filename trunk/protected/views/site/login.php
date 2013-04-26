@@ -26,23 +26,35 @@ $this->breadcrumbs=array(
 
 
 	<div class="row">
-		<?php  echo Yii::t('zii', 'user.name'); ?>
-		<?php echo $form->textField($model,'username'); ?>
-		<?php echo $form->error($model,'username'); ?>
-	</div>
-
-	<div class="row">
+	<table>
+	<tr>
+		<td>
+		<?php  echo Yii::t('zii', 'user.name'); ?>		
+		</td>
+		<td>
+		&nbsp;<?php echo $form->textField($model,'username',array('size'=>19,'maxlength'=>128)); ?>
+		</td>
+	</tr>
+	<tr><td colspan="2"><?php echo $form->error($model,'username'); ?></td></tr>
+	
+	<tr>
+		<td>
 		<?php echo Yii::t('zii', 'user.password'); ?>
-		<?php echo $form->passwordField($model,'password'); ?>
-		<?php echo $form->error($model,'password'); ?>
+		</td>
+		<td>
+		&nbsp;<?php echo $form->passwordField($model,'password',array('size'=>20,'maxlength'=>128)); ?>
+		</td>
+	</tr>
+	<tr><td colspan="2"><?php echo $form->error($model,'password'); ?></td></tr>
+	</table>		
 	</div>
-
+<br>
 	<div class="row rememberMe">
 		<?php echo $form->checkBox($model,'rememberMe'); ?>
 		<?php echo $form->label($model,'rememberMe'); ?>
 		<?php echo $form->error($model,'rememberMe'); ?>
 	</div>
-
+<br>
 	<div class="row buttons">
 		<?php echo CHtml::submitButton(Yii::t('zii', 'system.login')); ?>
 	</div>

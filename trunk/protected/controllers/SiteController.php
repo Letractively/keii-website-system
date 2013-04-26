@@ -106,7 +106,7 @@ class SiteController extends Controller
 			$model->attributes=$_POST['LoginForm'];
 			// validate user input and redirect to the previous page if valid
 			if($model->validate() && $model->login())
-				$this->redirect(Yii::app()->user->returnUrl);
+				$this->redirect('/site/index');
 		}
 		// display the login form
 		$this->render('login',array('model'=>$model));
@@ -121,103 +121,5 @@ class SiteController extends Controller
 		$this->redirect(Yii::app()->homeUrl);
 	}
 	
-	public function actionResponsibility()
-	{
-		$this->render('responsibility');
-	}
 	
-	public function actionJob()
-	{
-		$this->render('job');
-	}
-	
-	public function actionHistory()
-	{
-		$this->render('history');
-	}
-	
-	public function actionField()
-	{
-		$this->render('field');
-	}
-	
-	public function actionChoose()
-	{
-		$this->render('choose');
-	}
-	
-	public function actionInfraredcamera()
-	{
-		$this->render('infraredcamera');
-	}
-	
-	public function actionDInfraredcamera()
-	{
-		$this->render('dinfraredcamera');
-	}
-	
-	public function  actionPrinciple()
-	{
-			$this->render('Principle/index');
-			//throw new CHttpException(404,'The requested page does not exist.');
-		
-	}
-	
-	public function  actionParameter()
-	{
-	
-		if(isset($_GET['page'])) {
-	
-			$page = $_GET['page'];
-	
-			switch ($page) {
-				case 1:
-					$this->render('Parameter/page1');
-					break;
-				case 2:
-					$this->render('Parameter/page2');
-					break;
-				case 3:
-					$this->render('Parameter/page3');
-					break;
-				default:
-					throw new CHttpException(404,'The requested page does not exist.');
-					break;
-			}
-		}
-		else
-		{
-			$this->render('Parameter/page1');
-			//throw new CHttpException(404,'The requested page does not exist.');
-		}
-	}
-	
-	public function  actionTerms()
-	{
-	
-		if(isset($_GET['page'])) {
-	
-			$page = $_GET['page'];
-	
-			switch ($page) {
-				case 1:
-					$this->render('Terms/page1');
-					break;
-				case 2:
-					$this->render('Terms/page2');
-					break;
-				case 3:
-					$this->render('Terms/page3');
-					break;
-				default:
-					throw new CHttpException(404,'The requested page does not exist.');
-					break;
-			}
-		}
-		else
-		{
-			$this->render('Terms/page1');
-			//throw new CHttpException(404,'The requested page does not exist.');
-		}
-	}
 }

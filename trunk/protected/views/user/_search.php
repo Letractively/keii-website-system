@@ -37,8 +37,8 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'contact_address'); ?>
-		<?php echo $form->textField($model,'contact_address',array('size'=>60,'maxlength'=>200)); ?>
+		<?php echo $form->label($model,'userjobtitle'); ?>
+		<?php echo $form->textField($model,'userjobtitle',array('size'=>60,'maxlength'=>200)); ?>
 	</div>
 
 	<div class="row buttons">

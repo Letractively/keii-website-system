@@ -169,7 +169,8 @@ class PageController extends Controller
 		$model=Page::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
-		Yii::app()->session['object_id'] =$model->id;		
+		Yii::app()->session['object_id'] =$model->id;
+		Yii::app()->session['object_type'] ='page';
 		return $model;
 	}
 	
@@ -180,6 +181,7 @@ class PageController extends Controller
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		Yii::app()->session['object_id'] =$model->id;
+		Yii::app()->session['object_type'] ='page';		
 		return $model;
 	}
 
