@@ -22,7 +22,7 @@
 			<?php echo Yii::t('zii', 'user.name'); ?>:
 		</td>
 		<td>
-			<?php echo $form->textField($model,'username',array('size'=>30,'maxlength'=>128)); ?>
+			<?php echo $form->textField($model,'username',array('size'=>20,'maxlength'=>128)); ?>
 		</td>
 	</tr>
 		
@@ -30,36 +30,37 @@
 		<?php echo Yii::t('zii', 'user.password'); ?>:
 		</td>
 		<td>
-		<?php echo $form->passwordField($model,'password',array('size'=>30,'maxlength'=>128)); ?>
+		<?php echo $form->passwordField($model,'password',array('size'=>21,'maxlength'=>128)); ?>
 	</td></tr>
 	
 	<tr><td>
 		<?php echo Yii::t('zii', 'user.email'); ?>:
 		</td>
 		<td>
-		<?php echo $form->textField($model,'email',array('size'=>30,'maxlength'=>128)); ?>
+		<?php echo $form->textField($model,'email',array('size'=>20,'maxlength'=>128)); ?>
 	</td></tr>
 	
 	<tr><td>
 		<?php echo Yii::t('zii', 'user.corporation'); ?>:
 		</td>
 		<td>
-		<?php echo $form->textField($model,'corporation',array('size'=>30,'maxlength'=>128)); ?>
+		<?php echo $form->textField($model,'corporation',array('size'=>20,'maxlength'=>128)); ?>
+	</td></tr>
+	
+		<tr><td>
+		<?php echo Yii::t('zii', 'user.jobtitle'); ?>:
+		</td>
+		<td>
+		<?php echo $form->textField($model,'userjobtitle',array('size'=>20,'maxlength'=>200)); ?>
 	</td></tr>
 	
 	<tr><td>
 		<?php echo Yii::t('zii', 'user.contact_number'); ?>:
 		</td>
 		<td>
-		<?php echo $form->textField($model,'contact_number',array('size'=>30,'maxlength'=>200)); ?>
+		<?php echo $form->textField($model,'contact_number',array('size'=>20,'maxlength'=>200)); ?>
 	</td></tr>
-	
-	<tr><td>
-		<?php echo Yii::t('zii', 'user.contact_address'); ?>:
-		</td>
-		<td>
-		<?php echo $form->textField($model,'contact_address',array('size'=>30,'maxlength'=>200)); ?>
-	</td></tr>
+		
 	
 	<tr><td>
 	<div class="row buttons">

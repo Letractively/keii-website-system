@@ -59,12 +59,30 @@ class UserController extends Controller
 	public function actionInfo()
 	{
 		if (Yii::app()->user->name == 'root') {
-			echo 'ok';
+			$this->render('admin_panel');
 		}
 		else {
-		$this->render('view',array(
-				'model'=>$this->loadModel(Yii::app()->user->id),
-		));
+			
+			$model=new Comment;
+			
+			// Uncomment the following line if AJAX validation is needed
+			// $this->performAjaxValidation($model);
+			
+			
+			
+			if(isset($_POST['Comment']))
+			{
+				//var_dump($_POST['Comment']);
+				$model->contact_info = Yii::app()->user->name ;
+			
+				$model->attributes=$_POST['Comment'];
+				if($model->save())
+					$this->redirect('/site/index');
+			}
+			
+			$this->render('comment_create',array(
+					'model'=>$model,
+			));		
 		}
 	}
 	/**
@@ -125,7 +143,7 @@ class UserController extends Controller
 		{
 			$model->attributes=$_POST['User'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect('/user/admin');
 		}
 
 		$this->render('update',array(

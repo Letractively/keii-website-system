@@ -37,9 +37,9 @@ $this->breadcrumbs=array(
 		'value'=>$model->contact_number,		
 		),
 		array(
-		'label'=>Yii::t('zii', 'user.contact_address'),
+		'label'=>Yii::t('zii', 'user.jobtitle'),
 		'type'=>'raw',
-		'value'=>$model->contact_address,		
+		'value'=>$model->userjobtitle,		
 		),
 	),
 )); ?>

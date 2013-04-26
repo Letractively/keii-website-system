@@ -10,7 +10,7 @@
  * @property string $email
  * @property string $corporation
  * @property string $contact_number
- * @property string $contact_address
+ * @property string $userjobtitle
  */
 class User extends CActiveRecord
 {
@@ -40,12 +40,12 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, password, email, corporation, contact_number, contact_address', 'required'),
+			array('username, password, email, corporation, contact_number, userjobtitle', 'required'),
 			array('username, password, email, corporation', 'length', 'max'=>128),
-			array('contact_number, contact_address', 'length', 'max'=>200),
+			array('contact_number, userjobtitle', 'length', 'max'=>200),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, username, password, email, corporation, contact_number, contact_address', 'safe', 'on'=>'search'),
+			array('id, username, password, email, corporation, contact_number, userjobtitle', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -72,7 +72,7 @@ class User extends CActiveRecord
 			'email' => 'Email',
 			'corporation' => 'Corporation',
 			'contact_number' => 'Contact Number',
-			'contact_address' => 'Contact Address',
+			'userjobtitle' => 'User Job Title',	
 		);
 	}
 
@@ -93,7 +93,7 @@ class User extends CActiveRecord
 		$criteria->compare('email',$this->email,true);
 		$criteria->compare('corporation',$this->corporation,true);
 		$criteria->compare('contact_number',$this->contact_number,true);
-		$criteria->compare('contact_address',$this->contact_address,true);
+		$criteria->compare('userjobtitle',$this->userjobtitle,true);		
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

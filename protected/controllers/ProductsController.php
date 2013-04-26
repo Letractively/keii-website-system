@@ -137,6 +137,14 @@ class ProductsController extends Controller
 	 */
 	public function actionIndex()
 	{
+		if ( Yii::app()->language == 'en') {
+			Yii::app()->session['object_id'] = 30;
+		}
+		else 
+		{
+			Yii::app()->session['object_id'] = 29;				
+		}
+		
 		$dataProvider=new CActiveDataProvider('Product');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
@@ -171,6 +179,7 @@ class ProductsController extends Controller
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		Yii::app()->session['object_id'] =$model->id;
+		Yii::app()->session['object_type'] ='products';		
 		return $model;
 	}
 	
@@ -183,7 +192,7 @@ class ProductsController extends Controller
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		Yii::app()->session['object_id'] =$model->id;
-		
+		Yii::app()->session['object_type'] ='products';		
 		return $model;
 	}
 

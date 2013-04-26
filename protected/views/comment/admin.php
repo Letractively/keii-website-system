@@ -26,31 +26,43 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Comments</h1>
 
-<p>
-You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
-</p>
+<div class="full-width-wrapper" >
+<div style="margin: 0 auto;width:940px;">
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<h1>留言管理</h1>
+
+
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
 )); ?>
 </div><!-- search-form -->
 
-<?php $this->widget('zii.widgets.grid.CGridView', array(
+<?php 
+$this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'comment-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'id',
-		'contact_info',
-		'commit_date',
+			array(
+					'header'=>'留言日期',
+					'name'=>'commit_date',
+					'value'=>'date("Y-m-d H:i:s",$data->commit_date)',
+					'htmlOptions'=>array('width'=>'110'),
+			),
+			array(
+					'header'=>'留言用户',
+					'name'=>'contact_info',
+					'value'=>$model->contact_info,
+					'htmlOptions'=>array('width'=>'110'),
+			),
 		'comment_content',
 		array(
 			'class'=>'CButtonColumn',
 		),
 	),
 )); ?>
+
+</div>
+</div>

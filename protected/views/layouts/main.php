@@ -40,9 +40,8 @@
 		<ul>
 				<?php	
 					 if(Yii::app()->user->name == 'root' ){
-						$ctrlname = Yii::app()->controller->id;
-						if($ctrlname  == 'page'  or  $ctrlname == 'products' or $ctrlname == 'comment')
-							echo '<li><a href=/'.$ctrlname.'/update/'.Yii::app()->session['object_id'].'>编辑此页面</a></li><li> | </li>';						
+						if(Yii::app()->session['object_type']  == 'page'  or  Yii::app()->session['object_type'] == 'products' )
+							echo '<li><a href=/'.Yii::app()->session['object_type'].'/update/'.Yii::app()->session['object_id'].'>编辑此页面</a></li><li> | </li>';						
 					} 
 					?>
 				<li><?php $lang = Yii::app()->language;

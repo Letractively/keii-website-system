@@ -35,7 +35,9 @@ return array (
 	'user.corporation' => 'Corporation',
 	'user.contact_number' => 'Phone number',
 	'user.contact_address' => 'Contact address',
-		
+	'user.jobtitle' => 'Job title',
+	
+	
 	'menu.index.company' => 'Company',
 	'menu.index.about_us' => 'About Us',
 	'menu.index.company.about_keii' => 'About Keii',
