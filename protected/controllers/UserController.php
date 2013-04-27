@@ -28,7 +28,7 @@ class UserController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view','admin','delete'),
+				'actions'=>array('index','view','admin','delete','update'),
 				'users'=>array('root'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -36,7 +36,7 @@ class UserController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('update','info'),
+				'actions'=>array('info'),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
@@ -132,9 +132,9 @@ class UserController extends Controller
 	 * If update is successful, the browser will be redirected to the 'view' page.
 	 * @param integer $id the ID of the model to be updated
 	 */
-	public function actionUpdate()
+	public function actionUpdate($id)
 	{
-		$model=$this->loadModel(Yii::app()->user->id);
+		$model=$this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
