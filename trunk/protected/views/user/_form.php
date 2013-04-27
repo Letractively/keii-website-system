@@ -35,7 +35,7 @@
 	
 	<tr>
 		<td>
-		<?php echo Yii::t('zii', 'user.passwordRepeat')?>
+		<?php echo Yii::t('zii', 'user.passwordRepeat')?>:
 		</td>
 		<td>
         <?php echo $form->passwordField($model,'password_repeat',array('size'=>21,'maxlength'=>32)); ?>

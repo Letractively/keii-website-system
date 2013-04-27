@@ -53,7 +53,7 @@
 					'htmlOptions'=>array('class'=>'footer-list'),
 					'items'=>array(
 							array('label'=>Yii::t('zii', 'menu.index.address'), 'url'=>array('/page/open/name/contact-us.html')),
-							array('label'=>Yii::t('zii', 'menu.index.guestbook'), 'url'=>array('/site/contact')),
+							array('label'=>Yii::t('zii', 'menu.index.guestbook'), 'url'=>array('/user/info/')),
 
 					),
 			));

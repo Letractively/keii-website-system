@@ -15,7 +15,7 @@ $this->menu=array(
 
 <div class="full-width-wrapper" >
 <div style="margin: 0 auto;width:940px;">
-<h1>留言</h1>
+<h1><?php echo Yii::t('zii', 'system.comment')?></h1>
 
 <?php echo $this->renderPartial('comment_create_form', array('model'=>$model)); ?>
 </div>

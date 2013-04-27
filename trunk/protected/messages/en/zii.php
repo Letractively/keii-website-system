@@ -22,6 +22,8 @@ return array (
 	'system.logout' => 'Logout',
 	'system.register' => 'Register',
 	'system.tip.username.unavailable' => 'Username is not available',
+	'system.tip.ok' => 'OK',
+	'system.comment' => 'Comment',
 	
 	
 	'user.information' => 'User Information',		
@@ -32,13 +34,14 @@ return array (
 	'user.register' => 'Register',
 	'user.information' => 'User information',
 	'user.name' => 'Username',
-	'user.password' => 'User password',
+	'user.password' => 'Password',
 	'user.email' => 'Email',
 	'user.corporation' => 'Corporation',
 	'user.contact_number' => 'Phone number',
 	'user.contact_address' => 'Contact address',
 	'user.jobtitle' => 'Job title',
 	'user.contact_name' => 'Contact Name',
+	'user.passwordRepeat' => 'Repeat Password ',
 	
 	
 	'menu.index.company' => 'Company',

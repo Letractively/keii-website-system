@@ -19,7 +19,7 @@
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? '确认' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? Yii::t('zii', 'system.tip.ok') : 'Save'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
