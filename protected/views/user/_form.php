@@ -15,7 +15,7 @@
 
 
 	<?php echo $form->errorSummary($model); ?>
-
+<br>
 	<table>
 	<tr>
 		<td>

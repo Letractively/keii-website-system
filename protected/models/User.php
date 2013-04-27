@@ -40,6 +40,7 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
+			array('username', 'unique','message' => Yii::t('zii', 'system.tip.username.unavailable' )),				
 			array('username, password, email, corporation, contact_number, userjobtitle', 'required'),
 			array('username, password, email, corporation', 'length', 'max'=>128),
 			array('contact_number, userjobtitle', 'length', 'max'=>200),

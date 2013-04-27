@@ -5274,7 +5274,7 @@ EOD;
 		if($content!=='')
 		{
 			if($header===null)
-				$header='<p>'.Yii::t('yii','Please fix the following input errors:').'</p>';
+				$header='<p>'.Yii::t('zii','Please fix the following input errors:').'</p>';
 			if(!isset($htmlOptions['class']))
 				$htmlOptions['class']=self::$errorSummaryCss;
 			return self::tag('div',$htmlOptions,$header."\n<ul>\n$content</ul>".$footer);

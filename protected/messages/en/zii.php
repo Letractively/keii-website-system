@@ -21,6 +21,8 @@ return array (
 	'system.login' => 'Login',
 	'system.logout' => 'Logout',
 	'system.register' => 'Register',
+	'system.tip.username.unavailable' => 'Username is not available',
+	
 	
 	'user.information' => 'User Information',		
 	'website.keyword' => 'thermal imaging camera, thermal imagers, infrared cameras, IR cameras, thermal cameras, thermography, infrared monitoring systems, IR surveillance systems, thermal surveillance camera, thermal security systems',
