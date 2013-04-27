@@ -17,7 +17,7 @@
 					'id'=>'',
 					'htmlOptions'=>array('class'=>'footer-list'),
 					'items'=>array(
-						array('label'=>Yii::t('zii', 'menu.index.technical.terms'), 'url'=>array('/page/open/name/technical-terms1.htm')),
+						array('label'=>Yii::t('zii', 'menu.index.technical.terms'), 'url'=>array('/page/open/name/technical-terms1.html')),
 						array('label'=>Yii::t('zii', 'menu.index.IR_camera?'), 'url'=>array('/page/open/name/ir-camera.html')),
 						array('label'=>Yii::t('zii', 'menu.index.dynamic_IR?'), 'url'=>array('/page/open/name/dynamic-ir.html')),
 						array('label'=>Yii::t('zii', 'menu.index.choose?'), 'url'=>array('/page/open/name/choose.html')),

@@ -22,7 +22,7 @@ return array (
 	'system.logout' => '退出',
 	'system.register' => '注册',
 	'system.tip.username.unavailable' => '用户名不可用',
-	'system.tip.OK' => '确认',
+	'system.tip.ok' => '确认',
 		
 	'Please fix the following input errors:' => '请更正下列输入错误:',
 	'system.comment' => '留 言',

@@ -14,10 +14,10 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->textArea($model,'comment_content',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->textArea($model,'comment_content',array('rows'=>12, 'cols'=>160)); ?>
 		<?php echo $form->error($model,'comment_content'); ?>
 	</div>
-
+	<br>
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? Yii::t('zii', 'system.tip.ok') : 'Save'); ?>
 	</div>

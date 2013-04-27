@@ -53,8 +53,16 @@
 				<li><?php if (Yii::app()->user->isGuest) 
 												 echo  CHtml::link(Yii::t('zii', 'system.register'),array('/user/register'));
 											else
-												echo CHtml::link(Yii::app()->user->name,array('/user/info/'));?></li>
-				<li>|</li>				
+												echo CHtml::link(Yii::app()->user->name,array('/user/info/')); ?></li>
+				<li>|</li>
+				
+				<?php if (!Yii::app()->user->isGuest and Yii::app()->user->name != 'root'  ) {
+									echo CHtml::link('留 言',array('/user/info/')); 
+									echo ' <li>|</li> ';
+				}
+				?> 
+					
+				
 				<li><?php if (Yii::app()->user->isGuest) 
 												echo CHtml::link(Yii::t('zii', 'system.login'),array('/site/login'));
 											else
