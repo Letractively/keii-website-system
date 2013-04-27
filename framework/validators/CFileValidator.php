@@ -251,7 +251,7 @@ class CFileValidator extends CValidator
 	{
 		if(!$this->allowEmpty)
 		{
-			$message=$this->message!==null?$this->message : Yii::t('yii','{attribute} cannot be blank.');
+			$message=$this->message!==null?$this->message : Yii::t('zii','{attribute} cannot be blank.');
 			$this->addError($object,$attribute,$message);
 		}
 	}

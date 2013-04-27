@@ -38,6 +38,7 @@ return array (
 	'user.contact_number' => 'Phone number',
 	'user.contact_address' => 'Contact address',
 	'user.jobtitle' => 'Job title',
+	'user.contact_name' => 'Contact Name',
 	
 	
 	'menu.index.company' => 'Company',
