@@ -42,10 +42,11 @@ $('.search-form form').submit(function(){
 	'filter'=>$model,
 	'columns'=>array(
 		'username',
-		'email',
 		'corporation',
-		'contact_number',
 		'userjobtitle',
+		'contact_name',
+		'contact_number',		
+		'email',
 		array(
 			'class'=>'CButtonColumn',
 		),

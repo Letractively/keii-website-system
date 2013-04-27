@@ -1,139 +1,4 @@
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_65_ffffff_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_55_fbf9ee_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_95_fef1ec_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_222222_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_888888_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_454545_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_2e83ff_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_cd0a0a_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_flat_0_aaaaaa_40x100.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/loading.gif
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/prettyPhoto/light_square/sprite.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/prettyPhoto/light_square/btnNext.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/prettyPhoto/light_square/btnPrevious.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/button-l...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/button-light.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/text-fie...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -142,7 +7,7 @@ Stack trace:
 REQUEST_URI=/images/text-field-bg.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/black-bt...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -151,7 +16,7 @@ Stack trace:
 REQUEST_URI=/images/black-btn-bg.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('Fimages/slider-...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -160,7 +25,7 @@ Stack trace:
 REQUEST_URI=/Fimages/slider-bg.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/slide-ov...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -169,7 +34,7 @@ Stack trace:
 REQUEST_URI=/images/slide-overlay.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sp-fade.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sp-fade.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sp-fade....')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -178,7 +43,7 @@ Stack trace:
 REQUEST_URI=/images/sp-fade.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/404-shadow.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/404-shadow.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/404-shad...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -187,7 +52,7 @@ Stack trace:
 REQUEST_URI=/images/404-shadow.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_e6e6e6_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_e6e6e6_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -196,16 +61,7 @@ Stack trace:
 REQUEST_URI=/css/images/ui-bg_glass_75_e6e6e6_1x400.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -214,169 +70,7 @@ Stack trace:
 REQUEST_URI=/css/images/ui-bg_glass_65_ffffff_1x400.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_55_fbf9ee_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_95_fef1ec_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_222222_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_888888_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_454545_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_2e83ff_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_cd0a0a_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_flat_0_aaaaaa_40x100.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/loading.gif
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/prettyPhoto/light_square/sprite.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/prettyPhoto/light_square/btnNext.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/prettyPhoto/light_square/btnPrevious.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/button-l...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/button-light.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/text-fie...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/text-field-bg.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/black-bt...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/black-btn-bg.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('Fimages/slider-...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Fimages/slider-bg.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/slide-ov...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/slide-overlay.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_e6e6e6_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_75_e6e6e6_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -385,16 +79,7 @@ Stack trace:
 REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_65_ffffff_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -403,7 +88,7 @@ Stack trace:
 REQUEST_URI=/css/images/ui-bg_glass_55_fbf9ee_1x400.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -412,7 +97,7 @@ Stack trace:
 REQUEST_URI=/css/images/ui-bg_glass_95_fef1ec_1x400.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -421,7 +106,7 @@ Stack trace:
 REQUEST_URI=/css/images/ui-icons_222222_256x240.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -430,7 +115,7 @@ Stack trace:
 REQUEST_URI=/css/images/ui-icons_888888_256x240.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -439,7 +124,7 @@ Stack trace:
 REQUEST_URI=/css/images/ui-icons_454545_256x240.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -448,7 +133,7 @@ Stack trace:
 REQUEST_URI=/css/images/ui-icons_2e83ff_256x240.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -457,7 +142,7 @@ Stack trace:
 REQUEST_URI=/css/images/ui-icons_cd0a0a_256x240.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -466,7 +151,7 @@ Stack trace:
 REQUEST_URI=/css/images/ui-bg_flat_0_aaaaaa_40x100.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -475,7 +160,7 @@ Stack trace:
 REQUEST_URI=/images/loading.gif
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -484,7 +169,7 @@ Stack trace:
 REQUEST_URI=/images/prettyPhoto/light_square/sprite.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -493,7 +178,7 @@ Stack trace:
 REQUEST_URI=/images/prettyPhoto/light_square/btnNext.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -502,7 +187,7 @@ Stack trace:
 REQUEST_URI=/images/prettyPhoto/light_square/btnPrevious.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/button-l...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -511,7 +196,7 @@ Stack trace:
 REQUEST_URI=/images/button-light.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/text-fie...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -520,7 +205,7 @@ Stack trace:
 REQUEST_URI=/images/text-field-bg.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/black-bt...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -529,7 +214,7 @@ Stack trace:
 REQUEST_URI=/images/black-btn-bg.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('Fimages/slider-...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -538,7 +223,7 @@ Stack trace:
 REQUEST_URI=/Fimages/slider-bg.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/slide-ov...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -547,7 +232,7 @@ Stack trace:
 REQUEST_URI=/images/slide-overlay.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sp-fade.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sp-fade.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sp-fade....')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -556,7 +241,7 @@ Stack trace:
 REQUEST_URI=/images/sp-fade.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/404-shadow.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/404-shadow.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/404-shad...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -565,1353 +250,993 @@ Stack trace:
 REQUEST_URI=/images/404-shadow.png
 HTTP_REFERER=http://localhost/user/register
 ---
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_e6e6e6_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_75_e6e6e6_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_65_ffffff_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_55_fbf9ee_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_95_fef1ec_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_222222_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_888888_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_454545_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_2e83ff_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_cd0a0a_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_flat_0_aaaaaa_40x100.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/loading.gif
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/prettyPhoto/light_square/sprite.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/prettyPhoto/light_square/btnNext.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/prettyPhoto/light_square/btnPrevious.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/button-l...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/button-light.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/text-fie...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/text-field-bg.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/black-bt...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/black-btn-bg.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('Fimages/slider-...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/Fimages/slider-bg.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/site/index
 ---
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/slide-ov...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/slide-overlay.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sp-fade.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sp-fade....')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/sp-fade.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/404-shadow.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/404-shad...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/404-shadow.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_e6e6e6_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_75_e6e6e6_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_65_ffffff_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_55_fbf9ee_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_95_fef1ec_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_222222_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_888888_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_454545_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_2e83ff_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_cd0a0a_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_flat_0_aaaaaa_40x100.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/loading.gif
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/site/index
 ---
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/slide-ov...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/slide-overlay.png
+HTTP_REFERER=http://localhost/site/index
+---
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_e6e6e6_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+HTTP_REFERER=http://localhost/site/index
+---
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-bg_glass_65_ffffff_1x400.png
+HTTP_REFERER=http://localhost/site/index
+---
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+HTTP_REFERER=http://localhost/site/index
+---
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-bg_glass_55_fbf9ee_1x400.png
+HTTP_REFERER=http://localhost/site/index
+---
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-bg_glass_95_fef1ec_1x400.png
+HTTP_REFERER=http://localhost/site/index
+---
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-icons_222222_256x240.png
+HTTP_REFERER=http://localhost/site/index
+---
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-icons_888888_256x240.png
+HTTP_REFERER=http://localhost/site/index
+---
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-icons_454545_256x240.png
+HTTP_REFERER=http://localhost/site/index
+---
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-icons_2e83ff_256x240.png
+HTTP_REFERER=http://localhost/site/index
+---
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-icons_cd0a0a_256x240.png
+HTTP_REFERER=http://localhost/site/index
+---
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-bg_flat_0_aaaaaa_40x100.png
+HTTP_REFERER=http://localhost/site/index
+---
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/prettyPhoto/light_square/sprite.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/site/index
 ---
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/prettyPhoto/light_square/btnNext.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/site/index
 ---
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/prettyPhoto/light_square/btnPrevious.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/site/index
 ---
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/button-l...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/button-light.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/text-fie...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/text-field-bg.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/site/index
 ---
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/button-l...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/button-light.png
+HTTP_REFERER=http://localhost/site/index
+---
+2013/04/27 12:09:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/black-bt...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/black-btn-bg.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/site/index
 ---
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sp-fade.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sp-fade....')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sp-fade.png
+HTTP_REFERER=http://localhost/site/index
+---
+2013/04/27 12:09:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/404-shadow.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/404-shad...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/404-shadow.png
+HTTP_REFERER=http://localhost/site/index
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_e6e6e6_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-bg_glass_65_ffffff_1x400.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-bg_glass_55_fbf9ee_1x400.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-bg_glass_95_fef1ec_1x400.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-icons_222222_256x240.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-icons_888888_256x240.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-icons_454545_256x240.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-icons_2e83ff_256x240.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-icons_cd0a0a_256x240.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/ui-bg_flat_0_aaaaaa_40x100.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/loading.gif
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/prettyPhoto/light_square/sprite.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/prettyPhoto/light_square/btnNext.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/prettyPhoto/light_square/btnPrevious.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/button-l...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/button-light.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/text-fie...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/text-field-bg.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/black-bt...')
+#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workspace\keii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/black-btn-bg.png
+HTTP_REFERER=http://localhost/user/info
+---
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('Fimages/slider-...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/Fimages/slider-bg.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/slide-ov...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/slide-overlay.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sp-fade.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sp-fade.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sp-fade....')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/sp-fade.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/404-shadow.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/404-shadow.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/404-shad...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/404-shadow.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_e6e6e6_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_e6e6e6_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_glass_75_e6e6e6_1x400.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_glass_65_ffffff_1x400.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_glass_55_fbf9ee_1x400.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_glass_95_fef1ec_1x400.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-icons_222222_256x240.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-icons_888888_256x240.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-icons_454545_256x240.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_cd0a0a_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-icons_2e83ff_256x240.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_flat_0_aaaaaa_40x100.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/loading.gif
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/prettyPhoto/light_square/sprite.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/prettyPhoto/light_square/btnNext.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/prettyPhoto/light_square/btnPrevious.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/button-l...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/button-light.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/text-fie...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/text-field-bg.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/black-bt...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/black-btn-bg.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_e6e6e6_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_75_e6e6e6_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_65_ffffff_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_55_fbf9ee_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_95_fef1ec_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_222222_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_888888_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_454545_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_2e83ff_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-icons_cd0a0a_256x240.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_flat_0_aaaaaa_40x100.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/loading.gif
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/prettyPhoto/light_square/sprite.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/prettyPhoto/light_square/btnNext.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/prettyPhoto/light_square/btnPrevious.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/button-l...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/button-light.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/text-fie...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/text-field-bg.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/black-bt...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/black-btn-bg.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('Fimages/slider-...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/Fimages/slider-bg.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/slide-ov...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/slide-overlay.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sp-fade.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sp-fade.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sp-fade....')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/sp-fade.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/404-shadow.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/404-shadow.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/404-shad...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/404-shadow.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_e6e6e6_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_e6e6e6_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_glass_75_e6e6e6_1x400.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_glass_65_ffffff_1x400.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_glass_55_fbf9ee_1x400.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_glass_95_fef1ec_1x400.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-icons_222222_256x240.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-icons_888888_256x240.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-icons_454545_256x240.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-icons_2e83ff_256x240.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-icons_cd0a0a_256x240.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_flat_0_aaaaaa_40x100.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/loading.gif
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/prettyPhoto/light_square/sprite.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/prettyPhoto/light_square/btnNext.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/prettyPhoto/light_square/btnPrevious.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/button-l...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/button-light.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/text-fie...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/text-field-bg.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/black-bt...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/black-btn-bg.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('Fimages/slider-...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/Fimages/slider-bg.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/slide-ov...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/slide-overlay.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sp-fade.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sp-fade.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sp-fade....')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/sp-fade.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/404-shadow.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/404-shadow.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/404-shad...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/404-shadow.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_e6e6e6_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_e6e6e6_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_glass_75_e6e6e6_1x400.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_glass_65_ffffff_1x400.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_glass_55_fbf9ee_1x400.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_glass_95_fef1ec_1x400.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-icons_222222_256x240.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-icons_888888_256x240.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-icons_454545_256x240.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-icons_2e83ff_256x240.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-icons_cd0a0a_256x240.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/css/images/ui-bg_flat_0_aaaaaa_40x100.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/loading.gif
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/prettyPhoto/light_square/sprite.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/prettyPhoto/light_square/btnNext.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/prettyPhoto/light_square/btnPrevious.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/text-fie...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/text-field-bg.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/button-l...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/button-light.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/black-bt...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/black-btn-bg.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('Fimages/slider-...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Fimages/slider-bg.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/slide-ov...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/slide-overlay.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sp-fade.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sp-fade....')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/sp-fade.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/404-shadow.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/404-shad...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/404-shadow.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_e6e6e6_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_75_e6e6e6_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_65_ffffff_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_65_ffffff_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_55_fbf9ee_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_55_fbf9ee_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_222222_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_222222_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_95_fef1ec_1x400.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_glass_95_fef1ec_1x400.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_888888_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_888888_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_454545_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_454545_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_2e83ff_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_2e83ff_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-icons_cd0a0a_256x240.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-i...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-icons_cd0a0a_256x240.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_0_aaaaaa_40x100.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/css/images/ui-bg_flat_0_aaaaaa_40x100.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/loading.gif
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/sprite.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/prettyPhoto/light_square/sprite.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnNext.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/prettyPhoto/light_square/btnNext.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/prettyPhoto/light_square/btnPrevious.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/prettyPh...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/prettyPhoto/light_square/btnPrevious.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/button-light.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/button-l...')
-#1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 D:\workspace\keii\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/images/button-light.png
-HTTP_REFERER=http://localhost/user/register
----
-2013/04/27 09:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/text-field-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/text-fie...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/text-field-bg.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/black-btn-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/black-bt...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/black-btn-bg.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Fimages/slider-bg.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('Fimages/slider-...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/Fimages/slider-bg.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/slide-overlay.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/slide-ov...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/slide-overlay.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sp-fade.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sp-fade.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sp-fade....')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/sp-fade.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---
-2013/04/27 09:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/404-shadow.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
+2013/04/27 12:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/404-shadow.png".' in D:\workspace\keii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 D:\workspace\keii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/404-shad...')
 #1 D:\workspace\keii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #2 D:\workspace\keii\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/images/404-shadow.png
-HTTP_REFERER=http://localhost/user/register
+HTTP_REFERER=http://localhost/user/info
 ---

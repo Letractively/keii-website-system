@@ -32,15 +32,20 @@ $this->breadcrumbs=array(
 		'value'=>$model->corporation,		
 		),
 		array(
+				'label'=>Yii::t('zii', 'user.jobtitle'),
+				'type'=>'raw',
+				'value'=>$model->userjobtitle,
+		),
+		array(
+				'label'=>Yii::t('zii', 'user.contact_name'),
+				'type'=>'raw',
+				'value'=>$model->contact_name,
+		),
+		array(
 		'label'=>Yii::t('zii', 'user.contact_number'),
 		'type'=>'raw',
 		'value'=>$model->contact_number,		
-		),
-		array(
-		'label'=>Yii::t('zii', 'user.jobtitle'),
-		'type'=>'raw',
-		'value'=>$model->userjobtitle,		
-		),
+		),		
 	),
 )); ?>
 

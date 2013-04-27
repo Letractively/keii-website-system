@@ -35,6 +35,8 @@ return array (
 	'user.contact_number' => '联系电话',
 	'user.contact_address' => '联系地址',
 	'user.jobtitle' => '职位',
+	'user.contact_name' => '联系人姓名',
+	'user.passwordRepeat' => '重复输入密码',
 	
 	'website.keyword' => '红外热像仪,热像仪,红外,红外线热像仪,红外热成像仪,红外成像仪,科易红外热像仪,专业制造红外热成像仪,红外热像仪厂家,红外热像仪价格,红外热像仪产品',
 		
@@ -380,7 +382,7 @@ return array (
 	'{attribute} is too small (minimum is {min}).' => '{attribute} 数值太小 (最小值为 {min}).',
 	'{attribute} must be a number.' => '{attribute} 必须为数字.',
 	'{attribute} must be an integer.' => '{attribute} 必须为整数.',
-	'{attribute} must be repeated exactly.' => '{attribute} 必须被重复.',
+	'{attribute} must be repeated exactly.' => '{attribute} 输入不匹配.',
 	'{attribute} must be {type}.' => '{attribute} 必须为 {type}.',
 	'{className} does not support add() functionality.' => '{className} 不支持 add() 功能.',
 	'{className} does not support delete() functionality.' => '{className} 不支持 delete() 功能.',

@@ -30,6 +30,11 @@
 		<?php echo $form->label($model,'corporation'); ?>
 		<?php echo $form->textField($model,'corporation',array('size'=>60,'maxlength'=>128)); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->label($model,'contact_name'); ?>
+		<?php echo $form->textField($model,'contact_name',array('size'=>60,'maxlength'=>128)); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'contact_number'); ?>
@@ -40,6 +45,7 @@
 		<?php echo $form->label($model,'userjobtitle'); ?>
 		<?php echo $form->textField($model,'userjobtitle',array('size'=>60,'maxlength'=>200)); ?>
 	</div>
+	
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>

@@ -9662,17 +9662,17 @@ class CStringValidator extends CValidator
 			$length=strlen($value);
 		if($this->min!==null && $length<$this->min)
 		{
-			$message=$this->tooShort!==null?$this->tooShort:Yii::t('yii','{attribute} is too short (minimum is {min} characters).');
+			$message=$this->tooShort!==null?$this->tooShort:Yii::t('zii','{attribute} is too short (minimum is {min} characters).');
 			$this->addError($object,$attribute,$message,array('{min}'=>$this->min));
 		}
 		if($this->max!==null && $length>$this->max)
 		{
-			$message=$this->tooLong!==null?$this->tooLong:Yii::t('yii','{attribute} is too long (maximum is {max} characters).');
+			$message=$this->tooLong!==null?$this->tooLong:Yii::t('zii','{attribute} is too long (maximum is {max} characters).');
 			$this->addError($object,$attribute,$message,array('{max}'=>$this->max));
 		}
 		if($this->is!==null && $length!==$this->is)
 		{
-			$message=$this->message!==null?$this->message:Yii::t('yii','{attribute} is of the wrong length (should be {length} characters).');
+			$message=$this->message!==null?$this->message:Yii::t('zii','{attribute} is of the wrong length (should be {length} characters).');
 			$this->addError($object,$attribute,$message,array('{length}'=>$this->is));
 		}
 	}
@@ -9680,19 +9680,19 @@ class CStringValidator extends CValidator
 	{
 		$label=$object->getAttributeLabel($attribute);
 		if(($message=$this->message)===null)
-			$message=Yii::t('yii','{attribute} is of the wrong length (should be {length} characters).');
+			$message=Yii::t('zii','{attribute} is of the wrong length (should be {length} characters).');
 		$message=strtr($message, array(
 			'{attribute}'=>$label,
 			'{length}'=>$this->is,
 		));
 		if(($tooShort=$this->tooShort)===null)
-			$tooShort=Yii::t('yii','{attribute} is too short (minimum is {min} characters).');
+			$tooShort=Yii::t('zii','{attribute} is too short (minimum is {min} characters).');
 		$tooShort=strtr($tooShort, array(
 			'{attribute}'=>$label,
 			'{min}'=>$this->min,
 		));
 		if(($tooLong=$this->tooLong)===null)
-			$tooLong=Yii::t('yii','{attribute} is too long (maximum is {max} characters).');
+			$tooLong=Yii::t('zii','{attribute} is too long (maximum is {max} characters).');
 		$tooLong=strtr($tooLong, array(
 			'{attribute}'=>$label,
 			'{max}'=>$this->max,
@@ -9751,7 +9751,7 @@ class CRequiredValidator extends CValidator
 		}
 		elseif($this->isEmpty($value,true))
 		{
-			$message=$this->message!==null?$this->message:Yii::t('yii','{attribute} cannot be blank.');
+			$message=$this->message!==null?$this->message:Yii::t('zii','{attribute} cannot be blank.');
 			$this->addError($object,$attribute,$message);
 		}
 	}
@@ -9775,7 +9775,7 @@ if(value!=" . CJSON::encode($this->requiredValue) . ") {
 		else
 		{
 			if($message===null)
-				$message=Yii::t('yii','{attribute} cannot be blank.');
+				$message=Yii::t('zii','{attribute} cannot be blank.');
 			$message=strtr($message, array(
 				'{attribute}'=>$object->getAttributeLabel($attribute),
 			));

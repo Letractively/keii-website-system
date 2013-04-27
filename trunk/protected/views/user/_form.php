@@ -10,7 +10,7 @@
 
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'user-form',
-	'enableAjaxValidation'=>false,
+	'enableAjaxValidation'=>true,
 )); ?>
 
 
@@ -33,12 +33,14 @@
 		<?php echo $form->passwordField($model,'password',array('size'=>21,'maxlength'=>128)); ?>
 	</td></tr>
 	
-	<tr><td>
-		<?php echo Yii::t('zii', 'user.email'); ?>:
+	<tr>
+		<td>
+		<?php echo Yii::t('zii', 'user.passwordRepeat')?>
 		</td>
 		<td>
-		<?php echo $form->textField($model,'email',array('size'=>20,'maxlength'=>128)); ?>
-	</td></tr>
+        <?php echo $form->passwordField($model,'password_repeat',array('size'=>21,'maxlength'=>32)); ?>
+        </td>
+	</tr>	
 	
 	<tr><td>
 		<?php echo Yii::t('zii', 'user.corporation'); ?>:
@@ -55,12 +57,26 @@
 	</td></tr>
 	
 	<tr><td>
+		<?php echo Yii::t('zii', 'user.contact_name'); ?>:
+		</td>
+		<td>
+		<?php echo $form->textField($model,'contact_name',array('size'=>20,'maxlength'=>128)); ?>
+	</td></tr>
+	
+	
+	<tr><td>
 		<?php echo Yii::t('zii', 'user.contact_number'); ?>:
 		</td>
 		<td>
 		<?php echo $form->textField($model,'contact_number',array('size'=>20,'maxlength'=>200)); ?>
 	</td></tr>
 		
+	<tr><td>
+		<?php echo Yii::t('zii', 'user.email'); ?>:
+		</td>
+		<td>
+		<?php echo $form->textField($model,'email',array('size'=>20,'maxlength'=>128)); ?>
+	</td></tr>
 	
 	<tr><td>
 	<div class="row buttons">
