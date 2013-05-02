@@ -42,7 +42,7 @@ return array (
 	'user.jobtitle' => 'Job title',
 	'user.contact_name' => 'Contact Name',
 	'user.passwordRepeat' => 'Repeat Password ',
-	
+	'user.register.form.title' => 'Welcome to sign up',
 	
 	'menu.index.company' => 'Company',
 	'menu.index.about_us' => 'About Us',
