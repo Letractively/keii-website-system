@@ -40,6 +40,8 @@ return array (
 	'user.jobtitle' => '职位',
 	'user.contact_name' => '联系人姓名',
 	'user.passwordRepeat' => '重复输入密码',
+	'user.register.form.title' => '注册成为科易会员',
+	
 	
 	'website.keyword' => '红外热像仪,热像仪,红外,红外线热像仪,红外热成像仪,红外成像仪,科易红外热像仪,专业制造红外热成像仪,红外热像仪厂家,红外热像仪价格,红外热像仪产品',
 		
