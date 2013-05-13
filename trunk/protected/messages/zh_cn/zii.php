@@ -32,6 +32,7 @@ return array (
 	'user.register' => '用户注册',
 	'user.information' => '用户资料',
 	'user.name' => '用户名',
+	'user.group' => '用户组',
 	'user.password' => '用户密码',
 	'user.email' => '电子邮件',
 	'user.corporation' => '公司名称',

@@ -2,6 +2,9 @@
 class UserIdentity extends CUserIdentity
 {
 	private $_id;
+	
+	
+	
 	public function authenticate()
 	{
 		$username=strtolower($this->username);
@@ -16,6 +19,7 @@ class UserIdentity extends CUserIdentity
 		{
 			$this->_id=$user->id;
 			$this->username=$user->username;
+			$this->setState('group',$user->usergroup);
 			$this->errorCode=self::ERROR_NONE;
 		}
 		return !$this->errorCode;

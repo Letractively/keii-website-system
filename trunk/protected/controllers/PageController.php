@@ -33,7 +33,7 @@ class PageController extends Controller
 			),
 			array('allow', 
 				'actions'=>array('admin','delete','create','update'),
-				'users'=>array('root'),
+				'users'=>User::adminUser(),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),

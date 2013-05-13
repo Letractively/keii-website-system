@@ -34,6 +34,7 @@ return array (
 	'user.register' => 'Register',
 	'user.information' => 'User information',
 	'user.name' => 'Username',
+	'user.group' => 'Group',
 	'user.password' => 'Password',
 	'user.email' => 'Email',
 	'user.corporation' => 'Corporation',

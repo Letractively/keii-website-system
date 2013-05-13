@@ -38,10 +38,12 @@
 	<div class="full-width-wrapper" id="header">
 	<div id="login-panel">
 		<ul>
-				<?php	
-					 if(Yii::app()->user->name == 'root' ){
-						if(Yii::app()->session['object_type']  == 'page'  or  Yii::app()->session['object_type'] == 'products' )
-							echo '<li><a href=/'.Yii::app()->session['object_type'].'/update/'.Yii::app()->session['object_id'].'>编辑此页面</a></li><li> | </li>';						
+				<?php		
+					 if(  !Yii::app()->user->isGuest){
+						if(Yii::app()->user->group == 'admin'){
+							if(Yii::app()->session['object_type']  == 'page'  or  Yii::app()->session['object_type'] == 'products' )
+								echo '<li><a href=/'.Yii::app()->session['object_type'].'/update/'.Yii::app()->session['object_id'].'>编辑此页面</a></li><li> | </li>';
+							}						
 					} 
 					?>
 				<li><?php $lang = Yii::app()->language;
@@ -56,7 +58,7 @@
 												echo CHtml::link(Yii::app()->user->name,array('/user/info/')); ?></li>
 				<li>|</li>
 				
-				<?php if (!Yii::app()->user->isGuest and Yii::app()->user->name != 'root'  ) {
+				<?php if (!Yii::app()->user->isGuest and Yii::app()->user->group != 'admin' ) {
 									echo CHtml::link('留 言',array('/user/info/')); 
 									echo ' <li>|</li> ';
 				}
