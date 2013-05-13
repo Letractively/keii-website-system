@@ -6,6 +6,7 @@
  * The followings are the available columns in table 'TBL_USER':
  * @property integer $id
  * @property string $username
+ * @property string $usergroup
  * @property string $password
  * @property string $email
  * @property string $corporation
@@ -49,7 +50,7 @@ class User extends CActiveRecord
 			#array(‘username’, ‘email’, ‘message’=>’必须为电子邮箱’, ‘pattern’=>’/[a-z]/i’),
 			array('email','email','message' => '必须为电子邮箱'),
 			array('password', 'compare', 'compareAttribute'=>'password_repeat' ,'on'=>'insert,update'),
-			array('username, password, email, corporation,contact_name,contact_number, userjobtitle','length', 'min'=>6, 'max'=>128),
+			array('password','length', 'min'=>6, 'max'=>128),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('contact_number, username, password, email, corporation, contact_name,userjobtitle', 'safe', 'on'=>'search'),
@@ -75,6 +76,7 @@ class User extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'username' => Yii::t('zii', 'user.name'),
+			'usergroup' => Yii::t('zii', 'user.group'),
 			'password' =>Yii::t('zii', 'user.password'),
 			'email' => Yii::t('zii', 'user.email'),
 			'password_repeat' => Yii::t('zii', 'user.passwordRepeat'),
@@ -98,6 +100,7 @@ class User extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('username',$this->username,true);
+		$criteria->compare('usergroup',$this->usergroup,true);
 		$criteria->compare('password',$this->password,true);
 		$criteria->compare('email',$this->email,true);
 		$criteria->compare('corporation',$this->corporation,true);
@@ -108,6 +111,20 @@ class User extends CActiveRecord
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
+	}
+	
+	public function adminUser(){
+		$adminUser = array();
+		$model=User::model()->findall(array('condition'=>'usergroup=:usergroup','params'=>array(':usergroup'=>'admin')));
+		#$model=Product::model()->find(array('condition'=>'product_alias=:product_alias and page_language=:page_language','params'=>array(':product_alias'=>$name,':page_language'=> Yii::app()->language )));
+		#$model=Page::model()->find(array('condition'=>'page_alias=:page_alias and page_language=:page_language','params'=>array(':page_alias'=>$name,':page_language'=> Yii::app()->language )));
+		#$model=Page::model()->findAllByAttributes(array('page_alias'=>$alias , 'page_language' => Yii::app()->language ));
+					
+		foreach($model as $record){
+			array_push($adminUser, $record->username);
+		}
+		
+		return $adminUser;
 	}
 	
 	

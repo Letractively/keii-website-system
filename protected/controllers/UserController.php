@@ -25,11 +25,12 @@ class UserController extends Controller
 	 * @return array access control rules
 	 */
 	public function accessRules()
-	{
+	{         
+		
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view','admin','delete','update'),
-				'users'=>array('root'),
+				'users'=>User::adminUser(),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('register'),
@@ -58,7 +59,7 @@ class UserController extends Controller
 	
 	public function actionInfo()
 	{
-		if (Yii::app()->user->name == 'root') {
+		if (UserController::isAdmin()) {
 			$this->render('admin_panel');
 		}
 		else {
@@ -189,6 +190,16 @@ class UserController extends Controller
 		$this->render('admin',array(
 			'model'=>$model,
 		));
+	}
+	
+	
+	public function isAdmin(){
+		
+		$model=User::model()->find(array('condition'=>'id=:id and usergroup=:usergroup','params'=>array(':id'=>Yii::app()->user->id,':usergroup'=> 'admin' )));
+		if($model)
+			return TRUE;		
+		else 
+			return FALSE;
 	}
 
 	/**
