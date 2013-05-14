@@ -144,7 +144,8 @@ class UserController extends Controller
 		{
 			$model->attributes=$_POST['User'];
 			if($model->save())
-				$this->redirect('/user/admin');
+				Yii::app()->user->logout();
+				$this->redirect('/site/login');
 		}
 
 		$this->render('update',array(
