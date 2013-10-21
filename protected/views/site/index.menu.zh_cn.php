@@ -32,10 +32,12 @@
 								array('label'=>Yii::t('zii', 'products.kc.800'), 'url'=>array('/products/open/name/kc800.html'),'itemOptions'=>array('class'=>'l2')),
 								array('label'=>Yii::t('zii', 'products.kc.850'), 'url'=>array('/products/open/name/kc850.html'),'itemOptions'=>array('class'=>'l2')),
 								array('label'=>Yii::t('zii', 'products.gl.600'), 'url'=>array('/products/open/name/gl600.html'),'itemOptions'=>array('class'=>'l2')),
-								array('label'=>Yii::t('zii', 'products.gl.800'), 'url'=>array('/products/open/name/gl800.html'),'itemOptions'=>array('class'=>'l2')),								
+								array('label'=>Yii::t('zii', 'products.gl.800'), 'url'=>array('/products/open/name/gl800.html'),'itemOptions'=>array('class'=>'l2')),
+								array('label'=>Yii::t('zii', 'products.powbot6k'), 'url'=>array('/products/open/name/powbot6k.html'),'itemOptions'=>array('class'=>'l2')),								
 								array('label'=>Yii::t('zii', 'products.carmobile'), 'url'=>array('/products/open/name/mobile-mounted-inspection-system.html'),'itemOptions'=>array('class'=>'l2')),
 								array('label'=>Yii::t('zii', 'products.substation'), 'url'=>array('/products/open/name/ir-inspection-system-for-substation.html'),'itemOptions'=>array('class'=>'l2')),
 								array('label'=>Yii::t('zii', 'products.helicopter'), 'url'=>array('/products/open/name/helicopter-patrol-inspection-system.html'),'itemOptions'=>array('class'=>'l2')),
+								
 							),
 				),
 	
