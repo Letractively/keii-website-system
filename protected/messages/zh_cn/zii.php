@@ -64,7 +64,7 @@ return array (
 	'products.kc.800' => 'KC800红外热成像仪',
 	'products.kc.850' => 'KC850红外热成像仪',
 	'products.gl.600' => 'GL600 SF6气体红外检漏仪',
-	'products.gl.800' => 'GL800 六氟化硫气体检漏仪',
+	'products.gl.800' => 'GL800  气体红外检漏仪',
 	'products.carmobile' => '车载移动检测系统',
 	'products.helicopter' => '直升机巡检系统',
 	'products.substation' => '变电站红外监测系统',
