@@ -26,3 +26,24 @@ INSERT INTO tbl_user (username, password, email) VALUES ('test18', 'pass18', 'te
 INSERT INTO tbl_user (username, password, email) VALUES ('test19', 'pass19', 'test19@example.com');
 INSERT INTO tbl_user (username, password, email) VALUES ('test20', 'pass20', 'test20@example.com');
 INSERT INTO tbl_user (username, password, email) VALUES ('test21', 'pass21', 'test21@example.com');
+
+
+select * from tbl_user;
+
+DROP TABLE "TBL_USER";
+
+CREATE TABLE "TBL_USER" (
+		"id" INTEGER  PRIMARY KEY AUTOINCREMENT,
+		"username" null NOT NULL,
+		"password" null NOT NULL,
+		"email" null NOT NULL,
+		"usergroup" null not null,
+		"corporation" null NOT NULL,
+		"contact_name" null NOT NULL,
+		"contact_number" null NOT NULL,
+		"userjobtitle" null NOT NULL
+	);
+
+insert into tbl_user(username, password, email,usergroup,corporation,contact_name,contact_number,userjobtitle) values ('root', 'root', 'root@keii.com.cn', 'admin', 'keii', 'keii', '110','webadmin');
+	
+select * from tbl_page;
