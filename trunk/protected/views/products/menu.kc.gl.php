@@ -10,6 +10,7 @@ $this->widget('zii.widgets.CMenu',array(
 				array('label'=>Yii::t('zii', 'products.kc.800.abbr'), 'url'=>array('/products/open/name/kc800.html')),
 				array('label'=>Yii::t('zii', 'products.kc.850.abbr'), 'url'=>array('/products/open/name/kc850.html')),
 				array('label'=>Yii::t('zii', 'products.gl.600.abbr'), 'url'=>array('/products/open/name/gl600.html')),
+				array('label'=>Yii::t('zii', 'products.gl.800.abbr'), 'url'=>array('/products/open/name/gl800.html')),
 		),
 ));
 ?>

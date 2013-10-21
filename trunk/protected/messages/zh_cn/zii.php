@@ -69,6 +69,7 @@ return array (
 	'products.helicopter' => '直升机巡检系统',
 	'products.substation' => '变电站红外监测系统',
 	'products.preventive' => '红外热成像预知性检测服务',
+	'products.powbot6k' => 'Powbot-6000可搭截检测仪',
 	
 	'products.kc.100.abbr' => 'KC100',
 	'products.kc.500.abbr' => 'KC500',
@@ -81,6 +82,8 @@ return array (
 	'products.carmobile.abbr' => '车载移动检测系统',
 	'products.helicopter.abbr' => '直升机巡检系统',
 	'products.substation.abbr' => '变电站红外监测系统',
+	'products.powbot6k.abbr' => 'Powbot-6000',
+	
 	
 	'product.product_list' => '产品列表',
 	'product.application' => '产品应用',
